@@ -1,0 +1,388 @@
+KishLattice Pipeline Run Log
+============================================================
+run_timestamp:   20260531_225809
+vol_root:        C:\Users\timot\Downloads\Science\src\Unification\vol11
+engine_version:  3a9da23b5b60ab53e00a9d69eead1718c78cb29cd07bf67abd2b4a5260366c03d5d1612f9caf57d6b0c21459cc7e1a582bf8bbb130a32607dec51771d0db37346bda184b2b96e6c23029d12ae4e95eb7f29beaf0a495cdf0b7c41b384ef5b682
+stages:          scalarize, unify, chaos, pinch, figures
+started_utc:     2026-05-31 22:58:19 UTC
+============================================================
+
+
+============================================================
+[2026-05-31 22:58:19 UTC] STAGE: SCALARIZE
+Transform promoted lakes into scalar space
+============================================================
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live byte-streaming progress dashboard.
+============================================================
+
+Scalarizing b5_pdb_full_protein: b5_pdb_full_protein_promoted.jsonl -> b5_pdb_full_protein_scalarized.jsonl (mode=geometry)
+
+[2026-05-31 22:59:21 UTC] STAGE COMPLETE: scalarize in 1m 1s
+
+============================================================
+[2026-05-31 22:59:21 UTC] STAGE: UNIFY
+Stream all scalarized lakes into unified master
+============================================================
+C:\Users\timot\Downloads\Science\src\Unification\vol11\engine\unify.py:94: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  start_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+C:\Users\timot\Downloads\Science\src\Unification\vol11\engine\unify.py:168: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live unified streaming dashboard.
+============================================================
+
+Volumes: 53 total, 2 enabled, 51 disabled
+
+[2026-05-31 22:59:21 UTC] Pipeline run started.
+
+    [2026-05-31 22:59:23 UTC] 250,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:25 UTC] 500,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:28 UTC] 750,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:30 UTC] 1,000,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:32 UTC] 1,250,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:34 UTC] 1,500,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:37 UTC] 1,750,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:39 UTC] 2,000,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:41 UTC] 2,250,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:43 UTC] 2,500,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:46 UTC] 2,750,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:48 UTC] 3,000,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:50 UTC] 3,250,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:52 UTC] 3,500,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:54 UTC] 3,750,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:57 UTC] 4,000,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 22:59:59 UTC] 4,250,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 23:00:01 UTC] 4,500,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 23:00:03 UTC] 4,750,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 23:00:06 UTC] 5,000,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 23:00:08 UTC] 5,250,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 23:00:10 UTC] 5,500,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 23:00:12 UTC] 5,750,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 23:00:14 UTC] 6,000,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 23:00:17 UTC] 6,250,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 23:00:19 UTC] 6,500,000 records streamed from b5_pdb_full_protein...
+    [2026-05-31 23:00:21 UTC] 6,750,000 records streamed from b5_pdb_full_protein...
+C:\Users\timot\Downloads\Science\src\Unification\vol11\engine\unify.py:179: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+  [b5_pdb_full_protein] domain=biology_backbone  n=6,835,828  nonzero=6,834,866
+  [SKIP] p1_wrongbox � scalarized file not found
+
+[2026-05-31 23:00:22 UTC] Run complete.
+  Total runtime:   0h 1m 1s
+  Total records:   6,835,828
+  Lakes processed: 2
+  Throughput:      111,737 records/sec (average)
+  Master checksum: 3fc96bbae69d58aa59c93734a83ed277
+  Checksum saved:  C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\unified_master.jsonl.md5
+
+Unified master written: C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\unified_master.jsonl
+Sweep results written:  C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\sweep_results.json
+Pinch table written:    C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\pinch_table.json
+
+Domain summary:
+  Domain                          n    nonzero     mean range
+  -----------------------------------------------------------------
+  biology_backbone        6,835,828  6,834,866   2.6022 [0.0585, 3.1935]
+
+[2026-05-31 23:00:22 UTC] STAGE COMPLETE: unify in 1m 1s
+
+[2026-05-31 23:00:22 UTC] CHECKSUM: computing MD5 of unified_master.jsonl
+  Checksum:      3529ae660530a80e28b357f8f297fe0e
+  Bytes:         3,757,940,482
+  Computed in:   4s
+  Written to:    lakes\unified\unified_master.jsonl.md5
+
+============================================================
+[2026-05-31 23:00:26 UTC] STAGE: CHAOS
+Build chaos null distributions per domain
+============================================================
+[harmonic_targets.json] Loaded 23 registers (N=4 to N=26), container=24, threshold=0.05
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live null generation dashboard.
+============================================================
+
+NOTE: This job builds null distributions for all domains.
+      Runtime: Dependent on lake sizes. Do not interrupt.
+
+k_geo = 16/pi = 5.0929581789
+Volume number: 11
+Registers (23): 4/pi=1.273240  5/pi=1.591549  6/pi=1.909859  7/pi=2.228169  8/pi=2.546479  9/pi=2.864789  10/pi=3.183099  11/pi=3.501409  12/pi=3.819719  13/pi=4.138029  14/pi=4.456338  15/pi=4.774648  16/pi=5.092958  17/pi=5.411268  18/pi=5.729578  19/pi=6.047888  20/pi=6.366198  21/pi=6.684508  22/pi=7.002817  23/pi=7.321127  24/pi=7.639437  25/pi=7.957747  26/pi=8.276057
+
+Loading unified master...
+
+Found 1 domain slots:
+  biology_backbone             n=6834866  mean=2.6022  range=[0.0585, 3.1935]
+
+Building null lakes...
+
+[biology_backbone]  n=6834866
+  4/pi: real=0.0978  chaos=0.0997  synth=0.0908  delta=-0.0019
+  5/pi: real=0.1000  chaos=0.1015  synth=0.0911  delta=-0.0015
+  6/pi: real=0.0999  chaos=0.1016  synth=0.0914  delta=-0.0016
+  7/pi: real=0.0983  chaos=0.1006  synth=0.0907  delta=-0.0023
+  8/pi: real=0.1014  chaos=0.1014  synth=0.0920  delta=-0.0001
+  9/pi: real=0.0997  chaos=0.0988  synth=0.0892  delta=+0.0009
+  10/pi: real=0.0975  chaos=0.1015  synth=0.0923  delta=-0.0040
+  11/pi: real=0.0917  chaos=0.0977  synth=0.0880  delta=-0.0060
+  12/pi: real=0.1061  chaos=0.1014  synth=0.0927  delta=+0.0047
+  13/pi: real=0.1005  chaos=0.0990  synth=0.0902  delta=+0.0014
+  14/pi: real=0.1021  chaos=0.1004  synth=0.0923  delta=+0.0017
+  15/pi: real=0.1105  chaos=0.1015  synth=0.0934  delta=+0.0090 ** above chaos **
+  16/pi: real=0.1146  chaos=0.1013  synth=0.1907  delta=+0.0133 ** above chaos **
+  17/pi: real=0.0913  chaos=0.1006  synth=0.0927  delta=-0.0094
+  18/pi: real=0.0972  chaos=0.0989  synth=0.0916  delta=-0.0017
+  19/pi: real=0.1099  chaos=0.0965  synth=0.0889  delta=+0.0134 ** above chaos **
+  20/pi: real=0.0881  chaos=0.1007  synth=0.1904  delta=-0.0125
+  21/pi: real=0.1043  chaos=0.0976  synth=0.0910  delta=+0.0068 ** above chaos **
+  22/pi: real=0.0911  chaos=0.0930  synth=0.0846  delta=-0.0019
+  23/pi: real=0.0905  chaos=0.0975  synth=0.0910  delta=-0.0071
+  24/pi: real=0.1065  chaos=0.0996  synth=0.1902  delta=+0.0068 ** above chaos **
+  25/pi: real=0.1101  chaos=0.0952  synth=0.0892  delta=+0.0149 ** above chaos **
+  26/pi: real=0.0924  chaos=0.0990  synth=0.0937  delta=-0.0066
+  -> chaos_null_biology_backbone.jsonl
+  -> scramble_null_biology_backbone.jsonl
+  -> synthetic_null_biology_backbone.jsonl
+
+All null lakes written to: C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\synthetic
+
+Next steps:
+  1. python engine/build_pinch_table.py
+
+[2026-05-31 23:05:55 UTC] STAGE COMPLETE: chaos in 5m 28s
+
+============================================================
+[2026-05-31 23:05:55 UTC] STAGE: PINCH
+Compute z-scores and cross-domain pinch table
+============================================================
+[harmonic_targets.json] Loaded 23 registers (N=4 to N=26), container=24, threshold=0.05
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live parallel crunching dashboard.
+============================================================
+
+Loading unified master: C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\unified_master.jsonl
+  Loading records into memory. Please wait...
+    -> Parsed 525,856 records...
+    -> Parsed 938,737 records...
+    -> Parsed 1,285,232 records...
+    -> Parsed 1,633,768 records...
+    -> Parsed 1,983,561 records...
+    -> Parsed 2,335,308 records...
+    -> Parsed 2,685,871 records...
+    -> Parsed 3,035,568 records...
+    -> Parsed 3,386,808 records...
+    -> Parsed 3,735,570 records...
+    -> Parsed 4,086,687 records...
+    -> Parsed 4,436,065 records...
+    -> Parsed 4,787,641 records...
+    -> Parsed 5,138,810 records...
+    -> Parsed 5,487,951 records...
+    -> Parsed 6,010,265 records...
+    -> Parsed 6,537,256 records...
+
+  Finished loading 6,835,828 total records.
+  Compressing to 32-bit Numpy Arrays for Memory-Safe IPC...
+
+Building pinch table in PARALLEL mode...
+
+  Loading Chaos Nulls into memory...
+  Finished loading Chaos Nulls.
+  Loading Synthetic Nulls into memory...
+  Finished loading Synthetic Nulls.
+Total Combinations: 0 | Remaining: 0
+
+Saved: C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\pinch_table_cross_domain.json
+
+===================================================================================================================
+                                              CROSS-DOMAIN PINCH TABLE                                             
+Moduli: 4/pi=1.2732  5/pi=1.5915  6/pi=1.9099  7/pi=2.2282  8/pi=2.5465  9/pi=2.8648  10/pi=3.1831  11/pi=3.5014  12/pi=3.8197  13/pi=4.1380  14/pi=4.4563  15/pi=4.7746  16/pi=5.0930  17/pi=5.4113  18/pi=5.7296  19/pi=6.0479  20/pi=6.3662  21/pi=6.6845  22/pi=7.0028  23/pi=7.3211  24/pi=7.6394  25/pi=7.9577  26/pi=8.2761
+                                  dist_lock (1=perfect) | Winner + best chaos_delta per pairing                                   
+===================================================================================================================
+Domain                            biology_backbone          
+------------------------------------------------------------
+biology_backbone                         -                  
+
+--- WINNER PER PAIRING ---
+
+--- PER-DOMAIN DUAL Z-SCORES (Chaos | Synthetic) ---
+  Domain                           4/pi       5/pi       6/pi       7/pi       8/pi       9/pi      10/pi      11/pi      12/pi      13/pi      14/pi      15/pi      16/pi      17/pi      18/pi      19/pi      20/pi      21/pi      22/pi      23/pi      24/pi      25/pi      26/pi   Best   Interpretation
+  -------------------------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------  ------  --------------------
+     1  biology_backbone                6,834,866  computing...  ETA: estimating...
+     1  biology_backbone       6,834,866 | -15.5|62.9 -12.5|82.2 -14.4|66.8 -17.3|73.0 -1.5|88.0  6.6|93.0 -34.3|45.3 -56.5|32.5 37.7|114.6 13.1|83.9 13.0|81.3 72.1|170.8 116.0|-456.9 -97.5|-16.3 -14.6|53.3 119.5|174.2 -110.5|-706.0 56.2|120.1 -17.0|59.2 -65.5|-5.3 57.4|-488.2 139.2|184.6 -64.9|-10.6  25/pi   STRONG signal
+
+  Z-score stage complete: 9m 30s total  | avg 570.66s per domain  | 570.7s wall time
+
+  [z_scores_master.json written -> C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\z_scores_master.json]
+
+[2026-05-31 23:16:56 UTC] STAGE COMPLETE: pinch in 11m 1s
+
+============================================================
+[2026-05-31 23:16:56 UTC] STAGE: FIGURES
+Run report plugins and generate analysis figures
+============================================================
+
+[2026-05-31 23:16:56 UTC] FIGURES: Auto-discovering report plugins
+  Reports directory: C:\Users\timot\Downloads\Science\src\Unification\vol11\reports
+  Found 19 plugin(s):
+    - report_01_domain_Ramachandran_scatters.py
+    - report_02_bridge_map.py
+    - report_02_universal_histograms.py
+    - report_03_power_analysis.py
+    - report_04_batch_stability.py
+    - report_05_wrongbox_delta.py
+    - report_06_register_spectrum.py
+    - report_08_subnuclear_dual.py
+    - report_09_floor_smear.py
+    - report_10_kinematic_principle.py
+    - report_11_seismic_sovereign.py
+    - report_12_pinch_heatmap.py
+    - report_13_null_confidence.py
+    - report_14_register_taxonomy.py
+    - report_16_artifact_falsification.py
+    - report_17_cross_scale_bridge.py
+    - report_18_manifold_embedding.py
+    - report_19_same_object_phase_scatter.py
+    - report_20_global_ledger.py
+
+[2026-05-31 23:16:56 UTC] Loading pipeline artifacts...
+  Pinch table:  1 domain rows
+  Sweep results:1 domain entries
+  Z-scores:     1 domains x 23 registers
+  Harmonics:    4/pi ... 26/pi
+  Manifest: loaded existing (4 domains) -- domain_manifest.json
+
+  Output directory: C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656
+
+[2026-05-31 23:16:56 UTC] Running 19 report plugin(s)...
+
+  [report_01_domain_Ramachandran_scatters]
+    -> Plotting Ramachandran Principle Scatters...
+       [PLOT] biology_backbone (n=0) | Peak Z: 139.15 at 25/pi
+       [PLOT] subnuclear_mass (n=0) | Peak Z: 0.00 at N/A
+       [PLOT] orbital_ttv (n=0) | Peak Z: 0.00 at N/A
+    [OK] 3 file(s) in 19.5s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\scatter_biology_backbone.png
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\scatter_subnuclear_mass.png
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\scatter_orbital_ttv.png
+  [report_02_bridge_map]
+    -> Rendering Force-Directed Harmonic Bridge Map...
+    [OK] 1 file(s) in 0.7s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\bridge_map_full.png
+  [report_02_universal_histograms]
+    [OK] 1 file(s) in 35.7s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\histogram_biology_backbone.png
+  [report_03_power_analysis]
+    -> Calculating Statistical Power & Effect Sizes...
+    [OK] 1 file(s) in 0.3s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\power_analysis_table.png
+  [report_04_batch_stability]
+    -> Initiating 24-Cell Batch Stability Sub-Sampler...
+    [OK] 0 files in 0.0s (plugin ran, nothing saved)
+  [report_05_wrongbox_delta]
+    -> Plotting Wrongbox Deltas & Prediction Audits...
+       [AUDIT] BIOLOGY_BACKBONE: Plotting Delta...
+    [OK] 1 file(s) in 0.2s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\wrongbox_delta_biology_backbone.png
+  [report_06_register_spectrum]
+    -> Plotting Register Spectrum (Rainbow Map)...
+    [OK] 1 file(s) in 0.3s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\register_spectrum_full.png
+  [report_08_subnuclear_dual]
+    -> Plotting Subnuclear Dual-Peak Resonance Map...
+        [DATA] Streaming unified master for subnuclear_mass scalars...
+       [WARN] No records found for 'subnuclear_mass' in unified_master.
+    [OK] 0 files in 30.7s (plugin ran, nothing saved)
+  [report_09_floor_smear]
+    -> Investigating the 4/pi Floor Smear...
+        [DATA] Streaming unified master for scalar_klc values...
+       [PLOT] biology_backbone: 261695 records found in Floor Zone (3.83% of total).
+    [OK] 1 file(s) in 35.5s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\floor_smear_biology_backbone.png
+  [report_10_kinematic_principle]
+    -> Plotting Kinematic Principle Panels (The Mic-Drop)...
+       [WARN] Domain 'stellar_colour' not found in z_scores for Stellar Proof.
+       [WARN] Domain 'stellar_luminosity' not found in z_scores for Stellar Proof.
+       [WARN] Domain 'stellar' not found in z_scores for Stellar Proof.
+       [WARN] Domain 'stellar_kinematic' not found in z_scores for Stellar Proof.
+       [WARN] Domain 'orbital_radius' not found in z_scores for Orbital Proof.
+       [WARN] Domain 'orbital' not found in z_scores for Orbital Proof.
+    [OK] 0 files in 0.1s (plugin ran, nothing saved)
+  [report_11_seismic_sovereign]
+    -> Plotting 4-Panel Seismic Sovereign Audit...
+        [DATA] Streaming unified master for Sovereign Seismic lakes...
+       [SKIP] Sovereign seismic domains not found in unified master (likely disabled).
+    [OK] 0 files in 22.2s (plugin ran, nothing saved)
+  [report_12_pinch_heatmap]
+    -> Rendering Cross-Domain Distance Matrix Heatmap...
+    [OK] 1 file(s) in 0.6s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\distance_matrix_heatmap.png
+  [report_13_null_confidence]
+    -> Plotting Null Confidence & Statistical Power...
+       [SKIP] No explicit Null/Control domains found for confidence plotting.
+    [OK] 0 files in 0.9s (plugin ran, nothing saved)
+  [report_14_register_taxonomy]
+    -> Rendering Register Taxonomy Matrix...
+    [OK] 1 file(s) in 0.2s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\register_taxonomy_matrix.png
+  [report_16_artifact_falsification]
+    -> Plotting Artifact Falsification (Chaos vs Synthetic)...
+    [OK] 1 file(s) in 0.4s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\artifact_falsification.png
+  [report_17_cross_scale_bridge]
+    -> Rendering Cross-Scale Bridge Map (35 Orders of Magnitude)...
+    [OK] 1 file(s) in 0.5s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\cross_scale_bridge.png
+  [report_18_manifold_embedding]
+    -> Computing 46-Dimensional Topological Embedding (t-SNE)...
+       [SKIP] Not enough valid high-dimensional data for a manifold embedding.
+    [OK] 0 files in 0.8s (plugin ran, nothing saved)
+  [report_19_same_object_phase_scatter]
+    -> Plotting 2D Same-Object Phase Space Scatters...
+       [SKIP] No '__same_object__' linkages found in volumes.json.
+    [OK] 0 files in 0.0s (plugin ran, nothing saved)
+  [report_20_global_ledger]
+    -> Rendering The Global Ledger Master Infographic...
+    [OK] 1 file(s) in 0.6s
+         C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\global_ledger_master.png
+
+[2026-05-31 23:19:26 UTC] FIGURES COMPLETE
+  Plugins:  19 OK  |  0 FAILED  |  0 SKIPPED
+  Files:    14 generated
+  Patched:  0 plugin(s) upgraded to z_scores_master.json
+  Runtime:  149.3s
+  Index:    C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656\figures_index.json
+  Output:   C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\figures\output\run_20260531_231656
+
+[2026-05-31 23:19:26 UTC] STAGE COMPLETE: figures in 2m 29s
+
+============================================================
+[2026-05-31 23:19:26 UTC] PIPELINE COMPLETE
+  Total runtime: 21m 6s
+  Log file:      lakes\logs\run_20260531_225809.log
+
+  Stage summary:
+    [OK]   scalarize    1m 1s
+    [OK]   unify        1m 1s
+    [OK]   chaos        5m 28s
+    [OK]   pinch        11m 1s
+    [OK]   figures      2m 29s
+
+  unified_master MD5: 3529ae660530a80e28b357f8f297fe0e
+  Checksum file:      lakes\unified\unified_master.jsonl.md5
+
+  Engine fingerprint: 3a9da23b5b60ab53e00a9d69eead1718c78cb29cd07bf67abd2b4a5260366c03
+                      d5d1612f9caf57d6b0c21459cc7e1a582bf8bbb130a32607dec51771d0db3734
+                      6bda184b2b96e6c23029d12ae4e95eb7f29beaf0a495cdf0b7c41b384ef5b682
+============================================================

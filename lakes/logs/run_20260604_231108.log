@@ -1,0 +1,340 @@
+KishLattice Pipeline Run Log
+============================================================
+run_timestamp:   20260604_231108
+vol_root:        C:\Users\timot\Downloads\Science\src\Unification\vol11
+engine_version:  7ec3f687e97dbc53157f487b8d3c8028c78cb29cd07bf67abd2b4a5260366c03d5d1612f9caf57d6b0c21459cc7e1a582bf8bbb130a32607dec51771d0db373465f4dd7256173d9bc55ee9533920a32d3c02a3433579b6ffb51c04b926f23e71
+stages:          scalarize, unify, chaos, pinch, figures
+started_utc:     2026-06-04 23:11:18 UTC
+============================================================
+
+
+============================================================
+[2026-06-04 23:11:18 UTC] STAGE: SCALARIZE
+Transform promoted lakes into scalar space
+============================================================
+[scalarize.json] Loaded config for 58 domains.
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live byte-streaming progress dashboard.
+============================================================
+
+Scalarizing q1_atomic_spectra: q1_atomic_spectra_promoted.jsonl -> q1_atomic_spectra_scalarized.jsonl (mode=geometry)
+Scalarizing q2_molecular_geometry: q2_molecular_geometry_promoted.jsonl -> q2_molecular_geometry_scalarized.jsonl (mode=geometry)
+Scalarizing q3_molecular_vibration: q3_molecular_vibration_promoted.jsonl -> q3_molecular_vibration_scalarized.jsonl (mode=geometry)
+Scalarizing q4_nuclear: q4_nuclear_promoted.jsonl -> q4_nuclear_scalarized.jsonl (mode=geometry)
+Scalarizing q5_decay: q5_decay_promoted.jsonl -> q5_decay_scalarized.jsonl (mode=geometry)
+Scalarizing q8_ionisation: q8_ionisation_promoted.jsonl -> q8_ionisation_scalarized.jsonl (mode=geometry)
+Scalarizing q9_c60: q9_c60_promoted.jsonl -> q9_c60_scalarized.jsonl (mode=geometry)
+Scalarizing b1_chirality: b1_chirality_promoted.jsonl -> b1_chirality_scalarized.jsonl (mode=geometry)
+Scalarizing b3_amino: b3_amino_promoted.jsonl -> b3_amino_scalarized.jsonl (mode=geometry)
+Scalarizing b4_pdb_protein: b4_pdb_protein_promoted.jsonl -> b4_pdb_protein_scalarized.jsonl (mode=geometry)
+Scalarizing b5_pdb_full_protein: b5_pdb_full_protein_promoted.jsonl -> b5_pdb_full_protein_scalarized.jsonl (mode=geometry)
+Scalarizing t1_biological: t1_biological_promoted.jsonl -> t1_biological_scalarized.jsonl (mode=geometry)
+Scalarizing t2_planetary: t2_planetary_promoted.jsonl -> t2_planetary_scalarized.jsonl (mode=geometry)
+Scalarizing t2b_atlantic: t2b_atlantic_promoted.jsonl -> t2b_atlantic_scalarized.jsonl (mode=geometry)
+Scalarizing t2c_gulf: t2c_gulf_promoted.jsonl -> t2c_gulf_scalarized.jsonl (mode=geometry)
+Scalarizing t2d_pacific: t2d_pacific_promoted.jsonl -> t2d_pacific_scalarized.jsonl (mode=geometry)
+Scalarizing t2g_indian: t2g_indian_promoted.jsonl -> t2g_indian_scalarized.jsonl (mode=geometry)
+Scalarizing t4_cosmological: t4_cosmological_promoted.jsonl -> t4_cosmological_scalarized.jsonl (mode=geometry)
+Scalarizing n1_mechanical: n1_mechanical_promoted.jsonl -> n1_mechanical_scalarized.jsonl (mode=geometry)
+Scalarizing n2_behavioral: n2_behavioral_promoted.jsonl -> n2_behavioral_scalarized.jsonl (mode=geometry)
+Scalarizing n3_mathematical: n3_mathematical_promoted.jsonl -> n3_mathematical_scalarized.jsonl (mode=geometry)
+Scalarizing n4_cosmological: n4_cosmological_promoted.jsonl -> n4_cosmological_scalarized.jsonl (mode=geometry)
+Scalarizing chemistry: chemistry_promoted.jsonl -> chemistry_scalarized.jsonl (mode=geometry)
+Scalarizing materials: materials_promoted.jsonl -> materials_scalarized.jsonl (mode=geometry)
+Scalarizing u1_usgs_san_andreas: u1_usgs_san_andreas_promoted.jsonl -> u1_usgs_san_andreas_scalarized.jsonl (mode=geometry)
+Scalarizing u2_usgs_cascadia: u2_usgs_cascadia_promoted.jsonl -> u2_usgs_cascadia_scalarized.jsonl (mode=geometry)
+Scalarizing u3_usgs_japan_trench: u3_usgs_japan_trench_promoted.jsonl -> u3_usgs_japan_trench_scalarized.jsonl (mode=geometry)
+Scalarizing u4_usgs_anatolian: u4_usgs_anatolian_promoted.jsonl -> u4_usgs_anatolian_scalarized.jsonl (mode=geometry)
+Scalarizing p1_orbital_periods: p1_orbital_periods_promoted.jsonl -> p1_orbital_periods_scalarized.jsonl (mode=geometry)
+Scalarizing p2_orbital_radius: p2_orbital_radius_promoted.jsonl -> p2_orbital_radius_scalarized.jsonl (mode=geometry)
+Scalarizing p3_planet_mass: p3_planet_mass_promoted.jsonl -> p3_planet_mass_scalarized.jsonl (mode=geometry)
+Scalarizing p4_ttv: p4_ttv_promoted.jsonl -> p4_ttv_scalarized.jsonl (mode=geometry)
+Scalarizing p_transit: p_transit_promoted.jsonl -> p_transit_scalarized.jsonl (mode=geometry)
+Scalarizing s1_gaia_parallax: s1_gaia_parallax_promoted.jsonl -> s1_gaia_parallax_scalarized.jsonl (mode=geometry)
+Scalarizing s2_stellar_kinematics: s2_stellar_kinematics_promoted.jsonl -> s2_stellar_kinematics_scalarized.jsonl (mode=geometry)
+Scalarizing s3_gaia_luminosity: s3_gaia_luminosity_promoted.jsonl -> s3_gaia_luminosity_scalarized.jsonl (mode=geometry)
+Scalarizing s4_gaia_colour: s4_gaia_colour_promoted.jsonl -> s4_gaia_colour_scalarized.jsonl (mode=geometry)
+Scalarizing k1_kepler_rotation: k1_kepler_rotation_promoted.jsonl -> k1_kepler_rotation_scalarized.jsonl (mode=geometry)
+Scalarizing k2_pulsar_periods: k2_pulsar_periods_promoted.jsonl -> k2_pulsar_periods_scalarized.jsonl (mode=geometry)
+Scalarizing k2a_spindown: k2a_spindown_promoted.jsonl -> k2a_spindown_scalarized.jsonl (mode=geometry)
+Scalarizing k2b_dm: k2b_dm_promoted.jsonl -> k2b_dm_scalarized.jsonl (mode=geometry)
+Scalarizing k2c_age: k2c_age_promoted.jsonl -> k2c_age_scalarized.jsonl (mode=geometry)
+Scalarizing k2d_bfield: k2d_bfield_promoted.jsonl -> k2d_bfield_scalarized.jsonl (mode=geometry)
+Scalarizing k2_wrongbox: k2_wrongbox_promoted.jsonl -> k2_wrongbox_scalarized.jsonl (mode=geometry)
+Scalarizing s2_wrongbox: s2_wrongbox_promoted.jsonl -> s2_wrongbox_scalarized.jsonl (mode=geometry)
+Scalarizing mat_wrongbox: mat_wrongbox_promoted.jsonl -> mat_wrongbox_scalarized.jsonl (mode=geometry)
+Scalarizing k3_solar_cycle: k3_solar_cycle_promoted.jsonl -> k3_solar_cycle_scalarized.jsonl (mode=geometry)
+Scalarizing h1_cern_lhc: h1_cern_lhc_promoted.jsonl -> h1_cern_lhc_scalarized.jsonl (mode=geometry)
+Scalarizing h1b_pt_lead: h1b_pt_lead_promoted.jsonl -> h1b_pt_lead_scalarized.jsonl (mode=geometry)
+Scalarizing h1c_pt_sublead: h1c_pt_sublead_promoted.jsonl -> h1c_pt_sublead_scalarized.jsonl (mode=geometry)
+Scalarizing h1d_eta: h1d_eta_promoted.jsonl -> h1d_eta_scalarized.jsonl (mode=geometry)
+Scalarizing g1_galaxy_kinematics: g1_galaxy_kinematics_promoted.jsonl -> g1_galaxy_kinematics_scalarized.jsonl (mode=geometry)
+Scalarizing frb_chime: frb_chime_promoted.jsonl -> frb_chime_scalarized.jsonl (mode=geometry)
+Scalarizing l1_gwtc: l1_gwtc_promoted.jsonl -> l1_gwtc_scalarized.jsonl (mode=geometry)
+Scalarizing g2_wmap: g2_wmap_promoted.jsonl -> g2_wmap_scalarized.jsonl (mode=geometry)
+Scalarizing g1a_radius: g1a_radius_promoted.jsonl -> g1a_radius_scalarized.jsonl (mode=geometry)
+Scalarizing g1b_sersic: g1b_sersic_promoted.jsonl -> g1b_sersic_scalarized.jsonl (mode=geometry)
+Scalarizing g1c_mass: g1c_mass_promoted.jsonl -> g1c_mass_scalarized.jsonl (mode=geometry)
+
+[2026-06-04 23:26:55 UTC] STAGE COMPLETE: scalarize in 15m 36s
+
+============================================================
+[2026-06-04 23:26:55 UTC] STAGE: UNIFY
+Stream all scalarized lakes into unified master
+============================================================
+C:\Users\timot\Downloads\Science\src\Unification\vol11\engine\unify.py:94: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  start_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+C:\Users\timot\Downloads\Science\src\Unification\vol11\engine\unify.py:168: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live unified streaming dashboard.
+============================================================
+
+Volumes: 62 total, 61 enabled, 1 disabled
+
+[2026-06-04 23:26:55 UTC] Pipeline run started.
+
+  [q1_atomic_spectra] domain=quantum  n=2,975  nonzero=2,975
+  [q2_molecular_geometry] domain=quantum_molecular_geometry  n=34  nonzero=34
+  [q3_molecular_vibration] domain=quantum_molecular_vibration  n=77  nonzero=77
+  [q4_nuclear] domain=nuclear_binding  n=43  nonzero=43
+  [q5_decay] domain=nuclear_decay  n=3,205  nonzero=3,173
+  [q8_ionisation] domain=atomic_ionisation  n=305  nonzero=305
+  [q9_c60] domain=molecular_c60  n=46  nonzero=46
+  [b1_chirality] domain=biology_chirality  n=78  nonzero=78
+  [b3_amino] domain=biology_amino  n=167  nonzero=157
+    [2026-06-04 23:26:58 UTC] 250,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:00 UTC] 500,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:03 UTC] 750,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:05 UTC] 1,000,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:08 UTC] 1,250,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:10 UTC] 1,500,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:13 UTC] 1,750,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:15 UTC] 2,000,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:18 UTC] 2,250,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:21 UTC] 2,500,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:23 UTC] 2,750,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:26 UTC] 3,000,000 records streamed from b4_pdb_protein...
+    [2026-06-04 23:27:28 UTC] 3,250,000 records streamed from b4_pdb_protein...
+  [b4_pdb_protein] domain=biology_backbone_top8000  n=3,374,310  nonzero=3,373,828
+    [2026-06-04 23:27:32 UTC] 250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:27:35 UTC] 500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:27:38 UTC] 750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:27:41 UTC] 1,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:27:44 UTC] 1,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:27:47 UTC] 1,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:27:50 UTC] 1,750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:27:54 UTC] 2,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:27:56 UTC] 2,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:00 UTC] 2,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:03 UTC] 2,750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:06 UTC] 3,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:09 UTC] 3,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:12 UTC] 3,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:15 UTC] 3,750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:18 UTC] 4,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:21 UTC] 4,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:24 UTC] 4,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:27 UTC] 4,750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:31 UTC] 5,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:34 UTC] 5,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:37 UTC] 5,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:40 UTC] 5,750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:43 UTC] 6,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:46 UTC] 6,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:50 UTC] 6,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 23:28:53 UTC] 6,750,000 records streamed from b5_pdb_full_protein...
+  [b5_pdb_full_protein] domain=biology_backbone_full  n=6,835,828  nonzero=6,834,866
+  [t1_biological] domain=biology_other  n=39  nonzero=39
+  [t2_planetary] domain=planetary  n=14,116  nonzero=14,116
+  [t2b_atlantic] domain=planetary_atlantic  n=6,973  nonzero=6,973
+  [t2c_gulf] domain=planetary_gulf  n=6,927  nonzero=6,927
+  [t2d_pacific] domain=planetary_pacific  n=6,838  nonzero=6,838
+  [t2g_indian] domain=planetary_indian  n=4,929  nonzero=4,929
+  [t4_cosmological] domain=cosmology  n=5,000  nonzero=5,000
+  [n1_mechanical] domain=mechanics  n=2,484  nonzero=0
+  [n2_behavioral] domain=behavior  n=2,515  nonzero=0
+  [n3_mathematical] domain=mathematics  n=1,000  nonzero=0
+  [n4_cosmological] domain=cosmology  n=5,000  nonzero=10,000
+  [chemistry] domain=chemistry  n=67,174  nonzero=67,174
+  [materials] domain=materials  n=33,973  nonzero=33,973
+  [u1_usgs_san_andreas] domain=seismic_reference  n=281  nonzero=281
+  [u2_usgs_cascadia] domain=seismic_reference  n=462  nonzero=743
+  [u3_usgs_japan_trench] domain=seismic_japan  n=4,006  nonzero=4,006
+  [u4_usgs_anatolian] domain=seismic_reference  n=234  nonzero=977
+  [p1_orbital_periods] domain=orbital  n=13,521  nonzero=13,521
+  [p2_orbital_radius] domain=orbital_radius  n=5,843  nonzero=5,843
+  [p3_planet_mass] domain=orbital_mass  n=6,127  nonzero=6,127
+    [2026-06-04 23:29:01 UTC] 250,000 records streamed from p4_ttv...
+  [p4_ttv] domain=orbital_ttv  n=290,458  nonzero=290,458
+  [SKIP] p_eccentricity � scalarized file not found
+  [SKIP] p_inclination � scalarized file not found
+  [p_transit] domain=orbital_transit  n=4,603  nonzero=4,603
+  [p1_wrongbox] domain=orbital_wrongbox  n=13,521  nonzero=13,521
+    [2026-06-04 23:29:07 UTC] 250,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 23:29:11 UTC] 500,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 23:29:16 UTC] 750,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 23:29:20 UTC] 1,000,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 23:29:25 UTC] 1,250,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 23:29:29 UTC] 1,500,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 23:29:34 UTC] 1,750,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 23:29:38 UTC] 2,000,000 records streamed from s1_gaia_parallax...
+  [s1_gaia_parallax] domain=stellar  n=2,000,000  nonzero=2,000,000
+    [2026-06-04 23:29:42 UTC] 250,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 23:29:47 UTC] 500,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 23:29:51 UTC] 750,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 23:29:56 UTC] 1,000,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 23:30:01 UTC] 1,250,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 23:32:49 UTC] 1,500,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 23:32:55 UTC] 1,750,000 records streamed from s2_stellar_kinematics...
+  [s2_stellar_kinematics] domain=stellar_kinematic  n=1,808,145  nonzero=1,808,145
+    [2026-06-04 23:33:04 UTC] 250,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 23:33:11 UTC] 500,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 23:33:19 UTC] 750,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 23:33:26 UTC] 1,000,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 23:33:33 UTC] 1,250,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 23:33:40 UTC] 1,500,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 23:33:47 UTC] 1,750,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 23:33:54 UTC] 2,000,000 records streamed from s3_gaia_luminosity...
+  [s3_gaia_luminosity] domain=stellar_luminosity  n=2,000,000  nonzero=2,000,000
+    [2026-06-04 23:34:01 UTC] 250,000 records streamed from s4_gaia_colour...
+    [2026-06-04 23:34:08 UTC] 500,000 records streamed from s4_gaia_colour...
+    [2026-06-04 23:34:14 UTC] 750,000 records streamed from s4_gaia_colour...
+    [2026-06-04 23:34:21 UTC] 1,000,000 records streamed from s4_gaia_colour...
+    [2026-06-04 23:34:28 UTC] 1,250,000 records streamed from s4_gaia_colour...
+    [2026-06-04 23:34:35 UTC] 1,500,000 records streamed from s4_gaia_colour...
+    [2026-06-04 23:34:42 UTC] 1,750,000 records streamed from s4_gaia_colour...
+  [s4_gaia_colour] domain=stellar_colour  n=1,979,697  nonzero=1,979,697
+  [k1_kepler_rotation] domain=stellar_rotation  n=64,784  nonzero=64,784
+  [k2_pulsar_periods] domain=stellar_rotation  n=2,527  nonzero=67,311
+  [k2a_spindown] domain=stellar_spindown  n=2,052  nonzero=1,638
+  [k2b_dm] domain=stellar_dm  n=2,457  nonzero=2,457
+  [k2c_age] domain=stellar_age  n=2,052  nonzero=2,052
+  [k2d_bfield] domain=stellar_bfield  n=2,052  nonzero=2,052
+  [k2_wrongbox] domain=stellar_wrongbox  n=0  nonzero=0
+    [2026-06-04 23:34:53 UTC] 250,000 records streamed from s2_wrongbox...
+    [2026-06-04 23:34:56 UTC] 500,000 records streamed from s2_wrongbox...
+    [2026-06-04 23:34:59 UTC] 750,000 records streamed from s2_wrongbox...
+    [2026-06-04 23:35:02 UTC] 1,000,000 records streamed from s2_wrongbox...
+    [2026-06-04 23:35:05 UTC] 1,250,000 records streamed from s2_wrongbox...
+    [2026-06-04 23:35:08 UTC] 1,500,000 records streamed from s2_wrongbox...
+    [2026-06-04 23:35:11 UTC] 1,750,000 records streamed from s2_wrongbox...
+  [s2_wrongbox] domain=kinematic_wrongbox  n=1,999,814  nonzero=1,995,317
+  [mat_wrongbox] domain=materials_wrongbox  n=33,973  nonzero=33,973
+  [k3_solar_cycle] domain=stellar_cycle  n=29  nonzero=29
+  [h1_cern_lhc] domain=subnuclear_mass  n=100,000  nonzero=100,000
+  [h1b_pt_lead] domain=subnuclear_pt_lead  n=100,000  nonzero=100,000
+  [h1c_pt_sublead] domain=subnuclear_pt_sublead  n=100,000  nonzero=100,000
+  [h1d_eta] domain=subnuclear_eta  n=100,000  nonzero=100,000
+    [2026-06-04 23:35:24 UTC] 250,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 23:35:29 UTC] 500,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 23:35:33 UTC] 750,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 23:35:38 UTC] 1,000,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 23:35:42 UTC] 1,250,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 23:35:47 UTC] 1,500,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 23:35:52 UTC] 1,750,000 records streamed from g1_galaxy_kinematics...
+  [g1_galaxy_kinematics] domain=galactic  n=1,843,110  nonzero=1,843,110
+  [frb_chime] domain=astrophysics  n=4,636  nonzero=4,636
+  [l1_gwtc] domain=gravitational_wave  n=83  nonzero=83
+  [g2_wmap] domain=cmb_anisotropy  n=83  nonzero=83
+  [g1a_radius] domain=galactic_radius  n=100,000  nonzero=100,000
+  [g1b_sersic] domain=galactic_sersic  n=100,000  nonzero=59,563
+    [2026-06-04 23:36:00 UTC] 250,000 records streamed from g1c_mass...
+    [2026-06-04 23:36:03 UTC] 500,000 records streamed from g1c_mass...
+    [2026-06-04 23:36:07 UTC] 750,000 records streamed from g1c_mass...
+    [2026-06-04 23:36:10 UTC] 1,000,000 records streamed from g1c_mass...
+    [2026-06-04 23:36:14 UTC] 1,250,000 records streamed from g1c_mass...
+    [2026-06-04 23:36:17 UTC] 1,500,000 records streamed from g1c_mass...
+    [2026-06-04 23:36:21 UTC] 1,750,000 records streamed from g1c_mass...
+C:\Users\timot\Downloads\Science\src\Unification\vol11\engine\unify.py:179: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+  [g1c_mass] domain=galactic_mass  n=1,843,110  nonzero=1,843,110
+
+[2026-06-04 23:36:22 UTC] Run complete.
+  Total runtime:   0h 9m 27s
+  Total records:   24,901,696
+  Lakes processed: 61
+  Throughput:      43,885 records/sec (average)
+  Master checksum: da53f2fb924dc1646fdde90b5c0aefea
+  Checksum saved:  C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\unified_master.jsonl.md5
+
+Unified master written: C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\unified_master.jsonl
+Sweep results written:  C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\sweep_results.json
+Pinch table written:    C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\pinch_table.json
+
+Domain summary:
+  Domain                          n    nonzero     mean range
+  -----------------------------------------------------------------
+  astrophysics                4,636      4,636   3.6598 [1.6744, 5.5813]
+  atomic_ionisation             305        305   2.1062 [0.9755, 4.5231]
+  behavior                    2,515          (all zeros)
+  biology_amino                 167        157   1.8660 [1.7892, 1.8965]
+  biology_backbone_full   6,835,828  6,834,866   2.6022 [0.0585, 3.1935]
+  biology_backbone_top8000  3,374,310  3,373,828   2.5979 [0.0585, 3.1935]
+  biology_chirality              78         78   2.0300 [0.6325, 2.9967]
+  biology_other                  39         39   2.1654 [1.9459, 2.3026]
+  chemistry                  67,174     67,174   0.1760 [0.1047, 1.0472]
+  cmb_anisotropy                 83         83   2.3862 [1.4997, 2.6700]
+  cosmology                  10,000     10,000   2.4829 [2.3222, 2.6042]
+  galactic                1,843,110  1,843,110   3.2531 [2.6186, 4.1353]
+  galactic_mass           1,843,110  1,843,110  12.9990 [10.4395, 16.5381]
+  galactic_radius           100,000    100,000   0.7694 [0.0121, 5.6579]
+  galactic_sersic           100,000     59,563   0.3339 [0.0000, 0.4258]
+  gravitational_wave             83         83   3.2649 [2.4728, 4.0075]
+  kinematic_wrongbox      1,999,814  1,995,317   4.3288 [0.0000, 44.8434]
+  materials                  33,973     33,973   0.7926 [0.6396, 1.1917]
+  materials_wrongbox         33,973     33,973   3.5060 [1.4999, 5.4504]
+  mathematics                 1,000          (all zeros)
+  mechanics                   2,484          (all zeros)
+  molecular_c60                  46         46   4.1591 [3.4482, 4.5229]
+  nuclear_binding                43         43   1.3013 [0.4593, 1.4014]
+  nuclear_decay               3,205      3,173   0.9186 [0.0000, 2.6569]
+  orbital                    13,521     13,521   3.8808 [0.0533, 9.7674]
+  orbital_mass                6,127      6,127   0.2455 [0.0000, 2.1095]
+  orbital_radius              5,843      5,843   0.2324 [0.0027, 6.0523]
+  orbital_transit             4,603      4,603   0.8978 [0.0769, 2.4572]
+  orbital_ttv               290,458    290,458   1.4582 [0.0006, 4.4679]
+  orbital_wrongbox           13,521     13,521  11.5842 [0.0005, 29.3022]
+  planetary                  14,116     14,116   1.2084 [0.8228, 1.3732]
+  planetary_atlantic          6,973      6,973   1.5982 [1.1954, 2.0246]
+  planetary_gulf              6,927      6,927   1.5165 [1.1954, 2.0685]
+  planetary_indian            4,929      4,929   1.6251 [1.4730, 2.0685]
+  planetary_pacific           6,838      6,838   1.5896 [1.1954, 2.0470]
+  quantum                     2,975      2,975   5.2020 [1.9633, 15.2521]
+  quantum_molecular_geometry         34         34   1.2531 [0.4128, 2.9556]
+  quantum_molecular_vibration         77         77   4.4998 [3.4369, 5.0893]
+  seismic_japan               4,006      4,006   0.7066 [0.0000, 2.5937]
+  seismic_reference             977        977   1.7345 [0.0000, 4.0150]
+  stellar                 2,000,000  2,000,000   4.0318 [0.9941, 5.6762]
+  stellar_age                 2,052      2,052   9.7807 [3.3105, 15.3179]
+  stellar_bfield              2,052      2,052  16.5902 [11.0671, 21.6613]
+  stellar_colour          1,979,697  1,979,697   0.5615 [0.0061, 1.2776]
+  stellar_cycle                  29         29   5.0945 [4.9747, 5.2461]
+  stellar_dm                  2,457      2,457   3.0004 [0.7481, 4.5973]
+  stellar_kinematic       1,808,145  1,808,145   1.0930 [-0.1935, 4.4446]
+  stellar_luminosity      2,000,000  2,000,000   0.5817 [0.0000, 1.6298]
+  stellar_rotation           67,311     67,311   1.8464 [0.1125, 5.7591]
+  stellar_spindown            2,052      1,638   0.0000 [0.0000, 0.0000]
+  subnuclear_eta            100,000    100,000   0.4502 [0.0001, 0.7517]
+  subnuclear_mass           100,000    100,000   1.5163 [0.1613, 3.5043]
+  subnuclear_pt_lead        100,000    100,000   1.3448 [0.1450, 3.6285]
+  subnuclear_pt_sublead     100,000    100,000   1.3349 [0.3197, 3.8528]
+
+[2026-06-04 23:36:22 UTC] STAGE COMPLETE: unify in 9m 27s
+
+[2026-06-04 23:36:22 UTC] CHECKSUM: computing MD5 of unified_master.jsonl
+  Checksum:      f46c5386b3d1c5b0f50342f8f0449d87
+  Bytes:         18,398,562,799
+  Computed in:   33s
+  Written to:    lakes\unified\unified_master.jsonl.md5
+
+============================================================
+[2026-06-04 23:36:56 UTC] STAGE: CHAOS
+Build chaos null distributions per domain
+============================================================

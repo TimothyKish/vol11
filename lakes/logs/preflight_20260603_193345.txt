@@ -1,0 +1,86 @@
+============================================================
+  KishLattice Vol 11 Pre-Flight Lake Validation
+  2026-06-03 19:33:45 UTC
+  Root: C:\Users\timot\Downloads\Science\src\Unification\vol11
+============================================================
+
+Enabled lakes to validate: 62
+
+Lake ID                          Expected Domain              Status     File / Domain Check
+----------------------------------------------------------------------------------------------------
+q1_atomic_spectra                quantum                      OK         domain matches
+q2_molecular_geometry            quantum_molecular_geometry   OK         domain matches
+q3_molecular_vibration           quantum_molecular_vibration  OK         domain matches
+q4_nuclear                       nuclear_binding              OK         domain matches
+q5_decay                         nuclear_decay                OK         domain matches
+q8_ionisation                    atomic_ionisation            OK         domain matches
+q9_c60                           molecular_c60                OK         domain matches
+b1_chirality                     biology_chirality            OK         domain matches
+b3_amino                         biology                      OK         domain matches
+b4_pdb_protein                   biology_backbone             OK         domain matches
+b5_pdb_full_protein              biology_backbone             OK         domain matches
+t1_biological                    biology                      OK         domain matches
+t2_planetary                     planetary                    OK         domain matches
+t2b_atlantic                     planetary_atlantic           OK         domain matches
+t2c_gulf                         planetary_gulf               OK         domain matches
+t2d_pacific                      planetary_pacific            OK         domain matches
+t2g_indian                       planetary_indian             OK         domain matches
+t4_cosmological                  cosmology                    OK         domain matches
+n1_mechanical                    mechanics                    OK         domain matches
+n2_behavioral                    behavior                     OK         domain matches
+n3_mathematical                  mathematics                  OK         domain matches
+n4_cosmological                  cosmology                    OK         domain matches
+chemistry                        chemistry                    OK         domain matches
+materials                        materials                    OK         domain matches
+mat_wrongbox                     materials_wrongbox           MISMATCH   File has: materials
+u1_usgs_san_andreas              seismic_san_andreas          MISMATCH   File has: seismic_temporal
+u2_usgs_cascadia                 seismic_cascadia             MISMATCH   File has: seismic_temporal
+u3_usgs_japan_trench             seismic_japan                MISMATCH   File has: seismic_temporal
+u4_usgs_anatolian                seismic_anatolian            MISMATCH   File has: seismic_temporal
+p1_orbital_periods               orbital                      OK         domain matches
+np1_orbital_periods              orbital                      OK         domain matches
+p2_orbital_radius                orbital_radius               MISMATCH   File has: orbital
+p3_planet_mass                   orbital_mass                 MISMATCH   File has: orbital
+p4_ttv                           orbital_ttv                  OK         domain matches
+p1_wrongbox                      orbital_wrongbox             OK         domain matches
+p_eccentricity                   orbital_eccentricity         OK         domain matches
+p_inclination                    orbital_inclination          OK         domain matches
+p_transit                        orbital_transit              OK         domain matches
+s1_gaia_parallax                 stellar                      OK         domain matches
+s2_stellar_kinematics            stellar_kinematic            OK         domain matches
+s2_wrongbox                      stellar_wrongbox             MISMATCH   File has: stellar_kinematic
+s3_gaia_luminosity               stellar_luminosity           MISMATCH   File has: stellar
+s4_gaia_colour                   stellar_colour               MISMATCH   File has: stellar
+k1_kepler_rotation               stellar_rotation             OK         domain matches
+k2_pulsar_periods                stellar_rotation             OK         domain matches
+k2a_spindown                     stellar_spindown             OK         domain matches
+k2b_dm                           stellar_dm                   OK         domain matches
+k2c_age                          stellar_age                  OK         domain matches
+k2d_bfield                       stellar_bfield               OK         domain matches
+k2_wrongbox                      stellar_wrongbox             MISMATCH   File has: stellar_rotation
+k3_solar_cycle                   stellar_cycle                OK         domain matches
+h1_cern_lhc                      subnuclear_mass              OK         domain matches
+h1b_pt_lead                      subnuclear_pt_lead           OK         domain matches
+h1c_pt_sublead                   subnuclear_pt_sublead        OK         domain matches
+h1d_eta                          subnuclear_eta               OK         domain matches
+g1_galaxy_kinematics             galactic                     OK         domain matches
+frb_chime                        astrophysics                 OK         domain matches
+l1_gwtc                          gravitational_wave           OK         domain matches
+g2_wmap                          cmb_anisotropy               OK         domain matches
+g1a_radius                       galactic_radius              OK         domain matches
+g1b_sersic                       galactic_sersic              OK         domain matches
+g1c_mass                         galactic_mass                OK         domain matches
+
+============================================================
+  SUMMARY
+============================================================
+  Total enabled:    62
+  OK (domain match): 51
+  MISSING files:    0
+  EMPTY files:      0
+  MISMATCH domain:  11
+  PARSE errors:     0
+
+
+  Log saved to: C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\logs\preflight_20260603_193345.txt
+============================================================

@@ -1,0 +1,16 @@
+KishLattice Pipeline Run Receipt
+============================================================
+
+engine_version:  3a9da23b5b60ab53e00a9d69eead1718c78cb29cd07bf67abd2b4a5260366c03d5d1612f9caf57d6b0c21459cc7e1a582bf8bbb130a32607dec51771d0db373443473dcc958c0c4ab6516ccc11a485979d9fa426cac22d685296c7089fb23fc6
+total_runtime:   1h 14m 46s
+completed_utc:   2026-06-04 09:03:17 UTC
+
+Stages:
+  [OK] scalarize    4m 41s
+  [OK] unify        4m 52s
+  [OK] chaos        14m 50s
+  [OK] pinch        40m 39s
+  [OK] figures      9m 18s
+
+unified_master MD5: dd69b99d6b666fd64d5c3fc72b4b7ec0
+checksum_file:      lakes\unified\unified_master.jsonl.md5

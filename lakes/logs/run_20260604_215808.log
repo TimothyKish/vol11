@@ -1,0 +1,2009 @@
+KishLattice Pipeline Run Log
+============================================================
+run_timestamp:   20260604_215808
+vol_root:        C:\Users\timot\Downloads\Science\src\Unification\vol11
+engine_version:  7ec3f687e97dbc53157f487b8d3c8028c78cb29cd07bf67abd2b4a5260366c03d5d1612f9caf57d6b0c21459cc7e1a582bf8bbb130a32607dec51771d0db373465f4dd7256173d9bc55ee9533920a32d3c02a3433579b6ffb51c04b926f23e71
+stages:          scalarize, unify, chaos, pinch, figures
+started_utc:     2026-06-04 21:58:18 UTC
+============================================================
+
+
+============================================================
+[2026-06-04 21:58:18 UTC] STAGE: SCALARIZE
+Transform promoted lakes into scalar space
+============================================================
+[scalarize.json] Loaded config for 58 domains.
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live byte-streaming progress dashboard.
+============================================================
+
+Scalarizing q1_atomic_spectra: q1_atomic_spectra_promoted.jsonl -> q1_atomic_spectra_scalarized.jsonl (mode=geometry)
+Scalarizing q2_molecular_geometry: q2_molecular_geometry_promoted.jsonl -> q2_molecular_geometry_scalarized.jsonl (mode=geometry)
+Scalarizing q3_molecular_vibration: q3_molecular_vibration_promoted.jsonl -> q3_molecular_vibration_scalarized.jsonl (mode=geometry)
+Scalarizing q4_nuclear: q4_nuclear_promoted.jsonl -> q4_nuclear_scalarized.jsonl (mode=geometry)
+Scalarizing q5_decay: q5_decay_promoted.jsonl -> q5_decay_scalarized.jsonl (mode=geometry)
+Scalarizing q8_ionisation: q8_ionisation_promoted.jsonl -> q8_ionisation_scalarized.jsonl (mode=geometry)
+Scalarizing q9_c60: q9_c60_promoted.jsonl -> q9_c60_scalarized.jsonl (mode=geometry)
+Scalarizing b1_chirality: b1_chirality_promoted.jsonl -> b1_chirality_scalarized.jsonl (mode=geometry)
+Scalarizing b3_amino: b3_amino_promoted.jsonl -> b3_amino_scalarized.jsonl (mode=geometry)
+Scalarizing b4_pdb_protein: b4_pdb_protein_promoted.jsonl -> b4_pdb_protein_scalarized.jsonl (mode=geometry)
+Scalarizing b5_pdb_full_protein: b5_pdb_full_protein_promoted.jsonl -> b5_pdb_full_protein_scalarized.jsonl (mode=geometry)
+Scalarizing t1_biological: t1_biological_promoted.jsonl -> t1_biological_scalarized.jsonl (mode=geometry)
+Scalarizing t2_planetary: t2_planetary_promoted.jsonl -> t2_planetary_scalarized.jsonl (mode=geometry)
+Scalarizing t2b_atlantic: t2b_atlantic_promoted.jsonl -> t2b_atlantic_scalarized.jsonl (mode=geometry)
+Scalarizing t2c_gulf: t2c_gulf_promoted.jsonl -> t2c_gulf_scalarized.jsonl (mode=geometry)
+Scalarizing t2d_pacific: t2d_pacific_promoted.jsonl -> t2d_pacific_scalarized.jsonl (mode=geometry)
+Scalarizing t2g_indian: t2g_indian_promoted.jsonl -> t2g_indian_scalarized.jsonl (mode=geometry)
+Scalarizing t4_cosmological: t4_cosmological_promoted.jsonl -> t4_cosmological_scalarized.jsonl (mode=geometry)
+Scalarizing n1_mechanical: n1_mechanical_promoted.jsonl -> n1_mechanical_scalarized.jsonl (mode=geometry)
+Scalarizing n2_behavioral: n2_behavioral_promoted.jsonl -> n2_behavioral_scalarized.jsonl (mode=geometry)
+Scalarizing n3_mathematical: n3_mathematical_promoted.jsonl -> n3_mathematical_scalarized.jsonl (mode=geometry)
+Scalarizing n4_cosmological: n4_cosmological_promoted.jsonl -> n4_cosmological_scalarized.jsonl (mode=geometry)
+Scalarizing chemistry: chemistry_promoted.jsonl -> chemistry_scalarized.jsonl (mode=geometry)
+Scalarizing materials: materials_promoted.jsonl -> materials_scalarized.jsonl (mode=geometry)
+Scalarizing u1_usgs_san_andreas: u1_usgs_san_andreas_promoted.jsonl -> u1_usgs_san_andreas_scalarized.jsonl (mode=geometry)
+Scalarizing u2_usgs_cascadia: u2_usgs_cascadia_promoted.jsonl -> u2_usgs_cascadia_scalarized.jsonl (mode=geometry)
+Scalarizing u3_usgs_japan_trench: u3_usgs_japan_trench_promoted.jsonl -> u3_usgs_japan_trench_scalarized.jsonl (mode=geometry)
+Scalarizing u4_usgs_anatolian: u4_usgs_anatolian_promoted.jsonl -> u4_usgs_anatolian_scalarized.jsonl (mode=geometry)
+Scalarizing p1_orbital_periods: p1_orbital_periods_promoted.jsonl -> p1_orbital_periods_scalarized.jsonl (mode=geometry)
+Scalarizing p2_orbital_radius: p2_orbital_radius_promoted.jsonl -> p2_orbital_radius_scalarized.jsonl (mode=geometry)
+Scalarizing p3_planet_mass: p3_planet_mass_promoted.jsonl -> p3_planet_mass_scalarized.jsonl (mode=geometry)
+Scalarizing p4_ttv: p4_ttv_promoted.jsonl -> p4_ttv_scalarized.jsonl (mode=geometry)
+Scalarizing p_transit: p_transit_promoted.jsonl -> p_transit_scalarized.jsonl (mode=geometry)
+Scalarizing p1_wrongbox: p1_wrongbox_promoted.jsonl -> p1_wrongbox_scalarized.jsonl (mode=geometry)
+Scalarizing s1_gaia_parallax: s1_gaia_parallax_promoted.jsonl -> s1_gaia_parallax_scalarized.jsonl (mode=geometry)
+Scalarizing s2_stellar_kinematics: s2_stellar_kinematics_promoted.jsonl -> s2_stellar_kinematics_scalarized.jsonl (mode=geometry)
+Scalarizing s3_gaia_luminosity: s3_gaia_luminosity_promoted.jsonl -> s3_gaia_luminosity_scalarized.jsonl (mode=geometry)
+Scalarizing s4_gaia_colour: s4_gaia_colour_promoted.jsonl -> s4_gaia_colour_scalarized.jsonl (mode=geometry)
+Scalarizing k1_kepler_rotation: k1_kepler_rotation_promoted.jsonl -> k1_kepler_rotation_scalarized.jsonl (mode=geometry)
+Scalarizing k2_pulsar_periods: k2_pulsar_periods_promoted.jsonl -> k2_pulsar_periods_scalarized.jsonl (mode=geometry)
+Scalarizing k2a_spindown: k2a_spindown_promoted.jsonl -> k2a_spindown_scalarized.jsonl (mode=geometry)
+Scalarizing k2b_dm: k2b_dm_promoted.jsonl -> k2b_dm_scalarized.jsonl (mode=geometry)
+Scalarizing k2c_age: k2c_age_promoted.jsonl -> k2c_age_scalarized.jsonl (mode=geometry)
+Scalarizing k2d_bfield: k2d_bfield_promoted.jsonl -> k2d_bfield_scalarized.jsonl (mode=geometry)
+Scalarizing k2_wrongbox: k2_wrongbox_promoted.jsonl -> k2_wrongbox_scalarized.jsonl (mode=geometry)
+Scalarizing s2_wrongbox: s2_wrongbox_promoted.jsonl -> s2_wrongbox_scalarized.jsonl (mode=geometry)
+Scalarizing mat_wrongbox: mat_wrongbox_promoted.jsonl -> mat_wrongbox_scalarized.jsonl (mode=geometry)
+Scalarizing k3_solar_cycle: k3_solar_cycle_promoted.jsonl -> k3_solar_cycle_scalarized.jsonl (mode=geometry)
+Scalarizing h1_cern_lhc: h1_cern_lhc_promoted.jsonl -> h1_cern_lhc_scalarized.jsonl (mode=geometry)
+Scalarizing h1b_pt_lead: h1b_pt_lead_promoted.jsonl -> h1b_pt_lead_scalarized.jsonl (mode=geometry)
+Scalarizing h1c_pt_sublead: h1c_pt_sublead_promoted.jsonl -> h1c_pt_sublead_scalarized.jsonl (mode=geometry)
+Scalarizing h1d_eta: h1d_eta_promoted.jsonl -> h1d_eta_scalarized.jsonl (mode=geometry)
+Scalarizing g1_galaxy_kinematics: g1_galaxy_kinematics_promoted.jsonl -> g1_galaxy_kinematics_scalarized.jsonl (mode=geometry)
+Scalarizing frb_chime: frb_chime_promoted.jsonl -> frb_chime_scalarized.jsonl (mode=geometry)
+Scalarizing l1_gwtc: l1_gwtc_promoted.jsonl -> l1_gwtc_scalarized.jsonl (mode=geometry)
+Scalarizing g2_wmap: g2_wmap_promoted.jsonl -> g2_wmap_scalarized.jsonl (mode=geometry)
+Scalarizing g1a_radius: g1a_radius_promoted.jsonl -> g1a_radius_scalarized.jsonl (mode=geometry)
+Scalarizing g1b_sersic: g1b_sersic_promoted.jsonl -> g1b_sersic_scalarized.jsonl (mode=geometry)
+Scalarizing g1c_mass: g1c_mass_promoted.jsonl -> g1c_mass_scalarized.jsonl (mode=geometry)
+
+[2026-06-04 22:08:27 UTC] STAGE COMPLETE: scalarize in 10m 8s
+
+============================================================
+[2026-06-04 22:08:27 UTC] STAGE: UNIFY
+Stream all scalarized lakes into unified master
+============================================================
+C:\Users\timot\Downloads\Science\src\Unification\vol11\engine\unify.py:94: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  start_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+C:\Users\timot\Downloads\Science\src\Unification\vol11\engine\unify.py:168: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live unified streaming dashboard.
+============================================================
+
+Volumes: 62 total, 61 enabled, 1 disabled
+
+[2026-06-04 22:08:27 UTC] Pipeline run started.
+
+  [q1_atomic_spectra] domain=quantum  n=2,975  nonzero=2,975
+  [q2_molecular_geometry] domain=quantum_molecular_geometry  n=34  nonzero=34
+  [q3_molecular_vibration] domain=quantum_molecular_vibration  n=77  nonzero=77
+  [q4_nuclear] domain=nuclear_binding  n=43  nonzero=43
+  [q5_decay] domain=nuclear_decay  n=3,205  nonzero=3,173
+  [q8_ionisation] domain=atomic_ionisation  n=305  nonzero=305
+  [q9_c60] domain=molecular_c60  n=46  nonzero=46
+  [b1_chirality] domain=biology_chirality  n=78  nonzero=78
+  [b3_amino] domain=biology_amino  n=167  nonzero=157
+    [2026-06-04 22:08:30 UTC] 250,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:33 UTC] 500,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:35 UTC] 750,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:38 UTC] 1,000,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:40 UTC] 1,250,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:43 UTC] 1,500,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:45 UTC] 1,750,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:48 UTC] 2,000,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:50 UTC] 2,250,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:53 UTC] 2,500,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:56 UTC] 2,750,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:08:58 UTC] 3,000,000 records streamed from b4_pdb_protein...
+    [2026-06-04 22:09:01 UTC] 3,250,000 records streamed from b4_pdb_protein...
+  [b4_pdb_protein] domain=biology_backbone_top8000  n=3,374,310  nonzero=3,373,828
+    [2026-06-04 22:09:05 UTC] 250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:08 UTC] 500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:11 UTC] 750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:14 UTC] 1,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:17 UTC] 1,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:21 UTC] 1,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:24 UTC] 1,750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:27 UTC] 2,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:30 UTC] 2,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:33 UTC] 2,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:36 UTC] 2,750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:39 UTC] 3,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:42 UTC] 3,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:46 UTC] 3,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:49 UTC] 3,750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:53 UTC] 4,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:09:56 UTC] 4,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:10:00 UTC] 4,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:10:03 UTC] 4,750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:10:07 UTC] 5,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:10:11 UTC] 5,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:10:14 UTC] 5,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:10:18 UTC] 5,750,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:10:21 UTC] 6,000,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:10:25 UTC] 6,250,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:10:28 UTC] 6,500,000 records streamed from b5_pdb_full_protein...
+    [2026-06-04 22:10:32 UTC] 6,750,000 records streamed from b5_pdb_full_protein...
+  [b5_pdb_full_protein] domain=biology_backbone_full  n=6,835,828  nonzero=6,834,866
+  [t1_biological] domain=biology_other  n=39  nonzero=39
+  [t2_planetary] domain=planetary  n=14,116  nonzero=14,116
+  [t2b_atlantic] domain=planetary_atlantic  n=6,973  nonzero=6,973
+  [t2c_gulf] domain=planetary_gulf  n=6,927  nonzero=6,927
+  [t2d_pacific] domain=planetary_pacific  n=6,838  nonzero=6,838
+  [t2g_indian] domain=planetary_indian  n=4,929  nonzero=4,929
+  [t4_cosmological] domain=cosmology  n=5,000  nonzero=5,000
+  [n1_mechanical] domain=mechanics  n=2,484  nonzero=0
+  [n2_behavioral] domain=behavior  n=2,515  nonzero=0
+  [n3_mathematical] domain=mathematics  n=1,000  nonzero=0
+  [n4_cosmological] domain=cosmology  n=5,000  nonzero=10,000
+  [chemistry] domain=chemistry  n=67,174  nonzero=67,174
+  [materials] domain=materials  n=33,973  nonzero=33,973
+  [u1_usgs_san_andreas] domain=seismic_reference  n=281  nonzero=281
+  [u2_usgs_cascadia] domain=seismic_reference  n=462  nonzero=743
+  [u3_usgs_japan_trench] domain=seismic_japan  n=4,006  nonzero=4,006
+  [u4_usgs_anatolian] domain=seismic_reference  n=234  nonzero=977
+  [p1_orbital_periods] domain=orbital  n=13,521  nonzero=13,521
+  [p2_orbital_radius] domain=orbital_radius  n=5,843  nonzero=5,843
+  [p3_planet_mass] domain=orbital_mass  n=6,127  nonzero=6,127
+    [2026-06-04 22:10:40 UTC] 250,000 records streamed from p4_ttv...
+  [p4_ttv] domain=orbital_ttv  n=290,458  nonzero=290,458
+  [SKIP] p_eccentricity � scalarized file not found
+  [SKIP] p_inclination � scalarized file not found
+  [p_transit] domain=orbital_transit  n=4,603  nonzero=4,603
+  [p1_wrongbox] domain=orbital_wrongbox  n=13,521  nonzero=13,521
+    [2026-06-04 22:10:46 UTC] 250,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 22:10:50 UTC] 500,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 22:10:55 UTC] 750,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 22:10:59 UTC] 1,000,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 22:11:04 UTC] 1,250,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 22:11:08 UTC] 1,500,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 22:11:13 UTC] 1,750,000 records streamed from s1_gaia_parallax...
+    [2026-06-04 22:11:17 UTC] 2,000,000 records streamed from s1_gaia_parallax...
+  [s1_gaia_parallax] domain=stellar  n=2,000,000  nonzero=2,000,000
+    [2026-06-04 22:11:22 UTC] 250,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 22:11:26 UTC] 500,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 22:11:32 UTC] 750,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 22:11:36 UTC] 1,000,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 22:11:40 UTC] 1,250,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 22:11:45 UTC] 1,500,000 records streamed from s2_stellar_kinematics...
+    [2026-06-04 22:11:49 UTC] 1,750,000 records streamed from s2_stellar_kinematics...
+  [s2_stellar_kinematics] domain=stellar_kinematic  n=1,808,145  nonzero=1,808,145
+    [2026-06-04 22:11:58 UTC] 250,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 22:12:05 UTC] 500,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 22:12:12 UTC] 750,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 22:12:19 UTC] 1,000,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 22:12:26 UTC] 1,250,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 22:12:34 UTC] 1,500,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 22:12:41 UTC] 1,750,000 records streamed from s3_gaia_luminosity...
+    [2026-06-04 22:12:48 UTC] 2,000,000 records streamed from s3_gaia_luminosity...
+  [s3_gaia_luminosity] domain=stellar_luminosity  n=2,000,000  nonzero=2,000,000
+    [2026-06-04 22:12:56 UTC] 250,000 records streamed from s4_gaia_colour...
+    [2026-06-04 22:13:03 UTC] 500,000 records streamed from s4_gaia_colour...
+    [2026-06-04 22:13:10 UTC] 750,000 records streamed from s4_gaia_colour...
+    [2026-06-04 22:13:17 UTC] 1,000,000 records streamed from s4_gaia_colour...
+    [2026-06-04 22:13:24 UTC] 1,250,000 records streamed from s4_gaia_colour...
+    [2026-06-04 22:13:31 UTC] 1,500,000 records streamed from s4_gaia_colour...
+    [2026-06-04 22:13:38 UTC] 1,750,000 records streamed from s4_gaia_colour...
+  [s4_gaia_colour] domain=stellar_colour  n=1,979,697  nonzero=1,979,697
+  [k1_kepler_rotation] domain=stellar_rotation  n=64,784  nonzero=64,784
+  [k2_pulsar_periods] domain=stellar_rotation  n=2,527  nonzero=67,311
+  [k2a_spindown] domain=stellar_spindown  n=2,052  nonzero=1,638
+  [k2b_dm] domain=stellar_dm  n=2,457  nonzero=2,457
+  [k2c_age] domain=stellar_age  n=2,052  nonzero=2,052
+  [k2d_bfield] domain=stellar_bfield  n=2,052  nonzero=2,052
+  [k2_wrongbox] domain=stellar_wrongbox  n=2,527  nonzero=0
+    [2026-06-04 22:13:51 UTC] 250,000 records streamed from s2_wrongbox...
+    [2026-06-04 22:13:56 UTC] 500,000 records streamed from s2_wrongbox...
+    [2026-06-04 22:14:00 UTC] 750,000 records streamed from s2_wrongbox...
+    [2026-06-04 22:14:04 UTC] 1,000,000 records streamed from s2_wrongbox...
+    [2026-06-04 22:14:08 UTC] 1,250,000 records streamed from s2_wrongbox...
+    [2026-06-04 22:14:12 UTC] 1,500,000 records streamed from s2_wrongbox...
+    [2026-06-04 22:14:16 UTC] 1,750,000 records streamed from s2_wrongbox...
+  [s2_wrongbox] domain=kinematic_wrongbox  n=1,808,145  nonzero=0
+  [mat_wrongbox] domain=materials_wrongbox  n=33,973  nonzero=33,973
+  [k3_solar_cycle] domain=stellar_cycle  n=29  nonzero=29
+  [h1_cern_lhc] domain=subnuclear_mass  n=100,000  nonzero=100,000
+  [h1b_pt_lead] domain=subnuclear_pt_lead  n=100,000  nonzero=100,000
+  [h1c_pt_sublead] domain=subnuclear_pt_sublead  n=100,000  nonzero=100,000
+  [h1d_eta] domain=subnuclear_eta  n=100,000  nonzero=100,000
+    [2026-06-04 22:14:29 UTC] 250,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 22:14:34 UTC] 500,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 22:14:38 UTC] 750,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 22:14:43 UTC] 1,000,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 22:14:48 UTC] 1,250,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 22:14:53 UTC] 1,500,000 records streamed from g1_galaxy_kinematics...
+    [2026-06-04 22:14:57 UTC] 1,750,000 records streamed from g1_galaxy_kinematics...
+  [g1_galaxy_kinematics] domain=galactic  n=1,843,110  nonzero=1,843,110
+  [frb_chime] domain=astrophysics  n=4,636  nonzero=4,636
+  [l1_gwtc] domain=gravitational_wave  n=83  nonzero=83
+  [g2_wmap] domain=cmb_anisotropy  n=83  nonzero=83
+  [g1a_radius] domain=galactic_radius  n=100,000  nonzero=100,000
+  [g1b_sersic] domain=galactic_sersic  n=100,000  nonzero=59,563
+    [2026-06-04 22:15:06 UTC] 250,000 records streamed from g1c_mass...
+    [2026-06-04 22:15:09 UTC] 500,000 records streamed from g1c_mass...
+    [2026-06-04 22:15:13 UTC] 750,000 records streamed from g1c_mass...
+    [2026-06-04 22:15:17 UTC] 1,000,000 records streamed from g1c_mass...
+    [2026-06-04 22:15:20 UTC] 1,250,000 records streamed from g1c_mass...
+    [2026-06-04 22:15:24 UTC] 1,500,000 records streamed from g1c_mass...
+    [2026-06-04 22:15:28 UTC] 1,750,000 records streamed from g1c_mass...
+C:\Users\timot\Downloads\Science\src\Unification\vol11\engine\unify.py:179: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+  [g1c_mass] domain=galactic_mass  n=1,843,110  nonzero=1,843,110
+
+[2026-06-04 22:15:29 UTC] Run complete.
+  Total runtime:   0h 7m 1s
+  Total records:   24,712,554
+  Lakes processed: 61
+  Throughput:      58,584 records/sec (average)
+  Master checksum: 996f3b0b45c7df917692d7eed6a4cd9f
+  Checksum saved:  C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\unified_master.jsonl.md5
+
+Unified master written: C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\unified_master.jsonl
+Sweep results written:  C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\sweep_results.json
+Pinch table written:    C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\pinch_table.json
+
+Domain summary:
+  Domain                          n    nonzero     mean range
+  -----------------------------------------------------------------
+  astrophysics                4,636      4,636   3.6598 [1.6744, 5.5813]
+  atomic_ionisation             305        305   2.1062 [0.9755, 4.5231]
+  behavior                    2,515          (all zeros)
+  biology_amino                 167        157   1.8660 [1.7892, 1.8965]
+  biology_backbone_full   6,835,828  6,834,866   2.6022 [0.0585, 3.1935]
+  biology_backbone_top8000  3,374,310  3,373,828   2.5979 [0.0585, 3.1935]
+  biology_chirality              78         78   2.0300 [0.6325, 2.9967]
+  biology_other                  39         39   2.1654 [1.9459, 2.3026]
+  chemistry                  67,174     67,174   0.1760 [0.1047, 1.0472]
+  cmb_anisotropy                 83         83   2.3862 [1.4997, 2.6700]
+  cosmology                  10,000     10,000   2.4829 [2.3222, 2.6042]
+  galactic                1,843,110  1,843,110   3.2531 [2.6186, 4.1353]
+  galactic_mass           1,843,110  1,843,110  12.9990 [10.4395, 16.5381]
+  galactic_radius           100,000    100,000   0.7694 [0.0121, 5.6579]
+  galactic_sersic           100,000     59,563   0.3339 [0.0000, 0.4258]
+  gravitational_wave             83         83   3.2649 [2.4728, 4.0075]
+  kinematic_wrongbox      1,808,145          (all zeros)
+  materials                  33,973     33,973   0.7926 [0.6396, 1.1917]
+  materials_wrongbox         33,973     33,973   1.1007 [1.1007, 1.1007]
+  mathematics                 1,000          (all zeros)
+  mechanics                   2,484          (all zeros)
+  molecular_c60                  46         46   4.1591 [3.4482, 4.5229]
+  nuclear_binding                43         43   1.3013 [0.4593, 1.4014]
+  nuclear_decay               3,205      3,173   0.9186 [0.0000, 2.6569]
+  orbital                    13,521     13,521   3.8808 [0.0533, 9.7674]
+  orbital_mass                6,127      6,127   0.2455 [0.0000, 2.1095]
+  orbital_radius              5,843      5,843   0.2324 [0.0027, 6.0523]
+  orbital_transit             4,603      4,603   0.8978 [0.0769, 2.4572]
+  orbital_ttv               290,458    290,458   1.4582 [0.0006, 4.4679]
+  orbital_wrongbox           13,521     13,521  11.5842 [0.0005, 29.3022]
+  planetary                  14,116     14,116   1.2084 [0.8228, 1.3732]
+  planetary_atlantic          6,973      6,973   1.5982 [1.1954, 2.0246]
+  planetary_gulf              6,927      6,927   1.5165 [1.1954, 2.0685]
+  planetary_indian            4,929      4,929   1.6251 [1.4730, 2.0685]
+  planetary_pacific           6,838      6,838   1.5896 [1.1954, 2.0470]
+  quantum                     2,975      2,975   5.2020 [1.9633, 15.2521]
+  quantum_molecular_geometry         34         34   1.2531 [0.4128, 2.9556]
+  quantum_molecular_vibration         77         77   4.4998 [3.4369, 5.0893]
+  seismic_japan               4,006      4,006   0.7066 [0.0000, 2.5937]
+  seismic_reference             977        977   1.7345 [0.0000, 4.0150]
+  stellar                 2,000,000  2,000,000   4.0318 [0.9941, 5.6762]
+  stellar_age                 2,052      2,052   9.7807 [3.3105, 15.3179]
+  stellar_bfield              2,052      2,052  16.5902 [11.0671, 21.6613]
+  stellar_colour          1,979,697  1,979,697   0.5615 [0.0061, 1.2776]
+  stellar_cycle                  29         29   5.0945 [4.9747, 5.2461]
+  stellar_dm                  2,457      2,457   3.0004 [0.7481, 4.5973]
+  stellar_kinematic       1,808,145  1,808,145   1.0930 [-0.1935, 4.4446]
+  stellar_luminosity      2,000,000  2,000,000   0.5817 [0.0000, 1.6298]
+  stellar_rotation           67,311     67,311   1.8464 [0.1125, 5.7591]
+  stellar_spindown            2,052      1,638   0.0000 [0.0000, 0.0000]
+  stellar_wrongbox            2,527          (all zeros)
+  subnuclear_eta            100,000    100,000   0.4502 [0.0001, 0.7517]
+  subnuclear_mass           100,000    100,000   1.5163 [0.1613, 3.5043]
+  subnuclear_pt_lead        100,000    100,000   1.3448 [0.1450, 3.6285]
+  subnuclear_pt_sublead     100,000    100,000   1.3349 [0.3197, 3.8528]
+
+[2026-06-04 22:15:29 UTC] STAGE COMPLETE: unify in 7m 1s
+
+[2026-06-04 22:15:29 UTC] CHECKSUM: computing MD5 of unified_master.jsonl
+  Checksum:      294d25c49a8130b45c45bb081b61abab
+  Bytes:         19,157,194,481
+  Computed in:   33s
+  Written to:    lakes\unified\unified_master.jsonl.md5
+
+============================================================
+[2026-06-04 22:16:03 UTC] STAGE: CHAOS
+Build chaos null distributions per domain
+============================================================
+[harmonic_targets.json] Loaded 23 registers (N=4 to N=26), container=24, threshold=0.05
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live null generation dashboard.
+============================================================
+
+NOTE: This job builds null distributions for all domains.
+      Runtime: Dependent on lake sizes. Do not interrupt.
+
+k_geo = 16/pi = 5.0929581789
+Volume number: 11
+Registers (23): 4/pi=1.273240  5/pi=1.591549  6/pi=1.909859  7/pi=2.228169  8/pi=2.546479  9/pi=2.864789  10/pi=3.183099  11/pi=3.501409  12/pi=3.819719  13/pi=4.138029  14/pi=4.456338  15/pi=4.774648  16/pi=5.092958  17/pi=5.411268  18/pi=5.729578  19/pi=6.047888  20/pi=6.366198  21/pi=6.684508  22/pi=7.002817  23/pi=7.321127  24/pi=7.639437  25/pi=7.957747  26/pi=8.276057
+
+Loading unified master...
+
+Found 56 domain slots:
+  atomic_ionisation            n=   305  mean=2.1062  range=[0.9755, 4.5231]
+  biology_amino                n=   157  mean=1.8660  range=[1.7892, 1.8965]
+  biology_backbone_full        n=6834866  mean=2.6022  range=[0.0585, 3.1935]
+  biology_backbone_top8000     n=3373828  mean=2.5979  range=[0.0585, 3.1935]
+  biology_chirality            n=    78  mean=2.0300  range=[0.6325, 2.9967]
+  biology_other                n=    39  mean=2.1654  range=[1.9459, 2.3026]
+  chemistry                    n= 67174  mean=0.1760  range=[0.1047, 1.0472]
+  cmb_anisotropy               n=    83  mean=2.3862  range=[1.4997, 2.6700]
+  cosmology                    n=  5000  mean=2.4917  range=[2.3222, 2.6042]
+  frb                          n=  4636  mean=3.6598  range=[1.6744, 5.5813]
+  galactic                     n=1843110  mean=3.2531  range=[2.6186, 4.1353]
+  galactic_mass                n=1843110  mean=12.9990  range=[10.4395, 16.5381]
+  galactic_radius              n=100000  mean=0.7694  range=[0.0121, 5.6579]
+  galactic_sersic              n= 59563  mean=0.3339  range=[0.0000, 0.4258]
+  gravitational_wave           n=    83  mean=3.2649  range=[2.4728, 4.0074]
+  kinematic_wrongbox           n=1808145  (all zeros)
+  materials                    n= 33973  mean=0.7926  range=[0.6396, 1.1917]
+  materials_wrongbox           n= 33973  mean=1.1007  range=[1.1007, 1.1007]
+  molecular_c60                n=    46  mean=4.1591  range=[3.4482, 4.5229]
+  nuclear_binding              n=    43  mean=1.3013  range=[0.4593, 1.4014]
+  nuclear_decay                n=  3173  mean=0.9186  range=[0.0000, 2.6569]
+  null_behavior                n=  2515  (all zeros)
+  null_cosmology               n=  5000  mean=2.4742  range=[2.3223, 2.6042]
+  null_mathematics             n=  1000  (all zeros)
+  null_mechanics               n=  2484  (all zeros)
+  orbital                      n= 13521  mean=3.8808  range=[0.0533, 9.7674]
+  orbital_mass                 n=  6127  mean=0.2455  range=[0.0000, 2.1095]
+  orbital_radius               n=  5843  mean=0.2324  range=[0.0027, 6.0523]
+  orbital_transit              n=  4603  mean=0.8978  range=[0.0769, 2.4572]
+  orbital_ttv                  n=290458  mean=1.4582  range=[0.0006, 4.4679]
+  orbital_wrongbox             n= 13521  mean=11.5842  range=[0.0005, 29.3022]
+  planetary                    n= 14116  mean=1.2084  range=[0.8228, 1.3732]
+  planetary_atlantic           n=  6973  mean=1.5982  range=[1.1954, 2.0246]
+  planetary_gulf               n=  6927  mean=1.5165  range=[1.1954, 2.0685]
+  planetary_indian             n=  4929  mean=1.6251  range=[1.4730, 2.0685]
+  planetary_pacific            n=  6838  mean=1.5896  range=[1.1954, 2.0470]
+  quantum                      n=  2975  mean=5.2020  range=[1.9633, 15.2521]
+  quantum_molecular_geometry   n=    34  mean=1.2531  range=[0.4128, 2.9556]
+  quantum_molecular_vibration  n=    77  mean=4.4998  range=[3.4369, 5.0893]
+  seismic_japan                n=  4006  mean=0.7066  range=[0.0000, 2.5937]
+  seismic_reference            n=   977  mean=1.7345  range=[0.0000, 4.0150]
+  stellar                      n=2000000  mean=4.0318  range=[0.9941, 5.6762]
+  stellar_age                  n=  2052  mean=9.7807  range=[3.3105, 15.3179]
+  stellar_bfield               n=  2052  mean=16.5902  range=[11.0671, 21.6613]
+  stellar_colour               n=1979697  mean=0.5615  range=[0.0061, 1.2776]
+  stellar_cycle                n=    29  mean=5.0945  range=[4.9747, 5.2461]
+  stellar_dm                   n=  2457  mean=3.0004  range=[0.7481, 4.5973]
+  stellar_kinematic            n=1808145  mean=1.0930  range=[-0.1935, 4.4446]
+  stellar_luminosity           n=2000000  mean=0.5817  range=[0.0000, 1.6298]
+  stellar_rotation             n= 67311  mean=1.8464  range=[0.1125, 5.7591]
+  stellar_spindown             n=  1638  mean=0.0000  range=[0.0000, 0.0000]
+  stellar_wrongbox             n=  2527  (all zeros)
+  subnuclear_eta               n=100000  mean=0.4502  range=[0.0001, 0.7517]
+  subnuclear_mass              n=100000  mean=1.5163  range=[0.1613, 3.5043]
+  subnuclear_pt_lead           n=100000  mean=1.3448  range=[0.1450, 3.6285]
+  subnuclear_pt_sublead        n=100000  mean=1.3349  range=[0.3197, 3.8528]
+
+Building null lakes...
+
+[atomic_ionisation]  n=305
+  4/pi: real=0.1180  chaos=0.1311  synth=0.0918  delta=-0.0131
+  5/pi: real=0.1377  chaos=0.1180  synth=0.0721  delta=+0.0197 ** above chaos **
+  6/pi: real=0.1082  chaos=0.0656  synth=0.0885  delta=+0.0426 ** above chaos **
+  7/pi: real=0.0820  chaos=0.0951  synth=0.0852  delta=-0.0131
+  8/pi: real=0.0787  chaos=0.0787  synth=0.0820  delta=+0.0000
+  9/pi: real=0.1016  chaos=0.0951  synth=0.0787  delta=+0.0066 ** above chaos **
+  10/pi: real=0.1246  chaos=0.0984  synth=0.0918  delta=+0.0262 ** above chaos **
+  11/pi: real=0.1016  chaos=0.1246  synth=0.1180  delta=-0.0230
+  12/pi: real=0.1016  chaos=0.1082  synth=0.0852  delta=-0.0066
+  13/pi: real=0.1148  chaos=0.1016  synth=0.0951  delta=+0.0131 ** above chaos **
+  14/pi: real=0.0721  chaos=0.0820  synth=0.0918  delta=-0.0098
+  15/pi: real=0.1115  chaos=0.1016  synth=0.1049  delta=+0.0098 ** above chaos **
+  16/pi: real=0.1148  chaos=0.1016  synth=0.0918  delta=+0.0131 ** above chaos **
+  17/pi: real=0.0885  chaos=0.1377  synth=0.0787  delta=-0.0492
+  18/pi: real=0.1049  chaos=0.0852  synth=0.0951  delta=+0.0197 ** above chaos **
+  19/pi: real=0.0951  chaos=0.1279  synth=0.0820  delta=-0.0328
+  20/pi: real=0.1115  chaos=0.1213  synth=0.0852  delta=-0.0098
+  21/pi: real=0.0689  chaos=0.0689  synth=0.0721  delta=+0.0000
+  22/pi: real=0.0885  chaos=0.1082  synth=0.1148  delta=-0.0197
+  23/pi: real=0.1246  chaos=0.0918  synth=0.0492  delta=+0.0328 ** above chaos **
+  24/pi: real=0.1115  chaos=0.0951  synth=0.0754  delta=+0.0164 ** above chaos **
+  25/pi: real=0.1213  chaos=0.0918  synth=0.0984  delta=+0.0295 ** above chaos **
+  26/pi: real=0.1115  chaos=0.0885  synth=0.0918  delta=+0.0230 ** above chaos **
+  -> chaos_null_atomic_ionisation.jsonl
+  -> scramble_null_atomic_ionisation.jsonl
+  -> synthetic_null_atomic_ionisation.jsonl
+
+[biology_amino]  n=157
+  4/pi: real=0.1274  chaos=0.0764  synth=0.0892  delta=+0.0510 ** above chaos **
+  5/pi: real=0.1911  chaos=0.0764  synth=0.0955  delta=+0.1146 ** above chaos **
+  6/pi: real=0.0000  chaos=0.0764  synth=0.0255  delta=-0.0764
+  7/pi: real=0.3694  chaos=0.1083  synth=0.1401  delta=+0.2611 ** above chaos **
+  8/pi: real=0.0000  chaos=0.0573  synth=0.0000  delta=-0.0573
+  9/pi: real=0.0255  chaos=0.0573  synth=0.0000  delta=-0.0318
+  10/pi: real=0.3694  chaos=0.1656  synth=0.2420  delta=+0.2038 ** above chaos **
+  11/pi: real=0.0127  chaos=0.0637  synth=0.1083  delta=-0.0510
+  12/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  13/pi: real=0.0764  chaos=0.0701  synth=0.1274  delta=+0.0064 ** above chaos **
+  14/pi: real=0.4904  chaos=0.2293  synth=0.3567  delta=+0.2611 ** above chaos **
+  15/pi: real=0.0255  chaos=0.0892  synth=0.0000  delta=-0.0637
+  16/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  17/pi: real=0.0127  chaos=0.1529  synth=0.0000  delta=-0.1401
+  18/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  19/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  20/pi: real=0.4904  chaos=0.2866  synth=0.5096  delta=+0.2038 ** above chaos **
+  21/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  22/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  23/pi: real=0.0637  chaos=0.3758  synth=0.1019  delta=-0.3121
+  24/pi: real=0.0127  chaos=0.0127  synth=0.0637  delta=+0.0000
+  25/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  26/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  -> chaos_null_biology_amino.jsonl
+  -> scramble_null_biology_amino.jsonl
+  -> synthetic_null_biology_amino.jsonl
+
+[biology_backbone_full]  n=6834866
+  4/pi: real=0.0978  chaos=0.0997  synth=0.0908  delta=-0.0019
+  5/pi: real=0.1000  chaos=0.1015  synth=0.0911  delta=-0.0015
+  6/pi: real=0.0999  chaos=0.1016  synth=0.0914  delta=-0.0017
+  7/pi: real=0.0983  chaos=0.1006  synth=0.0907  delta=-0.0023
+  8/pi: real=0.1014  chaos=0.1014  synth=0.0920  delta=-0.0001
+  9/pi: real=0.0997  chaos=0.0988  synth=0.0892  delta=+0.0009
+  10/pi: real=0.0975  chaos=0.1015  synth=0.0923  delta=-0.0040
+  11/pi: real=0.0917  chaos=0.0977  synth=0.0880  delta=-0.0060
+  12/pi: real=0.1061  chaos=0.1014  synth=0.0927  delta=+0.0047
+  13/pi: real=0.1005  chaos=0.0990  synth=0.0902  delta=+0.0014
+  14/pi: real=0.1021  chaos=0.1004  synth=0.0923  delta=+0.0017
+  15/pi: real=0.1105  chaos=0.1015  synth=0.0934  delta=+0.0090 ** above chaos **
+  16/pi: real=0.1146  chaos=0.1013  synth=0.1907  delta=+0.0133 ** above chaos **
+  17/pi: real=0.0913  chaos=0.1006  synth=0.0927  delta=-0.0094
+  18/pi: real=0.0972  chaos=0.0989  synth=0.0916  delta=-0.0017
+  19/pi: real=0.1099  chaos=0.0965  synth=0.0889  delta=+0.0134 ** above chaos **
+  20/pi: real=0.0881  chaos=0.1007  synth=0.1904  delta=-0.0125
+  21/pi: real=0.1043  chaos=0.0976  synth=0.0910  delta=+0.0068 ** above chaos **
+  22/pi: real=0.0911  chaos=0.0930  synth=0.0846  delta=-0.0019
+  23/pi: real=0.0905  chaos=0.0975  synth=0.0910  delta=-0.0071
+  24/pi: real=0.1065  chaos=0.0996  synth=0.1902  delta=+0.0068 ** above chaos **
+  25/pi: real=0.1101  chaos=0.0952  synth=0.0892  delta=+0.0150 ** above chaos **
+  26/pi: real=0.0924  chaos=0.0990  synth=0.0937  delta=-0.0066
+  -> chaos_null_biology_backbone_full.jsonl
+  -> scramble_null_biology_backbone_full.jsonl
+  -> synthetic_null_biology_backbone_full.jsonl
+
+[biology_backbone_top8000]  n=3373828
+  4/pi: real=0.0977  chaos=0.0998  synth=0.0913  delta=-0.0020
+  5/pi: real=0.0996  chaos=0.1015  synth=0.0911  delta=-0.0020
+  6/pi: real=0.0999  chaos=0.1013  synth=0.0917  delta=-0.0014
+  7/pi: real=0.0981  chaos=0.1006  synth=0.0906  delta=-0.0025
+  8/pi: real=0.1014  chaos=0.1014  synth=0.0917  delta=-0.0000
+  9/pi: real=0.1000  chaos=0.0989  synth=0.0894  delta=+0.0011
+  10/pi: real=0.0970  chaos=0.1015  synth=0.0925  delta=-0.0045
+  11/pi: real=0.0908  chaos=0.0979  synth=0.0882  delta=-0.0070
+  12/pi: real=0.1078  chaos=0.1015  synth=0.0930  delta=+0.0063 ** above chaos **
+  13/pi: real=0.1003  chaos=0.0989  synth=0.0901  delta=+0.0014
+  14/pi: real=0.1002  chaos=0.1006  synth=0.0922  delta=-0.0004
+  15/pi: real=0.1109  chaos=0.1012  synth=0.0937  delta=+0.0096 ** above chaos **
+  16/pi: real=0.1191  chaos=0.1016  synth=0.1892  delta=+0.0175 ** above chaos **
+  17/pi: real=0.0888  chaos=0.1007  synth=0.0928  delta=-0.0120
+  18/pi: real=0.0952  chaos=0.0992  synth=0.0919  delta=-0.0041
+  19/pi: real=0.1139  chaos=0.0966  synth=0.0891  delta=+0.0173 ** above chaos **
+  20/pi: real=0.0838  chaos=0.1009  synth=0.1892  delta=-0.0171
+  21/pi: real=0.1056  chaos=0.0977  synth=0.0913  delta=+0.0079 ** above chaos **
+  22/pi: real=0.0911  chaos=0.0931  synth=0.0851  delta=-0.0019
+  23/pi: real=0.0866  chaos=0.0973  synth=0.0910  delta=-0.0108
+  24/pi: real=0.1101  chaos=0.0997  synth=0.1892  delta=+0.0104 ** above chaos **
+  25/pi: real=0.1113  chaos=0.0951  synth=0.0891  delta=+0.0163 ** above chaos **
+  26/pi: real=0.0892  chaos=0.0991  synth=0.0932  delta=-0.0098
+  -> chaos_null_biology_backbone_top8000.jsonl
+  -> scramble_null_biology_backbone_top8000.jsonl
+  -> synthetic_null_biology_backbone_top8000.jsonl
+
+[biology_chirality]  n=78
+  4/pi: real=0.0513  chaos=0.0897  synth=0.0897  delta=-0.0385
+  5/pi: real=0.1154  chaos=0.1410  synth=0.1154  delta=-0.0256
+  6/pi: real=0.1538  chaos=0.0897  synth=0.1410  delta=+0.0641 ** above chaos **
+  7/pi: real=0.2051  chaos=0.1154  synth=0.1282  delta=+0.0897 ** above chaos **
+  8/pi: real=0.1026  chaos=0.1282  synth=0.1282  delta=-0.0256
+  9/pi: real=0.1026  chaos=0.0641  synth=0.1154  delta=+0.0385 ** above chaos **
+  10/pi: real=0.0769  chaos=0.1538  synth=0.1026  delta=-0.0769
+  11/pi: real=0.1154  chaos=0.0769  synth=0.0897  delta=+0.0385 ** above chaos **
+  12/pi: real=0.1282  chaos=0.1154  synth=0.0897  delta=+0.0128 ** above chaos **
+  13/pi: real=0.1154  chaos=0.0513  synth=0.1026  delta=+0.0641 ** above chaos **
+  14/pi: real=0.1282  chaos=0.1026  synth=0.0897  delta=+0.0256 ** above chaos **
+  15/pi: real=0.1667  chaos=0.0769  synth=0.1282  delta=+0.0897 ** above chaos **
+  16/pi: real=0.1282  chaos=0.1538  synth=0.1667  delta=-0.0256
+  17/pi: real=0.1154  chaos=0.1154  synth=0.1026  delta=+0.0000
+  18/pi: real=0.0769  chaos=0.1282  synth=0.1154  delta=-0.0513
+  19/pi: real=0.0256  chaos=0.1410  synth=0.0641  delta=-0.1154
+  20/pi: real=0.1282  chaos=0.1026  synth=0.1410  delta=+0.0256 ** above chaos **
+  21/pi: real=0.0513  chaos=0.1410  synth=0.1538  delta=-0.0897
+  22/pi: real=0.0769  chaos=0.0897  synth=0.0513  delta=-0.0128
+  23/pi: real=0.1282  chaos=0.0385  synth=0.1026  delta=+0.0897 ** above chaos **
+  24/pi: real=0.1538  chaos=0.1667  synth=0.0641  delta=-0.0128
+  25/pi: real=0.1410  chaos=0.0641  synth=0.1154  delta=+0.0769 ** above chaos **
+  26/pi: real=0.1538  chaos=0.0641  synth=0.1667  delta=+0.0897 ** above chaos **
+  -> chaos_null_biology_chirality.jsonl
+  -> scramble_null_biology_chirality.jsonl
+  -> synthetic_null_biology_chirality.jsonl
+
+[biology_other]  n=39
+  4/pi: real=0.0000  chaos=0.1282  synth=0.0256  delta=-0.1282
+  5/pi: real=0.0000  chaos=0.1026  synth=0.0513  delta=-0.1026
+  6/pi: real=0.0000  chaos=0.0256  synth=0.0000  delta=-0.0256
+  7/pi: real=0.3846  chaos=0.1026  synth=0.1795  delta=+0.2821 ** above chaos **
+  8/pi: real=0.0000  chaos=0.1026  synth=0.0000  delta=-0.1026
+  9/pi: real=0.0000  chaos=0.1282  synth=0.0513  delta=-0.1282
+  10/pi: real=0.0000  chaos=0.0769  synth=0.1026  delta=-0.0769
+  11/pi: real=0.0000  chaos=0.1538  synth=0.0769  delta=-0.1538
+  12/pi: real=0.0000  chaos=0.0256  synth=0.0000  delta=-0.0256
+  13/pi: real=0.0000  chaos=0.0769  synth=0.1026  delta=-0.0769
+  14/pi: real=0.0000  chaos=0.0769  synth=0.0256  delta=-0.0769
+  15/pi: real=0.0000  chaos=0.1026  synth=0.0513  delta=-0.1026
+  16/pi: real=0.0000  chaos=0.0769  synth=0.0769  delta=-0.0769
+  17/pi: real=0.0000  chaos=0.1795  synth=0.1795  delta=-0.1795
+  18/pi: real=0.0000  chaos=0.0256  synth=0.0256  delta=-0.0256
+  19/pi: real=0.0000  chaos=0.1538  synth=0.1026  delta=-0.1538
+  20/pi: real=0.0000  chaos=0.1026  synth=0.1026  delta=-0.1026
+  21/pi: real=0.3846  chaos=0.1538  synth=0.1795  delta=+0.2308 ** above chaos **
+  22/pi: real=0.0000  chaos=0.1026  synth=0.0256  delta=-0.1026
+  23/pi: real=0.0000  chaos=0.1282  synth=0.1026  delta=-0.1282
+  24/pi: real=0.0000  chaos=0.0513  synth=0.0000  delta=-0.0513
+  25/pi: real=0.0000  chaos=0.0513  synth=0.0000  delta=-0.0513
+  26/pi: real=0.0000  chaos=0.0769  synth=0.0256  delta=-0.0769
+  -> chaos_null_biology_other.jsonl
+  -> scramble_null_biology_other.jsonl
+  -> synthetic_null_biology_other.jsonl
+
+[chemistry]  n=67174
+  4/pi: real=0.0804  chaos=0.0986  synth=0.1311  delta=-0.0182
+  5/pi: real=0.1330  chaos=0.0973  synth=0.0999  delta=+0.0357 ** above chaos **
+  6/pi: real=0.0841  chaos=0.1003  synth=0.0941  delta=-0.0163
+  7/pi: real=0.0891  chaos=0.0990  synth=0.0939  delta=-0.0099
+  8/pi: real=0.0512  chaos=0.0958  synth=0.1204  delta=-0.0446
+  9/pi: real=0.0125  chaos=0.1011  synth=0.0767  delta=-0.0886
+  10/pi: real=0.1082  chaos=0.0980  synth=0.0845  delta=+0.0101 ** above chaos **
+  11/pi: real=0.1844  chaos=0.1080  synth=0.1128  delta=+0.0764 ** above chaos **
+  12/pi: real=0.1752  chaos=0.1019  synth=0.1447  delta=+0.0733 ** above chaos **
+  13/pi: real=0.1654  chaos=0.1106  synth=0.1746  delta=+0.0548 ** above chaos **
+  14/pi: real=0.1434  chaos=0.0982  synth=0.1816  delta=+0.0452 ** above chaos **
+  15/pi: real=0.1196  chaos=0.1077  synth=0.1691  delta=+0.0119 ** above chaos **
+  16/pi: real=0.0854  chaos=0.0900  synth=0.1380  delta=-0.0046
+  17/pi: real=0.0651  chaos=0.0952  synth=0.1040  delta=-0.0301
+  18/pi: real=0.0489  chaos=0.1004  synth=0.0686  delta=-0.0515
+  19/pi: real=0.0386  chaos=0.1064  synth=0.0401  delta=-0.0677
+  20/pi: real=0.0170  chaos=0.0851  synth=0.0225  delta=-0.0681
+  21/pi: real=0.0113  chaos=0.0878  synth=0.0108  delta=-0.0766
+  22/pi: real=0.0191  chaos=0.0920  synth=0.0045  delta=-0.0729
+  23/pi: real=0.0079  chaos=0.0962  synth=0.0016  delta=-0.0883
+  24/pi: real=0.0040  chaos=0.1041  synth=0.0006  delta=-0.1001
+  25/pi: real=0.0040  chaos=0.1074  synth=0.0002  delta=-0.1034
+  26/pi: real=0.0033  chaos=0.1064  synth=0.0001  delta=-0.1032
+  -> chaos_null_chemistry.jsonl
+  -> scramble_null_chemistry.jsonl
+  -> synthetic_null_chemistry.jsonl
+
+[cmb_anisotropy]  n=83
+  4/pi: real=0.0602  chaos=0.1325  synth=0.0602  delta=-0.0723
+  5/pi: real=0.0843  chaos=0.1205  synth=0.0361  delta=-0.0361
+  6/pi: real=0.0723  chaos=0.1205  synth=0.0723  delta=-0.0482
+  7/pi: real=0.1084  chaos=0.0482  synth=0.0843  delta=+0.0602 ** above chaos **
+  8/pi: real=0.0723  chaos=0.1687  synth=0.0964  delta=-0.0964
+  9/pi: real=0.0843  chaos=0.1446  synth=0.0964  delta=-0.0602
+  10/pi: real=0.1205  chaos=0.0723  synth=0.0482  delta=+0.0482 ** above chaos **
+  11/pi: real=0.0482  chaos=0.1325  synth=0.1084  delta=-0.0843
+  12/pi: real=0.1205  chaos=0.1205  synth=0.0843  delta=+0.0000
+  13/pi: real=0.1084  chaos=0.1325  synth=0.0964  delta=-0.0241
+  14/pi: real=0.1325  chaos=0.0602  synth=0.1325  delta=+0.0723 ** above chaos **
+  15/pi: real=0.0723  chaos=0.1446  synth=0.0723  delta=-0.0723
+  16/pi: real=0.0241  chaos=0.1566  synth=0.0843  delta=-0.1325
+  17/pi: real=0.0482  chaos=0.0964  synth=0.0723  delta=-0.0482
+  18/pi: real=0.1084  chaos=0.0964  synth=0.0723  delta=+0.0120 ** above chaos **
+  19/pi: real=0.0964  chaos=0.0843  synth=0.0482  delta=+0.0120 ** above chaos **
+  20/pi: real=0.1807  chaos=0.1084  synth=0.0482  delta=+0.0723 ** above chaos **
+  21/pi: real=0.1446  chaos=0.0482  synth=0.1446  delta=+0.0964 ** above chaos **
+  22/pi: real=0.0723  chaos=0.1205  synth=0.1205  delta=-0.0482
+  23/pi: real=0.0361  chaos=0.0482  synth=0.0964  delta=-0.0120
+  24/pi: real=0.1084  chaos=0.1446  synth=0.1205  delta=-0.0361
+  25/pi: real=0.3012  chaos=0.0361  synth=0.0843  delta=+0.2651 ** above chaos **
+  26/pi: real=0.1446  chaos=0.1205  synth=0.0843  delta=+0.0241 ** above chaos **
+  -> chaos_null_cmb_anisotropy.jsonl
+  -> scramble_null_cmb_anisotropy.jsonl
+  -> synthetic_null_cmb_anisotropy.jsonl
+
+[cosmology]  n=5000
+  4/pi: real=0.1320  chaos=0.1146  synth=0.0952  delta=+0.0174 ** above chaos **
+  5/pi: real=0.1128  chaos=0.1020  synth=0.1164  delta=+0.0108 ** above chaos **
+  6/pi: real=0.0940  chaos=0.0880  synth=0.0882  delta=+0.0060 ** above chaos **
+  7/pi: real=0.1246  chaos=0.1100  synth=0.1066  delta=+0.0146 ** above chaos **
+  8/pi: real=0.1042  chaos=0.1150  synth=0.0880  delta=-0.0108
+  9/pi: real=0.0742  chaos=0.0916  synth=0.0826  delta=-0.0174
+  10/pi: real=0.0898  chaos=0.0892  synth=0.1008  delta=+0.0006
+  11/pi: real=0.0794  chaos=0.1070  synth=0.0848  delta=-0.0276
+  12/pi: real=0.1210  chaos=0.1166  synth=0.1042  delta=+0.0044
+  13/pi: real=0.1440  chaos=0.1162  synth=0.0890  delta=+0.0278 ** above chaos **
+  14/pi: real=0.1380  chaos=0.1048  synth=0.1646  delta=+0.0332 ** above chaos **
+  15/pi: real=0.1774  chaos=0.1386  synth=0.0996  delta=+0.0388 ** above chaos **
+  16/pi: real=0.1520  chaos=0.1586  synth=0.1030  delta=-0.0066
+  17/pi: real=0.0718  chaos=0.0792  synth=0.1108  delta=-0.0074
+  18/pi: real=0.0656  chaos=0.0820  synth=0.0552  delta=-0.0164
+  19/pi: real=0.1100  chaos=0.0892  synth=0.1170  delta=+0.0208 ** above chaos **
+  20/pi: real=0.0724  chaos=0.0898  synth=0.0612  delta=-0.0174
+  21/pi: real=0.1108  chaos=0.1060  synth=0.1280  delta=+0.0048
+  22/pi: real=0.0586  chaos=0.0990  synth=0.0396  delta=-0.0404
+  23/pi: real=0.0730  chaos=0.1054  synth=0.1166  delta=-0.0324
+  24/pi: real=0.1522  chaos=0.1162  synth=0.1290  delta=+0.0360 ** above chaos **
+  25/pi: real=0.0344  chaos=0.0618  synth=0.0304  delta=-0.0274
+  26/pi: real=0.0858  chaos=0.1142  synth=0.0996  delta=-0.0284
+  -> chaos_null_cosmology.jsonl
+  -> scramble_null_cosmology.jsonl
+  -> synthetic_null_cosmology.jsonl
+
+[frb]  n=4636
+  4/pi: real=0.1100  chaos=0.1025  synth=0.0966  delta=+0.0075 ** above chaos **
+  5/pi: real=0.0878  chaos=0.0936  synth=0.0936  delta=-0.0058
+  6/pi: real=0.0833  chaos=0.0969  synth=0.0943  delta=-0.0136
+  7/pi: real=0.0798  chaos=0.0958  synth=0.0962  delta=-0.0160
+  8/pi: real=0.0953  chaos=0.0979  synth=0.1016  delta=-0.0026
+  9/pi: real=0.0923  chaos=0.1003  synth=0.1018  delta=-0.0080
+  10/pi: real=0.0887  chaos=0.0997  synth=0.0966  delta=-0.0110
+  11/pi: real=0.0867  chaos=0.0949  synth=0.1005  delta=-0.0082
+  12/pi: real=0.0910  chaos=0.0992  synth=0.0953  delta=-0.0082
+  13/pi: real=0.1012  chaos=0.0975  synth=0.0951  delta=+0.0037
+  14/pi: real=0.0874  chaos=0.0975  synth=0.0988  delta=-0.0101
+  15/pi: real=0.0943  chaos=0.1046  synth=0.0956  delta=-0.0104
+  16/pi: real=0.1072  chaos=0.0994  synth=0.0997  delta=+0.0078 ** above chaos **
+  17/pi: real=0.0923  chaos=0.0940  synth=0.0971  delta=-0.0017
+  18/pi: real=0.1079  chaos=0.1100  synth=0.1040  delta=-0.0022
+  19/pi: real=0.0940  chaos=0.1044  synth=0.1038  delta=-0.0104
+  20/pi: real=0.0828  chaos=0.1027  synth=0.0977  delta=-0.0198
+  21/pi: real=0.1044  chaos=0.1016  synth=0.0975  delta=+0.0028
+  22/pi: real=0.0843  chaos=0.0971  synth=0.1091  delta=-0.0127
+  23/pi: real=0.0947  chaos=0.1035  synth=0.0951  delta=-0.0088
+  24/pi: real=0.0994  chaos=0.0932  synth=0.1074  delta=+0.0063 ** above chaos **
+  25/pi: real=0.0908  chaos=0.0921  synth=0.0878  delta=-0.0013
+  26/pi: real=0.1124  chaos=0.1074  synth=0.0986  delta=+0.0050
+  -> chaos_null_frb.jsonl
+  -> scramble_null_frb.jsonl
+  -> synthetic_null_frb.jsonl
+
+[galactic]  n=1843110
+  4/pi: real=0.1004  chaos=0.0980  synth=0.0989  delta=+0.0023
+  5/pi: real=0.0987  chaos=0.1003  synth=0.0996  delta=-0.0017
+  6/pi: real=0.1030  chaos=0.1004  synth=0.0997  delta=+0.0026
+  7/pi: real=0.0987  chaos=0.0978  synth=0.0991  delta=+0.0009
+  8/pi: real=0.1020  chaos=0.0999  synth=0.0993  delta=+0.0021
+  9/pi: real=0.1028  chaos=0.1021  synth=0.0996  delta=+0.0006
+  10/pi: real=0.0983  chaos=0.1047  synth=0.0997  delta=-0.0064
+  11/pi: real=0.1043  chaos=0.1058  synth=0.0996  delta=-0.0016
+  12/pi: real=0.1028  chaos=0.0977  synth=0.0995  delta=+0.0051 ** above chaos **
+  13/pi: real=0.0995  chaos=0.0948  synth=0.0991  delta=+0.0047
+  14/pi: real=0.0991  chaos=0.0979  synth=0.0987  delta=+0.0013
+  15/pi: real=0.0971  chaos=0.0919  synth=0.0987  delta=+0.0052 ** above chaos **
+  16/pi: real=0.1004  chaos=0.0978  synth=0.0990  delta=+0.0026
+  17/pi: real=0.0984  chaos=0.1042  synth=0.0993  delta=-0.0058
+  18/pi: real=0.1076  chaos=0.1071  synth=0.1074  delta=+0.0005
+  19/pi: real=0.1008  chaos=0.0995  synth=0.0993  delta=+0.0013
+  20/pi: real=0.0994  chaos=0.1044  synth=0.0999  delta=-0.0050
+  21/pi: real=0.1038  chaos=0.0920  synth=0.0993  delta=+0.0118 ** above chaos **
+  22/pi: real=0.0971  chaos=0.1106  synth=0.1070  delta=-0.0135
+  23/pi: real=0.1069  chaos=0.1009  synth=0.0998  delta=+0.0060 ** above chaos **
+  24/pi: real=0.0917  chaos=0.0924  synth=0.0989  delta=-0.0007
+  25/pi: real=0.1077  chaos=0.1093  synth=0.0999  delta=-0.0016
+  26/pi: real=0.0994  chaos=0.1004  synth=0.1003  delta=-0.0010
+  -> chaos_null_galactic.jsonl
+  -> scramble_null_galactic.jsonl
+  -> synthetic_null_galactic.jsonl
+
+[galactic_mass]  n=1843110
+  4/pi: real=0.1004  chaos=0.0999  synth=0.0992  delta=+0.0005
+  5/pi: real=0.0995  chaos=0.0998  synth=0.0990  delta=-0.0003
+  6/pi: real=0.0995  chaos=0.0990  synth=0.0989  delta=+0.0005
+  7/pi: real=0.0991  chaos=0.1008  synth=0.0993  delta=-0.0017
+  8/pi: real=0.1004  chaos=0.0991  synth=0.0994  delta=+0.0013
+  9/pi: real=0.0997  chaos=0.0999  synth=0.0993  delta=-0.0002
+  10/pi: real=0.1006  chaos=0.1003  synth=0.0993  delta=+0.0003
+  11/pi: real=0.1009  chaos=0.1005  synth=0.0992  delta=+0.0005
+  12/pi: real=0.0992  chaos=0.0992  synth=0.0991  delta=-0.0000
+  13/pi: real=0.0993  chaos=0.0987  synth=0.0994  delta=+0.0006
+  14/pi: real=0.0993  chaos=0.1006  synth=0.0993  delta=-0.0012
+  15/pi: real=0.0986  chaos=0.1011  synth=0.0992  delta=-0.0026
+  16/pi: real=0.0999  chaos=0.0977  synth=0.0989  delta=+0.0022
+  17/pi: real=0.0999  chaos=0.1000  synth=0.0991  delta=-0.0001
+  18/pi: real=0.1019  chaos=0.1019  synth=0.0991  delta=+0.0000
+  19/pi: real=0.1024  chaos=0.0988  synth=0.0990  delta=+0.0036
+  20/pi: real=0.0994  chaos=0.1005  synth=0.0993  delta=-0.0011
+  21/pi: real=0.1012  chaos=0.1007  synth=0.0992  delta=+0.0005
+  22/pi: real=0.1019  chaos=0.1006  synth=0.0993  delta=+0.0013
+  23/pi: real=0.1021  chaos=0.1003  synth=0.0990  delta=+0.0018
+  24/pi: real=0.1022  chaos=0.0996  synth=0.0998  delta=+0.0026
+  25/pi: real=0.0977  chaos=0.0981  synth=0.0993  delta=-0.0003
+  26/pi: real=0.0999  chaos=0.0967  synth=0.0994  delta=+0.0032
+  -> chaos_null_galactic_mass.jsonl
+  -> scramble_null_galactic_mass.jsonl
+  -> synthetic_null_galactic_mass.jsonl
+
+[galactic_radius]  n=100000
+  4/pi: real=0.0927  chaos=0.0996  synth=0.0712  delta=-0.0068
+  5/pi: real=0.0919  chaos=0.0997  synth=0.0703  delta=-0.0078
+  6/pi: real=0.0941  chaos=0.1005  synth=0.0713  delta=-0.0064
+  7/pi: real=0.0931  chaos=0.0993  synth=0.0709  delta=-0.0062
+  8/pi: real=0.0935  chaos=0.0998  synth=0.0708  delta=-0.0063
+  9/pi: real=0.0925  chaos=0.0984  synth=0.0715  delta=-0.0059
+  10/pi: real=0.0915  chaos=0.0996  synth=0.0697  delta=-0.0081
+  11/pi: real=0.0919  chaos=0.0984  synth=0.0702  delta=-0.0066
+  12/pi: real=0.0968  chaos=0.0977  synth=0.0711  delta=-0.0009
+  13/pi: real=0.0978  chaos=0.0980  synth=0.0695  delta=-0.0003
+  14/pi: real=0.0961  chaos=0.0998  synth=0.0691  delta=-0.0037
+  15/pi: real=0.0867  chaos=0.0984  synth=0.0695  delta=-0.0117
+  16/pi: real=0.0820  chaos=0.0973  synth=0.0707  delta=-0.0153
+  17/pi: real=0.0771  chaos=0.1003  synth=0.0682  delta=-0.0232
+  18/pi: real=0.0798  chaos=0.0961  synth=0.0700  delta=-0.0164
+  19/pi: real=0.0841  chaos=0.0966  synth=0.0696  delta=-0.0125
+  20/pi: real=0.0888  chaos=0.1000  synth=0.0685  delta=-0.0112
+  21/pi: real=0.0961  chaos=0.1007  synth=0.0671  delta=-0.0046
+  22/pi: real=0.1043  chaos=0.0975  synth=0.0689  delta=+0.0068 ** above chaos **
+  23/pi: real=0.1126  chaos=0.0964  synth=0.0687  delta=+0.0162 ** above chaos **
+  24/pi: real=0.1208  chaos=0.0959  synth=0.0693  delta=+0.0249 ** above chaos **
+  25/pi: real=0.1285  chaos=0.0994  synth=0.0676  delta=+0.0291 ** above chaos **
+  26/pi: real=0.1313  chaos=0.0985  synth=0.0673  delta=+0.0327 ** above chaos **
+  -> chaos_null_galactic_radius.jsonl
+  -> scramble_null_galactic_radius.jsonl
+  -> synthetic_null_galactic_radius.jsonl
+
+[galactic_sersic]  n=59563
+  4/pi: real=0.4618  chaos=0.0959  synth=0.3013  delta=+0.3660 ** above chaos **
+  5/pi: real=0.0596  chaos=0.0951  synth=0.0779  delta=-0.0355
+  6/pi: real=0.0612  chaos=0.0955  synth=0.0795  delta=-0.0344
+  7/pi: real=0.0539  chaos=0.0857  synth=0.0775  delta=-0.0319
+  8/pi: real=0.4607  chaos=0.0911  synth=0.3005  delta=+0.3696 ** above chaos **
+  9/pi: real=0.0508  chaos=0.0837  synth=0.0759  delta=-0.0330
+  10/pi: real=0.0688  chaos=0.0950  synth=0.0864  delta=-0.0262
+  11/pi: real=0.0355  chaos=0.0682  synth=0.0605  delta=-0.0327
+  12/pi: real=0.0427  chaos=0.0757  synth=0.0711  delta=-0.0329
+  13/pi: real=0.0518  chaos=0.0822  synth=0.0788  delta=-0.0303
+  14/pi: real=0.0644  chaos=0.0872  synth=0.0883  delta=-0.0227
+  15/pi: real=0.0804  chaos=0.0935  synth=0.0933  delta=-0.0131
+  16/pi: real=0.4645  chaos=0.0785  synth=0.2937  delta=+0.3861 ** above chaos **
+  17/pi: real=0.0245  chaos=0.0540  synth=0.0498  delta=-0.0295
+  18/pi: real=0.0290  chaos=0.0553  synth=0.0574  delta=-0.0263
+  19/pi: real=0.0337  chaos=0.0574  synth=0.0659  delta=-0.0237
+  20/pi: real=0.0361  chaos=0.0608  synth=0.0754  delta=-0.0247
+  21/pi: real=0.0403  chaos=0.0661  synth=0.0843  delta=-0.0258
+  22/pi: real=0.0448  chaos=0.0691  synth=0.0919  delta=-0.0243
+  23/pi: real=0.0506  chaos=0.0724  synth=0.1004  delta=-0.0218
+  24/pi: real=0.0578  chaos=0.0755  synth=0.1058  delta=-0.0177
+  25/pi: real=0.0642  chaos=0.0785  synth=0.1098  delta=-0.0143
+  26/pi: real=0.0717  chaos=0.0805  synth=0.1124  delta=-0.0088
+  -> chaos_null_galactic_sersic.jsonl
+  -> scramble_null_galactic_sersic.jsonl
+  -> synthetic_null_galactic_sersic.jsonl
+
+[gravitational_wave]  n=83
+  4/pi: real=0.0964  chaos=0.1325  synth=0.1687  delta=-0.0361
+  5/pi: real=0.1325  chaos=0.0723  synth=0.0843  delta=+0.0602 ** above chaos **
+  6/pi: real=0.0482  chaos=0.0602  synth=0.1084  delta=-0.0120
+  7/pi: real=0.0964  chaos=0.1325  synth=0.0602  delta=-0.0361
+  8/pi: real=0.1205  chaos=0.0602  synth=0.1446  delta=+0.0602 ** above chaos **
+  9/pi: real=0.0964  chaos=0.1205  synth=0.0723  delta=-0.0241
+  10/pi: real=0.1084  chaos=0.0964  synth=0.0964  delta=+0.0120 ** above chaos **
+  11/pi: real=0.0723  chaos=0.1325  synth=0.1566  delta=-0.0602
+  12/pi: real=0.0964  chaos=0.1205  synth=0.0602  delta=-0.0241
+  13/pi: real=0.1084  chaos=0.0843  synth=0.0843  delta=+0.0241 ** above chaos **
+  14/pi: real=0.0964  chaos=0.0964  synth=0.0602  delta=+0.0000
+  15/pi: real=0.1084  chaos=0.0723  synth=0.1084  delta=+0.0361 ** above chaos **
+  16/pi: real=0.1807  chaos=0.0482  synth=0.1205  delta=+0.1325 ** above chaos **
+  17/pi: real=0.1205  chaos=0.1205  synth=0.0723  delta=+0.0000
+  18/pi: real=0.0602  chaos=0.0964  synth=0.1084  delta=-0.0361
+  19/pi: real=0.0602  chaos=0.1084  synth=0.0602  delta=-0.0482
+  20/pi: real=0.1446  chaos=0.1084  synth=0.0723  delta=+0.0361 ** above chaos **
+  21/pi: real=0.1205  chaos=0.1205  synth=0.0723  delta=+0.0000
+  22/pi: real=0.0602  chaos=0.0602  synth=0.0964  delta=+0.0000
+  23/pi: real=0.1325  chaos=0.1325  synth=0.1446  delta=+0.0000
+  24/pi: real=0.1084  chaos=0.0843  synth=0.0843  delta=+0.0241 ** above chaos **
+  25/pi: real=0.1446  chaos=0.1325  synth=0.0602  delta=+0.0120 ** above chaos **
+  26/pi: real=0.0843  chaos=0.1325  synth=0.0843  delta=-0.0482
+  -> chaos_null_gravitational_wave.jsonl
+  -> scramble_null_gravitational_wave.jsonl
+  -> synthetic_null_gravitational_wave.jsonl
+
+[SKIP] kinematic_wrongbox -- all zeros
+[materials]  n=33973
+  4/pi: real=0.0990  chaos=0.0981  synth=0.0985  delta=+0.0009
+  5/pi: real=0.0938  chaos=0.0980  synth=0.1013  delta=-0.0043
+  6/pi: real=0.0875  chaos=0.0916  synth=0.1038  delta=-0.0041
+  7/pi: real=0.1099  chaos=0.1002  synth=0.0979  delta=+0.0097 ** above chaos **
+  8/pi: real=0.1177  chaos=0.1001  synth=0.0982  delta=+0.0176 ** above chaos **
+  9/pi: real=0.0902  chaos=0.0947  synth=0.0974  delta=-0.0045
+  10/pi: real=0.0819  chaos=0.1035  synth=0.1121  delta=-0.0215
+  11/pi: real=0.1013  chaos=0.1016  synth=0.0862  delta=-0.0003
+  12/pi: real=0.0921  chaos=0.0975  synth=0.1250  delta=-0.0054
+  13/pi: real=0.0747  chaos=0.0921  synth=0.0729  delta=-0.0174
+  14/pi: real=0.1305  chaos=0.1025  synth=0.0938  delta=+0.0281 ** above chaos **
+  15/pi: real=0.1150  chaos=0.0862  synth=0.1514  delta=+0.0288 ** above chaos **
+  16/pi: real=0.0928  chaos=0.0908  synth=0.0936  delta=+0.0020
+  17/pi: real=0.0299  chaos=0.1237  synth=0.0346  delta=-0.0938
+  18/pi: real=0.0669  chaos=0.1046  synth=0.0649  delta=-0.0376
+  19/pi: real=0.2007  chaos=0.0926  synth=0.1500  delta=+0.1081 ** above chaos **
+  20/pi: real=0.1561  chaos=0.0976  synth=0.2033  delta=+0.0585 ** above chaos **
+  21/pi: real=0.1375  chaos=0.1008  synth=0.1519  delta=+0.0367 ** above chaos **
+  22/pi: real=0.0757  chaos=0.1039  synth=0.0641  delta=-0.0282
+  23/pi: real=0.0200  chaos=0.0561  synth=0.0161  delta=-0.0361
+  24/pi: real=0.0025  chaos=0.0813  synth=0.0052  delta=-0.0788
+  25/pi: real=0.0032  chaos=0.1184  synth=0.0130  delta=-0.1152
+  26/pi: real=0.0289  chaos=0.1241  synth=0.0402  delta=-0.0952
+  -> chaos_null_materials.jsonl
+  -> scramble_null_materials.jsonl
+  -> synthetic_null_materials.jsonl
+
+[materials_wrongbox]  n=33973
+  4/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  5/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  6/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  7/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  8/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  9/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  10/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  11/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  12/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  13/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  14/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  15/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  16/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  17/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  18/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  19/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  20/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  21/pi: real=1.0000  chaos=1.0000  synth=1.0000  delta=+0.0000
+  22/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  23/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  24/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  25/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  26/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  -> chaos_null_materials_wrongbox.jsonl
+  -> scramble_null_materials_wrongbox.jsonl
+  -> synthetic_null_materials_wrongbox.jsonl
+
+[molecular_c60]  n=46
+  4/pi: real=0.1957  chaos=0.1522  synth=0.0870  delta=+0.0435 ** above chaos **
+  5/pi: real=0.0652  chaos=0.1304  synth=0.0870  delta=-0.0652
+  6/pi: real=0.0870  chaos=0.0217  synth=0.0000  delta=+0.0652 ** above chaos **
+  7/pi: real=0.1522  chaos=0.1304  synth=0.1739  delta=+0.0217 ** above chaos **
+  8/pi: real=0.1304  chaos=0.0870  synth=0.0870  delta=+0.0435 ** above chaos **
+  9/pi: real=0.1087  chaos=0.0435  synth=0.0652  delta=+0.0652 ** above chaos **
+  10/pi: real=0.1087  chaos=0.0652  synth=0.1087  delta=+0.0435 ** above chaos **
+  11/pi: real=0.1522  chaos=0.1522  synth=0.1739  delta=+0.0000
+  12/pi: real=0.1522  chaos=0.0652  synth=0.0652  delta=+0.0870 ** above chaos **
+  13/pi: real=0.1304  chaos=0.1087  synth=0.0652  delta=+0.0217 ** above chaos **
+  14/pi: real=0.2174  chaos=0.0870  synth=0.1304  delta=+0.1304 ** above chaos **
+  15/pi: real=0.0217  chaos=0.1087  synth=0.0652  delta=-0.0870
+  16/pi: real=0.1739  chaos=0.1087  synth=0.0870  delta=+0.0652 ** above chaos **
+  17/pi: real=0.0870  chaos=0.0870  synth=0.0870  delta=+0.0000
+  18/pi: real=0.1087  chaos=0.0652  synth=0.0217  delta=+0.0435 ** above chaos **
+  19/pi: real=0.0652  chaos=0.1304  synth=0.1304  delta=-0.0652
+  20/pi: real=0.0652  chaos=0.1304  synth=0.0870  delta=-0.0652
+  21/pi: real=0.1522  chaos=0.0870  synth=0.0652  delta=+0.0652 ** above chaos **
+  22/pi: real=0.1087  chaos=0.1087  synth=0.0870  delta=+0.0000
+  23/pi: real=0.0435  chaos=0.1087  synth=0.0435  delta=-0.0652
+  24/pi: real=0.1304  chaos=0.0652  synth=0.0870  delta=+0.0652 ** above chaos **
+  25/pi: real=0.0652  chaos=0.0870  synth=0.0435  delta=-0.0217
+  26/pi: real=0.1087  chaos=0.1087  synth=0.1087  delta=+0.0000
+  -> chaos_null_molecular_c60.jsonl
+  -> scramble_null_molecular_c60.jsonl
+  -> synthetic_null_molecular_c60.jsonl
+
+[nuclear_binding]  n=43
+  4/pi: real=0.1163  chaos=0.0698  synth=0.1395  delta=+0.0465 ** above chaos **
+  5/pi: real=0.0698  chaos=0.2093  synth=0.1860  delta=-0.1395
+  6/pi: real=0.0465  chaos=0.0930  synth=0.0930  delta=-0.0465
+  7/pi: real=0.0930  chaos=0.1860  synth=0.1860  delta=-0.0930
+  8/pi: real=0.1628  chaos=0.0698  synth=0.0930  delta=+0.0930 ** above chaos **
+  9/pi: real=0.0465  chaos=0.1163  synth=0.0930  delta=-0.0698
+  10/pi: real=0.0698  chaos=0.1860  synth=0.0930  delta=-0.1163
+  11/pi: real=0.0698  chaos=0.0698  synth=0.0233  delta=+0.0000
+  12/pi: real=0.0233  chaos=0.0465  synth=0.0930  delta=-0.0233
+  13/pi: real=0.2326  chaos=0.0930  synth=0.0698  delta=+0.1395 ** above chaos **
+  14/pi: real=0.0000  chaos=0.0930  synth=0.0930  delta=-0.0930
+  15/pi: real=0.3721  chaos=0.2093  synth=0.4884  delta=+0.1628 ** above chaos **
+  16/pi: real=0.0465  chaos=0.1163  synth=0.0698  delta=-0.0698
+  17/pi: real=0.1395  chaos=0.0698  synth=0.0233  delta=+0.0698 ** above chaos **
+  18/pi: real=0.0000  chaos=0.1163  synth=0.0698  delta=-0.1163
+  19/pi: real=0.0233  chaos=0.0465  synth=0.1163  delta=-0.0233
+  20/pi: real=0.1163  chaos=0.1860  synth=0.0465  delta=-0.0698
+  21/pi: real=0.4651  chaos=0.1628  synth=0.4651  delta=+0.3023 ** above chaos **
+  22/pi: real=0.0233  chaos=0.0000  synth=0.0698  delta=+0.0233 ** above chaos **
+  23/pi: real=0.0233  chaos=0.0930  synth=0.0233  delta=-0.0698
+  24/pi: real=0.0465  chaos=0.0930  synth=0.1163  delta=-0.0465
+  25/pi: real=0.1860  chaos=0.1395  synth=0.0698  delta=+0.0465 ** above chaos **
+  26/pi: real=0.3023  chaos=0.1163  synth=0.1163  delta=+0.1860 ** above chaos **
+  -> chaos_null_nuclear_binding.jsonl
+  -> scramble_null_nuclear_binding.jsonl
+  -> synthetic_null_nuclear_binding.jsonl
+
+[nuclear_decay]  n=3173
+  4/pi: real=0.0823  chaos=0.1015  synth=0.0826  delta=-0.0192
+  5/pi: real=0.0854  chaos=0.1040  synth=0.0870  delta=-0.0186
+  6/pi: real=0.0766  chaos=0.1021  synth=0.0826  delta=-0.0255
+  7/pi: real=0.0725  chaos=0.1053  synth=0.0952  delta=-0.0328
+  8/pi: real=0.0760  chaos=0.1009  synth=0.0999  delta=-0.0249
+  9/pi: real=0.0744  chaos=0.0971  synth=0.0801  delta=-0.0227
+  10/pi: real=0.0756  chaos=0.1009  synth=0.1018  delta=-0.0252
+  11/pi: real=0.0700  chaos=0.1075  synth=0.0769  delta=-0.0375
+  12/pi: real=0.0712  chaos=0.0939  synth=0.0930  delta=-0.0227
+  13/pi: real=0.0652  chaos=0.1043  synth=0.0756  delta=-0.0391
+  14/pi: real=0.0693  chaos=0.1012  synth=0.0819  delta=-0.0318
+  15/pi: real=0.0734  chaos=0.0977  synth=0.0804  delta=-0.0243
+  16/pi: real=0.0671  chaos=0.0917  synth=0.0942  delta=-0.0246
+  17/pi: real=0.0618  chaos=0.1012  synth=0.0788  delta=-0.0394
+  18/pi: real=0.0662  chaos=0.0936  synth=0.0876  delta=-0.0274
+  19/pi: real=0.0615  chaos=0.0955  synth=0.0823  delta=-0.0340
+  20/pi: real=0.0633  chaos=0.0980  synth=0.1021  delta=-0.0347
+  21/pi: real=0.1349  chaos=0.0939  synth=0.0851  delta=+0.0410 ** above chaos **
+  22/pi: real=0.0637  chaos=0.0876  synth=0.0873  delta=-0.0240
+  23/pi: real=0.0797  chaos=0.0936  synth=0.0804  delta=-0.0139
+  24/pi: real=0.0693  chaos=0.1009  synth=0.0870  delta=-0.0315
+  25/pi: real=0.0649  chaos=0.0923  synth=0.0977  delta=-0.0274
+  26/pi: real=0.0627  chaos=0.0895  synth=0.0778  delta=-0.0268
+  -> chaos_null_nuclear_decay.jsonl
+  -> scramble_null_nuclear_decay.jsonl
+  -> synthetic_null_nuclear_decay.jsonl
+
+[SKIP] null_behavior -- all zeros
+[null_cosmology]  n=5000
+  4/pi: real=0.1108  chaos=0.1048  synth=0.1052  delta=+0.0060 ** above chaos **
+  5/pi: real=0.1034  chaos=0.1004  synth=0.1202  delta=+0.0030
+  6/pi: real=0.0836  chaos=0.0746  synth=0.0876  delta=+0.0090 ** above chaos **
+  7/pi: real=0.1206  chaos=0.1056  synth=0.1184  delta=+0.0150 ** above chaos **
+  8/pi: real=0.1062  chaos=0.1138  synth=0.0958  delta=-0.0076
+  9/pi: real=0.0788  chaos=0.0802  synth=0.0866  delta=-0.0014
+  10/pi: real=0.0956  chaos=0.0876  synth=0.0920  delta=+0.0080 ** above chaos **
+  11/pi: real=0.0914  chaos=0.0982  synth=0.0862  delta=-0.0068
+  12/pi: real=0.1094  chaos=0.1068  synth=0.0964  delta=+0.0026
+  13/pi: real=0.1242  chaos=0.1284  synth=0.1008  delta=-0.0042
+  14/pi: real=0.1288  chaos=0.1150  synth=0.1436  delta=+0.0138 ** above chaos **
+  15/pi: real=0.1364  chaos=0.1448  synth=0.1030  delta=-0.0084
+  16/pi: real=0.1398  chaos=0.1520  synth=0.0858  delta=-0.0122
+  17/pi: real=0.0816  chaos=0.0736  synth=0.1042  delta=+0.0080 ** above chaos **
+  18/pi: real=0.0714  chaos=0.0814  synth=0.0698  delta=-0.0100
+  19/pi: real=0.1052  chaos=0.0838  synth=0.0982  delta=+0.0214 ** above chaos **
+  20/pi: real=0.0806  chaos=0.0900  synth=0.0780  delta=-0.0094
+  21/pi: real=0.1082  chaos=0.0974  synth=0.1246  delta=+0.0108 ** above chaos **
+  22/pi: real=0.0714  chaos=0.0966  synth=0.0568  delta=-0.0252
+  23/pi: real=0.1006  chaos=0.1168  synth=0.1420  delta=-0.0162
+  24/pi: real=0.1308  chaos=0.1164  synth=0.0986  delta=+0.0144 ** above chaos **
+  25/pi: real=0.0388  chaos=0.0532  synth=0.0422  delta=-0.0144
+  26/pi: real=0.1190  chaos=0.1270  synth=0.1314  delta=-0.0080
+  -> chaos_null_null_cosmology.jsonl
+  -> scramble_null_null_cosmology.jsonl
+  -> synthetic_null_null_cosmology.jsonl
+
+[SKIP] null_mathematics -- all zeros
+[SKIP] null_mechanics -- all zeros
+[orbital]  n=13521
+  4/pi: real=0.0916  chaos=0.1023  synth=0.0997  delta=-0.0107
+  5/pi: real=0.1173  chaos=0.1002  synth=0.0978  delta=+0.0171 ** above chaos **
+  6/pi: real=0.0903  chaos=0.0978  synth=0.0964  delta=-0.0075
+  7/pi: real=0.1040  chaos=0.1047  synth=0.1005  delta=-0.0007
+  8/pi: real=0.1049  chaos=0.1027  synth=0.1010  delta=+0.0023
+  9/pi: real=0.0907  chaos=0.0947  synth=0.0974  delta=-0.0040
+  10/pi: real=0.1443  chaos=0.1007  synth=0.1017  delta=+0.0436 ** above chaos **
+  11/pi: real=0.1490  chaos=0.1013  synth=0.0949  delta=+0.0477 ** above chaos **
+  12/pi: real=0.0621  chaos=0.0981  synth=0.0990  delta=-0.0360
+  13/pi: real=0.0753  chaos=0.0970  synth=0.0939  delta=-0.0217
+  14/pi: real=0.0936  chaos=0.1021  synth=0.0973  delta=-0.0085
+  15/pi: real=0.1168  chaos=0.0984  synth=0.1001  delta=+0.0184 ** above chaos **
+  16/pi: real=0.1121  chaos=0.1004  synth=0.0999  delta=+0.0117 ** above chaos **
+  17/pi: real=0.0725  chaos=0.0976  synth=0.1001  delta=-0.0251
+  18/pi: real=0.0706  chaos=0.0947  synth=0.0973  delta=-0.0241
+  19/pi: real=0.0692  chaos=0.0941  synth=0.0986  delta=-0.0250
+  20/pi: real=0.0936  chaos=0.1001  synth=0.0969  delta=-0.0064
+  21/pi: real=0.0578  chaos=0.1015  synth=0.0984  delta=-0.0437
+  22/pi: real=0.1763  chaos=0.1021  synth=0.0982  delta=+0.0743 ** above chaos **
+  23/pi: real=0.0726  chaos=0.1033  synth=0.0983  delta=-0.0308
+  24/pi: real=0.0706  chaos=0.1017  synth=0.0992  delta=-0.0311
+  25/pi: real=0.0858  chaos=0.1008  synth=0.0987  delta=-0.0150
+  26/pi: real=0.0657  chaos=0.1028  synth=0.0982  delta=-0.0371
+  -> chaos_null_orbital.jsonl
+  -> scramble_null_orbital.jsonl
+  -> synthetic_null_orbital.jsonl
+
+[orbital_mass]  n=6127
+  4/pi: real=0.0359  chaos=0.0956  synth=0.0630  delta=-0.0597
+  5/pi: real=0.0364  chaos=0.1010  synth=0.0710  delta=-0.0646
+  6/pi: real=0.0369  chaos=0.0947  synth=0.0632  delta=-0.0578
+  7/pi: real=0.0336  chaos=0.0961  synth=0.0728  delta=-0.0625
+  8/pi: real=0.0326  chaos=0.0956  synth=0.0645  delta=-0.0630
+  9/pi: real=0.0338  chaos=0.0940  synth=0.0672  delta=-0.0602
+  10/pi: real=0.0326  chaos=0.0919  synth=0.0650  delta=-0.0592
+  11/pi: real=0.0367  chaos=0.0955  synth=0.0643  delta=-0.0588
+  12/pi: real=0.0339  chaos=0.0945  synth=0.0596  delta=-0.0606
+  13/pi: real=0.0297  chaos=0.1033  synth=0.0635  delta=-0.0736
+  14/pi: real=0.0344  chaos=0.0943  synth=0.0723  delta=-0.0599
+  15/pi: real=0.0310  chaos=0.0912  synth=0.0671  delta=-0.0602
+  16/pi: real=0.0289  chaos=0.0855  synth=0.0617  delta=-0.0566
+  17/pi: real=0.0318  chaos=0.0934  synth=0.0623  delta=-0.0615
+  18/pi: real=0.0341  chaos=0.0886  synth=0.0619  delta=-0.0545
+  19/pi: real=0.0292  chaos=0.0925  synth=0.0638  delta=-0.0633
+  20/pi: real=0.0281  chaos=0.0867  synth=0.0601  delta=-0.0586
+  21/pi: real=0.0315  chaos=0.0891  synth=0.0614  delta=-0.0576
+  22/pi: real=0.0302  chaos=0.0914  synth=0.0596  delta=-0.0612
+  23/pi: real=0.0282  chaos=0.0873  synth=0.0607  delta=-0.0591
+  24/pi: real=0.0305  chaos=0.0942  synth=0.0568  delta=-0.0637
+  25/pi: real=0.0297  chaos=0.1054  synth=0.0601  delta=-0.0757
+  26/pi: real=0.0295  chaos=0.0945  synth=0.0545  delta=-0.0650
+  -> chaos_null_orbital_mass.jsonl
+  -> scramble_null_orbital_mass.jsonl
+  -> synthetic_null_orbital_mass.jsonl
+
+[orbital_radius]  n=5843
+  4/pi: real=0.0731  chaos=0.1042  synth=0.0584  delta=-0.0311
+  5/pi: real=0.0726  chaos=0.1006  synth=0.0614  delta=-0.0281
+  6/pi: real=0.0596  chaos=0.0993  synth=0.0654  delta=-0.0397
+  7/pi: real=0.0525  chaos=0.0929  synth=0.0642  delta=-0.0404
+  8/pi: real=0.0474  chaos=0.1025  synth=0.0596  delta=-0.0551
+  9/pi: real=0.0433  chaos=0.0888  synth=0.0647  delta=-0.0455
+  10/pi: real=0.0419  chaos=0.0922  synth=0.0596  delta=-0.0503
+  11/pi: real=0.0334  chaos=0.0972  synth=0.0604  delta=-0.0638
+  12/pi: real=0.0383  chaos=0.0976  synth=0.0616  delta=-0.0592
+  13/pi: real=0.0317  chaos=0.0962  synth=0.0650  delta=-0.0645
+  14/pi: real=0.0330  chaos=0.0938  synth=0.0596  delta=-0.0608
+  15/pi: real=0.0320  chaos=0.0974  synth=0.0650  delta=-0.0654
+  16/pi: real=0.0269  chaos=0.1006  synth=0.0606  delta=-0.0738
+  17/pi: real=0.0296  chaos=0.0969  synth=0.0606  delta=-0.0673
+  18/pi: real=0.0277  chaos=0.0912  synth=0.0587  delta=-0.0635
+  19/pi: real=0.0274  chaos=0.0948  synth=0.0614  delta=-0.0674
+  20/pi: real=0.0250  chaos=0.0955  synth=0.0541  delta=-0.0705
+  21/pi: real=0.0214  chaos=0.0960  synth=0.0537  delta=-0.0746
+  22/pi: real=0.0219  chaos=0.0957  synth=0.0525  delta=-0.0738
+  23/pi: real=0.0236  chaos=0.0972  synth=0.0585  delta=-0.0736
+  24/pi: real=0.0216  chaos=0.1027  synth=0.0536  delta=-0.0811
+  25/pi: real=0.0233  chaos=0.1020  synth=0.0524  delta=-0.0787
+  26/pi: real=0.0241  chaos=0.0952  synth=0.0577  delta=-0.0710
+  -> chaos_null_orbital_radius.jsonl
+  -> scramble_null_orbital_radius.jsonl
+  -> synthetic_null_orbital_radius.jsonl
+
+[orbital_transit]  n=4603
+  4/pi: real=0.0997  chaos=0.1073  synth=0.0932  delta=-0.0076
+  5/pi: real=0.0919  chaos=0.0876  synth=0.0969  delta=+0.0043
+  6/pi: real=0.0973  chaos=0.0980  synth=0.1004  delta=-0.0007
+  7/pi: real=0.0991  chaos=0.1041  synth=0.1004  delta=-0.0050
+  8/pi: real=0.1075  chaos=0.1101  synth=0.1017  delta=-0.0026
+  9/pi: real=0.1056  chaos=0.0910  synth=0.0949  delta=+0.0146 ** above chaos **
+  10/pi: real=0.0969  chaos=0.0917  synth=0.0965  delta=+0.0052 ** above chaos **
+  11/pi: real=0.1006  chaos=0.0930  synth=0.0982  delta=+0.0076 ** above chaos **
+  12/pi: real=0.1019  chaos=0.1062  synth=0.1032  delta=-0.0043
+  13/pi: real=0.1010  chaos=0.1006  synth=0.0975  delta=+0.0004
+  14/pi: real=0.1006  chaos=0.1028  synth=0.0917  delta=-0.0022
+  15/pi: real=0.1015  chaos=0.0960  synth=0.0969  delta=+0.0054 ** above chaos **
+  16/pi: real=0.1036  chaos=0.1056  synth=0.1012  delta=-0.0020
+  17/pi: real=0.0973  chaos=0.1012  synth=0.1030  delta=-0.0039
+  18/pi: real=0.1073  chaos=0.0936  synth=0.0978  delta=+0.0137 ** above chaos **
+  19/pi: real=0.1012  chaos=0.0952  synth=0.1038  delta=+0.0061 ** above chaos **
+  20/pi: real=0.0939  chaos=0.0936  synth=0.1045  delta=+0.0002
+  21/pi: real=0.0949  chaos=0.0982  synth=0.0954  delta=-0.0033
+  22/pi: real=0.0993  chaos=0.0980  synth=0.0980  delta=+0.0013
+  23/pi: real=0.1025  chaos=0.1069  synth=0.0971  delta=-0.0043
+  24/pi: real=0.0982  chaos=0.0988  synth=0.1054  delta=-0.0007
+  25/pi: real=0.0923  chaos=0.1004  synth=0.0969  delta=-0.0080
+  26/pi: real=0.1060  chaos=0.1008  synth=0.1021  delta=+0.0052 ** above chaos **
+  -> chaos_null_orbital_transit.jsonl
+  -> scramble_null_orbital_transit.jsonl
+  -> synthetic_null_orbital_transit.jsonl
+
+[orbital_ttv]  n=290458
+  4/pi: real=0.0797  chaos=0.0998  synth=0.0967  delta=-0.0200
+  5/pi: real=0.0852  chaos=0.0997  synth=0.0977  delta=-0.0145
+  6/pi: real=0.1077  chaos=0.1002  synth=0.0968  delta=+0.0075 ** above chaos **
+  7/pi: real=0.0799  chaos=0.1004  synth=0.0968  delta=-0.0205
+  8/pi: real=0.1347  chaos=0.0993  synth=0.0960  delta=+0.0353 ** above chaos **
+  9/pi: real=0.0871  chaos=0.0987  synth=0.0962  delta=-0.0116
+  10/pi: real=0.0658  chaos=0.0982  synth=0.0977  delta=-0.0324
+  11/pi: real=0.0678  chaos=0.0984  synth=0.0958  delta=-0.0306
+  12/pi: real=0.0891  chaos=0.1005  synth=0.0968  delta=-0.0114
+  13/pi: real=0.0616  chaos=0.0960  synth=0.0967  delta=-0.0345
+  14/pi: real=0.0713  chaos=0.1001  synth=0.0962  delta=-0.0288
+  15/pi: real=0.1090  chaos=0.0977  synth=0.0968  delta=+0.0113 ** above chaos **
+  16/pi: real=0.1466  chaos=0.0994  synth=0.0963  delta=+0.0472 ** above chaos **
+  17/pi: real=0.1321  chaos=0.0965  synth=0.0960  delta=+0.0357 ** above chaos **
+  18/pi: real=0.1052  chaos=0.0953  synth=0.0952  delta=+0.0099 ** above chaos **
+  19/pi: real=0.0684  chaos=0.0965  synth=0.0949  delta=-0.0280
+  20/pi: real=0.0556  chaos=0.0963  synth=0.0967  delta=-0.0406
+  21/pi: real=0.1000  chaos=0.0996  synth=0.0956  delta=+0.0005
+  22/pi: real=0.0891  chaos=0.0982  synth=0.0956  delta=-0.0091
+  23/pi: real=0.0816  chaos=0.0956  synth=0.0957  delta=-0.0140
+  24/pi: real=0.0982  chaos=0.0992  synth=0.0962  delta=-0.0010
+  25/pi: real=0.1292  chaos=0.0959  synth=0.0948  delta=+0.0332 ** above chaos **
+  26/pi: real=0.0948  chaos=0.0930  synth=0.0951  delta=+0.0018
+  -> chaos_null_orbital_ttv.jsonl
+  -> scramble_null_orbital_ttv.jsonl
+  -> synthetic_null_orbital_ttv.jsonl
+
+[orbital_wrongbox]  n=13521
+  4/pi: real=0.0967  chaos=0.1010  synth=0.0988  delta=-0.0044
+  5/pi: real=0.0977  chaos=0.1049  synth=0.1049  delta=-0.0072
+  6/pi: real=0.1129  chaos=0.0965  synth=0.1032  delta=+0.0163 ** above chaos **
+  7/pi: real=0.0742  chaos=0.1012  synth=0.1006  delta=-0.0270
+  8/pi: real=0.0980  chaos=0.1004  synth=0.1000  delta=-0.0024
+  9/pi: real=0.0944  chaos=0.0990  synth=0.1018  delta=-0.0047
+  10/pi: real=0.1169  chaos=0.1001  synth=0.1013  delta=+0.0169 ** above chaos **
+  11/pi: real=0.1231  chaos=0.0989  synth=0.1020  delta=+0.0242 ** above chaos **
+  12/pi: real=0.0988  chaos=0.0983  synth=0.1063  delta=+0.0005
+  13/pi: real=0.1222  chaos=0.1052  synth=0.0966  delta=+0.0169 ** above chaos **
+  14/pi: real=0.0991  chaos=0.1010  synth=0.1024  delta=-0.0019
+  15/pi: real=0.1264  chaos=0.1007  synth=0.1037  delta=+0.0257 ** above chaos **
+  16/pi: real=0.0888  chaos=0.0997  synth=0.0985  delta=-0.0109
+  17/pi: real=0.1118  chaos=0.0987  synth=0.0927  delta=+0.0132 ** above chaos **
+  18/pi: real=0.1074  chaos=0.0984  synth=0.1021  delta=+0.0090 ** above chaos **
+  19/pi: real=0.1069  chaos=0.1001  synth=0.1015  delta=+0.0067 ** above chaos **
+  20/pi: real=0.1278  chaos=0.0982  synth=0.0996  delta=+0.0296 ** above chaos **
+  21/pi: real=0.1044  chaos=0.1037  synth=0.1027  delta=+0.0007
+  22/pi: real=0.0979  chaos=0.0966  synth=0.0987  delta=+0.0013
+  23/pi: real=0.1112  chaos=0.1066  synth=0.0995  delta=+0.0046
+  24/pi: real=0.1082  chaos=0.1011  synth=0.1004  delta=+0.0071 ** above chaos **
+  25/pi: real=0.1140  chaos=0.0978  synth=0.1054  delta=+0.0162 ** above chaos **
+  26/pi: real=0.1020  chaos=0.1025  synth=0.0997  delta=-0.0005
+  -> chaos_null_orbital_wrongbox.jsonl
+  -> scramble_null_orbital_wrongbox.jsonl
+  -> synthetic_null_orbital_wrongbox.jsonl
+
+[planetary]  n=14116
+  4/pi: real=0.0963  chaos=0.0951  synth=0.1007  delta=+0.0012
+  5/pi: real=0.1074  chaos=0.1005  synth=0.0978  delta=+0.0069 ** above chaos **
+  6/pi: real=0.1059  chaos=0.1023  synth=0.0995  delta=+0.0036
+  7/pi: real=0.1054  chaos=0.1010  synth=0.0990  delta=+0.0044
+  8/pi: real=0.1149  chaos=0.0978  synth=0.0957  delta=+0.0171 ** above chaos **
+  9/pi: real=0.0988  chaos=0.1109  synth=0.0985  delta=-0.0122
+  10/pi: real=0.0925  chaos=0.0966  synth=0.1038  delta=-0.0040
+  11/pi: real=0.0854  chaos=0.1060  synth=0.0997  delta=-0.0207
+  12/pi: real=0.1221  chaos=0.0856  synth=0.0990  delta=+0.0364 ** above chaos **
+  13/pi: real=0.1061  chaos=0.0988  synth=0.1166  delta=+0.0074 ** above chaos **
+  14/pi: real=0.1014  chaos=0.1040  synth=0.0980  delta=-0.0026
+  15/pi: real=0.0883  chaos=0.0733  synth=0.0982  delta=+0.0150 ** above chaos **
+  16/pi: real=0.1704  chaos=0.1180  synth=0.0992  delta=+0.0525 ** above chaos **
+  17/pi: real=0.0398  chaos=0.1276  synth=0.0916  delta=-0.0878
+  18/pi: real=0.1073  chaos=0.0857  synth=0.1155  delta=+0.0216 ** above chaos **
+  19/pi: real=0.1697  chaos=0.0893  synth=0.1050  delta=+0.0804 ** above chaos **
+  20/pi: real=0.0742  chaos=0.0941  synth=0.0731  delta=-0.0200
+  21/pi: real=0.0414  chaos=0.0998  synth=0.0712  delta=-0.0584
+  22/pi: real=0.0775  chaos=0.1037  synth=0.1259  delta=-0.0262
+  23/pi: real=0.1598  chaos=0.1116  synth=0.1522  delta=+0.0482 ** above chaos **
+  24/pi: real=0.2003  chaos=0.1171  synth=0.1107  delta=+0.0832 ** above chaos **
+  25/pi: real=0.0609  chaos=0.1197  synth=0.0612  delta=-0.0588
+  26/pi: real=0.0353  chaos=0.0793  synth=0.0477  delta=-0.0439
+  -> chaos_null_planetary.jsonl
+  -> scramble_null_planetary.jsonl
+  -> synthetic_null_planetary.jsonl
+
+[planetary_atlantic]  n=6973
+  4/pi: real=0.0000  chaos=0.1020  synth=0.0952  delta=-0.1020
+  5/pi: real=0.0486  chaos=0.0974  synth=0.0974  delta=-0.0488
+  6/pi: real=0.0013  chaos=0.0945  synth=0.0952  delta=-0.0932
+  7/pi: real=0.5044  chaos=0.1025  synth=0.0992  delta=+0.4018 ** above chaos **
+  8/pi: real=0.0009  chaos=0.1067  synth=0.0928  delta=-0.1058
+  9/pi: real=0.0009  chaos=0.0944  synth=0.0922  delta=-0.0935
+  10/pi: real=0.0004  chaos=0.1027  synth=0.1011  delta=-0.1023
+  11/pi: real=0.0000  chaos=0.0885  synth=0.1129  delta=-0.0885
+  12/pi: real=0.0009  chaos=0.0962  synth=0.1139  delta=-0.0954
+  13/pi: real=0.0000  chaos=0.1012  synth=0.0936  delta=-0.1012
+  14/pi: real=0.0268  chaos=0.0883  synth=0.0688  delta=-0.0615
+  15/pi: real=0.0004  chaos=0.1058  synth=0.1420  delta=-0.1054
+  16/pi: real=0.0022  chaos=0.1057  synth=0.0427  delta=-0.1035
+  17/pi: real=0.5054  chaos=0.0932  synth=0.1563  delta=+0.4122 ** above chaos **
+  18/pi: real=0.0272  chaos=0.0935  synth=0.0727  delta=-0.0663
+  19/pi: real=0.0004  chaos=0.1134  synth=0.0591  delta=-0.1130
+  20/pi: real=0.0000  chaos=0.0994  synth=0.1902  delta=-0.0994
+  21/pi: real=0.0271  chaos=0.1021  synth=0.0829  delta=-0.0750
+  22/pi: real=0.0024  chaos=0.0717  synth=0.0141  delta=-0.0693
+  23/pi: real=0.0482  chaos=0.1038  synth=0.0906  delta=-0.0556
+  24/pi: real=0.5049  chaos=0.1193  synth=0.2250  delta=+0.3856 ** above chaos **
+  25/pi: real=0.0380  chaos=0.1185  synth=0.1341  delta=-0.0805
+  26/pi: real=0.0001  chaos=0.0812  synth=0.0174  delta=-0.0810
+  -> chaos_null_planetary_atlantic.jsonl
+  -> scramble_null_planetary_atlantic.jsonl
+  -> synthetic_null_planetary_atlantic.jsonl
+
+[planetary_gulf]  n=6927
+  4/pi: real=0.0001  chaos=0.0961  synth=0.0995  delta=-0.0960
+  5/pi: real=0.2010  chaos=0.1050  synth=0.1214  delta=+0.0960 ** above chaos **
+  6/pi: real=0.1379  chaos=0.0986  synth=0.1187  delta=+0.0393 ** above chaos **
+  7/pi: real=0.1493  chaos=0.1060  synth=0.0983  delta=+0.0433 ** above chaos **
+  8/pi: real=0.0709  chaos=0.0931  synth=0.0983  delta=-0.0222
+  9/pi: real=0.0608  chaos=0.1003  synth=0.1255  delta=-0.0396
+  10/pi: real=0.0569  chaos=0.0977  synth=0.1213  delta=-0.0409
+  11/pi: real=0.0020  chaos=0.1018  synth=0.0935  delta=-0.0998
+  12/pi: real=0.0661  chaos=0.1074  synth=0.0972  delta=-0.0413
+  13/pi: real=0.0014  chaos=0.1116  synth=0.1002  delta=-0.1101
+  14/pi: real=0.0787  chaos=0.1028  synth=0.0951  delta=-0.0241
+  15/pi: real=0.0569  chaos=0.1029  synth=0.1221  delta=-0.0461
+  16/pi: real=0.1048  chaos=0.1006  synth=0.1045  delta=+0.0042
+  17/pi: real=0.2356  chaos=0.1002  synth=0.0969  delta=+0.1354 ** above chaos **
+  18/pi: real=0.1361  chaos=0.0912  synth=0.1205  delta=+0.0449 ** above chaos **
+  19/pi: real=0.0104  chaos=0.1166  synth=0.0974  delta=-0.1063
+  20/pi: real=0.0000  chaos=0.0892  synth=0.0953  delta=-0.0892
+  21/pi: real=0.0806  chaos=0.0909  synth=0.0959  delta=-0.0104
+  22/pi: real=0.1324  chaos=0.1068  synth=0.0943  delta=+0.0256 ** above chaos **
+  23/pi: real=0.1439  chaos=0.1012  synth=0.0974  delta=+0.0427 ** above chaos **
+  24/pi: real=0.2132  chaos=0.1169  synth=0.1026  delta=+0.0963 ** above chaos **
+  25/pi: real=0.0924  chaos=0.1086  synth=0.0941  delta=-0.0162
+  26/pi: real=0.0208  chaos=0.1019  synth=0.0956  delta=-0.0811
+  -> chaos_null_planetary_gulf.jsonl
+  -> scramble_null_planetary_gulf.jsonl
+  -> synthetic_null_planetary_gulf.jsonl
+
+[planetary_indian]  n=4929
+  4/pi: real=0.0004  chaos=0.0968  synth=0.0885  delta=-0.0964
+  5/pi: real=0.1696  chaos=0.0992  synth=0.0954  delta=+0.0704 ** above chaos **
+  6/pi: real=0.0004  chaos=0.0913  synth=0.0899  delta=-0.0909
+  7/pi: real=0.1591  chaos=0.1033  synth=0.0962  delta=+0.0558 ** above chaos **
+  8/pi: real=0.0079  chaos=0.1077  synth=0.0913  delta=-0.0998
+  9/pi: real=0.0032  chaos=0.1012  synth=0.0885  delta=-0.0980
+  10/pi: real=0.0000  chaos=0.0885  synth=0.0848  delta=-0.0885
+  11/pi: real=0.0030  chaos=0.0927  synth=0.0822  delta=-0.0897
+  12/pi: real=0.0004  chaos=0.0878  synth=0.0840  delta=-0.0874
+  13/pi: real=0.0014  chaos=0.1025  synth=0.0956  delta=-0.1010
+  14/pi: real=0.1763  chaos=0.1201  synth=0.0925  delta=+0.0562 ** above chaos **
+  15/pi: real=0.0000  chaos=0.0982  synth=0.0929  delta=-0.0982
+  16/pi: real=0.1223  chaos=0.1091  synth=0.0976  delta=+0.0132 ** above chaos **
+  17/pi: real=0.1666  chaos=0.1114  synth=0.0958  delta=+0.0552 ** above chaos **
+  18/pi: real=0.1753  chaos=0.0767  synth=0.0812  delta=+0.0986 ** above chaos **
+  19/pi: real=0.0177  chaos=0.1278  synth=0.0931  delta=-0.1102
+  20/pi: real=0.0000  chaos=0.0883  synth=0.0994  delta=-0.0883
+  21/pi: real=0.1759  chaos=0.0897  synth=0.0915  delta=+0.0862 ** above chaos **
+  22/pi: real=0.1410  chaos=0.0935  synth=0.1365  delta=+0.0475 ** above chaos **
+  23/pi: real=0.1714  chaos=0.1051  synth=0.0895  delta=+0.0663 ** above chaos **
+  24/pi: real=0.1564  chaos=0.1012  synth=0.1132  delta=+0.0552 ** above chaos **
+  25/pi: real=0.2023  chaos=0.1089  synth=0.1187  delta=+0.0933 ** above chaos **
+  26/pi: real=0.0454  chaos=0.0846  synth=0.0889  delta=-0.0392
+  -> chaos_null_planetary_indian.jsonl
+  -> scramble_null_planetary_indian.jsonl
+  -> synthetic_null_planetary_indian.jsonl
+
+[planetary_pacific]  n=6838
+  4/pi: real=0.0000  chaos=0.0927  synth=0.1021  delta=-0.0927
+  5/pi: real=0.1642  chaos=0.0984  synth=0.1002  delta=+0.0658 ** above chaos **
+  6/pi: real=0.0313  chaos=0.0882  synth=0.1019  delta=-0.0569
+  7/pi: real=0.1332  chaos=0.1089  synth=0.1025  delta=+0.0243 ** above chaos **
+  8/pi: real=0.0199  chaos=0.0920  synth=0.0949  delta=-0.0721
+  9/pi: real=0.0175  chaos=0.1002  synth=0.1019  delta=-0.0826
+  10/pi: real=0.0143  chaos=0.1013  synth=0.0977  delta=-0.0870
+  11/pi: real=0.0010  chaos=0.1050  synth=0.1043  delta=-0.1040
+  12/pi: real=0.0133  chaos=0.0936  synth=0.1065  delta=-0.0803
+  13/pi: real=0.0009  chaos=0.1066  synth=0.0940  delta=-0.1057
+  14/pi: real=0.1590  chaos=0.1028  synth=0.1015  delta=+0.0562 ** above chaos **
+  15/pi: real=0.0143  chaos=0.0997  synth=0.0990  delta=-0.0854
+  16/pi: real=0.1258  chaos=0.0971  synth=0.0915  delta=+0.0287 ** above chaos **
+  17/pi: real=0.1594  chaos=0.1030  synth=0.0983  delta=+0.0564 ** above chaos **
+  18/pi: real=0.1740  chaos=0.0953  synth=0.1085  delta=+0.0787 ** above chaos **
+  19/pi: real=0.0180  chaos=0.1215  synth=0.1024  delta=-0.1035
+  20/pi: real=0.0000  chaos=0.1003  synth=0.1028  delta=-0.1003
+  21/pi: real=0.1593  chaos=0.0952  synth=0.1076  delta=+0.0641 ** above chaos **
+  22/pi: real=0.1642  chaos=0.0927  synth=0.0970  delta=+0.0715 ** above chaos **
+  23/pi: real=0.1521  chaos=0.1018  synth=0.0973  delta=+0.0503 ** above chaos **
+  24/pi: real=0.1468  chaos=0.1111  synth=0.1111  delta=+0.0357 ** above chaos **
+  25/pi: real=0.1753  chaos=0.1221  synth=0.1066  delta=+0.0532 ** above chaos **
+  26/pi: real=0.0409  chaos=0.0782  synth=0.0854  delta=-0.0373
+  -> chaos_null_planetary_pacific.jsonl
+  -> scramble_null_planetary_pacific.jsonl
+  -> synthetic_null_planetary_pacific.jsonl
+
+[quantum]  n=2975
+  4/pi: real=0.0615  chaos=0.1012  synth=0.1163  delta=-0.0397
+  5/pi: real=0.0908  chaos=0.1015  synth=0.0884  delta=-0.0108
+  6/pi: real=0.1425  chaos=0.1089  synth=0.0961  delta=+0.0336 ** above chaos **
+  7/pi: real=0.1086  chaos=0.0914  synth=0.1022  delta=+0.0171 ** above chaos **
+  8/pi: real=0.0746  chaos=0.0928  synth=0.1029  delta=-0.0182
+  9/pi: real=0.1301  chaos=0.0971  synth=0.0921  delta=+0.0329 ** above chaos **
+  10/pi: real=0.0968  chaos=0.1109  synth=0.0864  delta=-0.0141
+  11/pi: real=0.0699  chaos=0.0934  synth=0.0951  delta=-0.0235
+  12/pi: real=0.1993  chaos=0.0938  synth=0.1032  delta=+0.1055 ** above chaos **
+  13/pi: real=0.0686  chaos=0.0992  synth=0.1029  delta=-0.0306
+  14/pi: real=0.1217  chaos=0.0934  synth=0.1039  delta=+0.0282 ** above chaos **
+  15/pi: real=0.1264  chaos=0.1035  synth=0.0850  delta=+0.0229 ** above chaos **
+  16/pi: real=0.0918  chaos=0.0941  synth=0.1018  delta=-0.0024
+  17/pi: real=0.0511  chaos=0.1055  synth=0.1059  delta=-0.0545
+  18/pi: real=0.1230  chaos=0.0968  synth=0.0951  delta=+0.0262 ** above chaos **
+  19/pi: real=0.1062  chaos=0.1029  synth=0.1042  delta=+0.0034
+  20/pi: real=0.0891  chaos=0.1002  synth=0.0904  delta=-0.0111
+  21/pi: real=0.1032  chaos=0.0854  synth=0.1096  delta=+0.0178 ** above chaos **
+  22/pi: real=0.0639  chaos=0.1042  synth=0.0894  delta=-0.0403
+  23/pi: real=0.1734  chaos=0.0982  synth=0.1059  delta=+0.0753 ** above chaos **
+  24/pi: real=0.1156  chaos=0.0941  synth=0.0948  delta=+0.0215 ** above chaos **
+  25/pi: real=0.1805  chaos=0.1008  synth=0.0965  delta=+0.0797 ** above chaos **
+  26/pi: real=0.0971  chaos=0.0914  synth=0.0955  delta=+0.0057 ** above chaos **
+  -> chaos_null_quantum.jsonl
+  -> scramble_null_quantum.jsonl
+  -> synthetic_null_quantum.jsonl
+
+[quantum_molecular_geometry]  n=34
+  4/pi: real=0.0000  chaos=0.0882  synth=0.0294  delta=-0.0882
+  5/pi: real=0.0588  chaos=0.0000  synth=0.0588  delta=+0.0588 ** above chaos **
+  6/pi: real=0.0882  chaos=0.2059  synth=0.0588  delta=-0.1176
+  7/pi: real=0.1471  chaos=0.1471  synth=0.0294  delta=+0.0000
+  8/pi: real=0.0882  chaos=0.0294  synth=0.0000  delta=+0.0588 ** above chaos **
+  9/pi: real=0.0882  chaos=0.0294  synth=0.0294  delta=+0.0588 ** above chaos **
+  10/pi: real=0.0000  chaos=0.0000  synth=0.0294  delta=+0.0000
+  11/pi: real=0.0000  chaos=0.1176  synth=0.0882  delta=-0.1176
+  12/pi: real=0.0588  chaos=0.1765  synth=0.0588  delta=-0.1176
+  13/pi: real=0.1471  chaos=0.1765  synth=0.0588  delta=-0.0294
+  14/pi: real=0.0294  chaos=0.1765  synth=0.0588  delta=-0.1471
+  15/pi: real=0.0294  chaos=0.0294  synth=0.0588  delta=+0.0000
+  16/pi: real=0.0588  chaos=0.0882  synth=0.0588  delta=-0.0294
+  17/pi: real=0.2647  chaos=0.1471  synth=0.0000  delta=+0.1176 ** above chaos **
+  18/pi: real=0.2353  chaos=0.0000  synth=0.0588  delta=+0.2353 ** above chaos **
+  19/pi: real=0.1176  chaos=0.0588  synth=0.0882  delta=+0.0588 ** above chaos **
+  20/pi: real=0.1176  chaos=0.1176  synth=0.0294  delta=+0.0000
+  21/pi: real=0.0294  chaos=0.1176  synth=0.0294  delta=-0.0882
+  22/pi: real=0.1471  chaos=0.1765  synth=0.0294  delta=-0.0294
+  23/pi: real=0.0000  chaos=0.0588  synth=0.0588  delta=-0.0588
+  24/pi: real=0.1471  chaos=0.0588  synth=0.1176  delta=+0.0882 ** above chaos **
+  25/pi: real=0.0588  chaos=0.0294  synth=0.1176  delta=+0.0294 ** above chaos **
+  26/pi: real=0.0882  chaos=0.0588  synth=0.1176  delta=+0.0294 ** above chaos **
+  -> chaos_null_quantum_molecular_geometry.jsonl
+  -> scramble_null_quantum_molecular_geometry.jsonl
+  -> synthetic_null_quantum_molecular_geometry.jsonl
+
+[quantum_molecular_vibration]  n=77
+  4/pi: real=0.0519  chaos=0.1299  synth=0.1039  delta=-0.0779
+  5/pi: real=0.0779  chaos=0.1169  synth=0.1688  delta=-0.0390
+  6/pi: real=0.0909  chaos=0.1169  synth=0.0779  delta=-0.0260
+  7/pi: real=0.1039  chaos=0.1429  synth=0.1039  delta=-0.0390
+  8/pi: real=0.1299  chaos=0.0909  synth=0.1169  delta=+0.0390 ** above chaos **
+  9/pi: real=0.0779  chaos=0.0779  synth=0.0390  delta=+0.0000
+  10/pi: real=0.1688  chaos=0.0909  synth=0.1169  delta=+0.0779 ** above chaos **
+  11/pi: real=0.0649  chaos=0.1039  synth=0.0390  delta=-0.0390
+  12/pi: real=0.1429  chaos=0.0909  synth=0.1299  delta=+0.0519 ** above chaos **
+  13/pi: real=0.0909  chaos=0.0649  synth=0.0649  delta=+0.0260 ** above chaos **
+  14/pi: real=0.0519  chaos=0.1039  synth=0.1169  delta=-0.0519
+  15/pi: real=0.0649  chaos=0.1299  synth=0.0909  delta=-0.0649
+  16/pi: real=0.1299  chaos=0.0260  synth=0.1948  delta=+0.1039 ** above chaos **
+  17/pi: real=0.0649  chaos=0.0909  synth=0.1169  delta=-0.0260
+  18/pi: real=0.1299  chaos=0.0909  synth=0.0909  delta=+0.0390 ** above chaos **
+  19/pi: real=0.1039  chaos=0.0909  synth=0.1688  delta=+0.0130 ** above chaos **
+  20/pi: real=0.1429  chaos=0.0909  synth=0.1299  delta=+0.0519 ** above chaos **
+  21/pi: real=0.0519  chaos=0.1818  synth=0.1039  delta=-0.1299
+  22/pi: real=0.0390  chaos=0.0909  synth=0.0649  delta=-0.0519
+  23/pi: real=0.1039  chaos=0.0779  synth=0.1039  delta=+0.0260 ** above chaos **
+  24/pi: real=0.1169  chaos=0.0649  synth=0.1558  delta=+0.0519 ** above chaos **
+  25/pi: real=0.0649  chaos=0.0779  synth=0.0779  delta=-0.0130
+  26/pi: real=0.1039  chaos=0.0649  synth=0.0649  delta=+0.0390 ** above chaos **
+  -> chaos_null_quantum_molecular_vibration.jsonl
+  -> scramble_null_quantum_molecular_vibration.jsonl
+  -> synthetic_null_quantum_molecular_vibration.jsonl
+
+[seismic_japan]  n=4006
+  4/pi: real=0.0761  chaos=0.1013  synth=0.0846  delta=-0.0252
+  5/pi: real=0.0769  chaos=0.0924  synth=0.0859  delta=-0.0155
+  6/pi: real=0.0811  chaos=0.1081  synth=0.0841  delta=-0.0270
+  7/pi: real=0.0734  chaos=0.1028  synth=0.0866  delta=-0.0295
+  8/pi: real=0.0749  chaos=0.0969  synth=0.0861  delta=-0.0220
+  9/pi: real=0.0754  chaos=0.1071  synth=0.0869  delta=-0.0317
+  10/pi: real=0.0744  chaos=0.0836  synth=0.0846  delta=-0.0092
+  11/pi: real=0.0729  chaos=0.0936  synth=0.0841  delta=-0.0207
+  12/pi: real=0.0784  chaos=0.0949  synth=0.0779  delta=-0.0165
+  13/pi: real=0.0714  chaos=0.0961  synth=0.0844  delta=-0.0247
+  14/pi: real=0.0619  chaos=0.0989  synth=0.0841  delta=-0.0369
+  15/pi: real=0.0691  chaos=0.0989  synth=0.0776  delta=-0.0297
+  16/pi: real=0.0721  chaos=0.0999  synth=0.0816  delta=-0.0277
+  17/pi: real=0.0667  chaos=0.0879  synth=0.0776  delta=-0.0212
+  18/pi: real=0.0721  chaos=0.0974  synth=0.0839  delta=-0.0252
+  19/pi: real=0.0736  chaos=0.0926  synth=0.0854  delta=-0.0190
+  20/pi: real=0.0714  chaos=0.0939  synth=0.0796  delta=-0.0225
+  21/pi: real=0.0634  chaos=0.1033  synth=0.0806  delta=-0.0399
+  22/pi: real=0.0667  chaos=0.0861  synth=0.0806  delta=-0.0195
+  23/pi: real=0.0657  chaos=0.1016  synth=0.0799  delta=-0.0359
+  24/pi: real=0.0761  chaos=0.1008  synth=0.0824  delta=-0.0247
+  25/pi: real=0.0774  chaos=0.0874  synth=0.0859  delta=-0.0100
+  26/pi: real=0.0647  chaos=0.0961  synth=0.0769  delta=-0.0315
+  -> chaos_null_seismic_japan.jsonl
+  -> scramble_null_seismic_japan.jsonl
+  -> synthetic_null_seismic_japan.jsonl
+
+[seismic_reference]  n=977
+  4/pi: real=0.0931  chaos=0.1024  synth=0.0737  delta=-0.0092
+  5/pi: real=0.0809  chaos=0.0983  synth=0.0901  delta=-0.0174
+  6/pi: real=0.0870  chaos=0.0921  synth=0.0870  delta=-0.0051
+  7/pi: real=0.0860  chaos=0.0993  synth=0.0880  delta=-0.0133
+  8/pi: real=0.0839  chaos=0.0901  synth=0.0921  delta=-0.0061
+  9/pi: real=0.0696  chaos=0.1054  synth=0.0850  delta=-0.0358
+  10/pi: real=0.0757  chaos=0.0972  synth=0.1013  delta=-0.0215
+  11/pi: real=0.0983  chaos=0.1003  synth=0.0911  delta=-0.0020
+  12/pi: real=0.0798  chaos=0.1064  synth=0.0942  delta=-0.0266
+  13/pi: real=0.0788  chaos=0.0880  synth=0.0911  delta=-0.0092
+  14/pi: real=0.0716  chaos=0.1095  synth=0.0809  delta=-0.0379
+  15/pi: real=0.0747  chaos=0.0911  synth=0.0870  delta=-0.0164
+  16/pi: real=0.0768  chaos=0.0983  synth=0.1075  delta=-0.0215
+  17/pi: real=0.0880  chaos=0.0972  synth=0.0839  delta=-0.0092
+  18/pi: real=0.0747  chaos=0.0890  synth=0.0993  delta=-0.0143
+  19/pi: real=0.0583  chaos=0.0983  synth=0.0972  delta=-0.0399
+  20/pi: real=0.0645  chaos=0.0911  synth=0.0819  delta=-0.0266
+  21/pi: real=0.0655  chaos=0.0880  synth=0.1085  delta=-0.0225
+  22/pi: real=0.0952  chaos=0.0962  synth=0.0860  delta=-0.0010
+  23/pi: real=0.0798  chaos=0.0972  synth=0.0972  delta=-0.0174
+  24/pi: real=0.0850  chaos=0.0901  synth=0.0983  delta=-0.0051
+  25/pi: real=0.0809  chaos=0.0972  synth=0.0757  delta=-0.0164
+  26/pi: real=0.0757  chaos=0.0983  synth=0.0819  delta=-0.0225
+  -> chaos_null_seismic_reference.jsonl
+  -> scramble_null_seismic_reference.jsonl
+  -> synthetic_null_seismic_reference.jsonl
+
+[stellar]  n=2000000
+  4/pi: real=0.1000  chaos=0.1007  synth=0.1000  delta=-0.0007
+  5/pi: real=0.1000  chaos=0.1002  synth=0.0999  delta=-0.0002
+  6/pi: real=0.1000  chaos=0.1002  synth=0.1000  delta=-0.0002
+  7/pi: real=0.1001  chaos=0.1011  synth=0.1001  delta=-0.0010
+  8/pi: real=0.1000  chaos=0.1000  synth=0.0999  delta=-0.0000
+  9/pi: real=0.0996  chaos=0.0996  synth=0.0997  delta=-0.0000
+  10/pi: real=0.1005  chaos=0.0992  synth=0.0998  delta=+0.0012
+  11/pi: real=0.1003  chaos=0.0996  synth=0.1000  delta=+0.0007
+  12/pi: real=0.1001  chaos=0.0986  synth=0.0999  delta=+0.0014
+  13/pi: real=0.1000  chaos=0.0994  synth=0.0998  delta=+0.0005
+  14/pi: real=0.1001  chaos=0.0989  synth=0.0999  delta=+0.0012
+  15/pi: real=0.1001  chaos=0.1001  synth=0.0998  delta=+0.0000
+  16/pi: real=0.1003  chaos=0.1000  synth=0.0998  delta=+0.0003
+  17/pi: real=0.0999  chaos=0.1013  synth=0.0998  delta=-0.0013
+  18/pi: real=0.0996  chaos=0.0969  synth=0.0999  delta=+0.0028
+  19/pi: real=0.1000  chaos=0.1024  synth=0.1001  delta=-0.0025
+  20/pi: real=0.0998  chaos=0.1022  synth=0.0998  delta=-0.0023
+  21/pi: real=0.1004  chaos=0.1008  synth=0.1000  delta=-0.0004
+  22/pi: real=0.1002  chaos=0.1002  synth=0.1000  delta=-0.0000
+  23/pi: real=0.1005  chaos=0.0976  synth=0.1001  delta=+0.0029
+  24/pi: real=0.0998  chaos=0.0952  synth=0.0999  delta=+0.0046
+  25/pi: real=0.1000  chaos=0.1027  synth=0.1000  delta=-0.0027
+  26/pi: real=0.0998  chaos=0.1031  synth=0.0998  delta=-0.0032
+  -> chaos_null_stellar.jsonl
+  -> scramble_null_stellar.jsonl
+  -> synthetic_null_stellar.jsonl
+
+[stellar_age]  n=2052
+  4/pi: real=0.0926  chaos=0.0994  synth=0.0921  delta=-0.0068
+  5/pi: real=0.1014  chaos=0.1033  synth=0.1033  delta=-0.0019
+  6/pi: real=0.0989  chaos=0.0858  synth=0.0945  delta=+0.0132 ** above chaos **
+  7/pi: real=0.1150  chaos=0.1038  synth=0.1028  delta=+0.0112 ** above chaos **
+  8/pi: real=0.1062  chaos=0.0989  synth=0.0950  delta=+0.0073 ** above chaos **
+  9/pi: real=0.1019  chaos=0.1019  synth=0.1101  delta=+0.0000
+  10/pi: real=0.1053  chaos=0.0994  synth=0.0994  delta=+0.0058 ** above chaos **
+  11/pi: real=0.1067  chaos=0.0984  synth=0.0980  delta=+0.0083 ** above chaos **
+  12/pi: real=0.1101  chaos=0.1082  synth=0.0965  delta=+0.0019
+  13/pi: real=0.0848  chaos=0.0960  synth=0.1038  delta=-0.0112
+  14/pi: real=0.1028  chaos=0.1072  synth=0.0941  delta=-0.0044
+  15/pi: real=0.1019  chaos=0.0960  synth=0.1014  delta=+0.0058 ** above chaos **
+  16/pi: real=0.1179  chaos=0.0999  synth=0.0999  delta=+0.0180 ** above chaos **
+  17/pi: real=0.1053  chaos=0.0955  synth=0.0994  delta=+0.0097 ** above chaos **
+  18/pi: real=0.1082  chaos=0.1135  synth=0.0999  delta=-0.0054
+  19/pi: real=0.0902  chaos=0.1058  synth=0.0945  delta=-0.0156
+  20/pi: real=0.1053  chaos=0.0999  synth=0.1043  delta=+0.0054 ** above chaos **
+  21/pi: real=0.1160  chaos=0.1121  synth=0.1009  delta=+0.0039
+  22/pi: real=0.1048  chaos=0.0950  synth=0.1048  delta=+0.0097 ** above chaos **
+  23/pi: real=0.1092  chaos=0.1140  synth=0.0965  delta=-0.0049
+  24/pi: real=0.1009  chaos=0.1043  synth=0.0994  delta=-0.0034
+  25/pi: real=0.0926  chaos=0.1023  synth=0.1058  delta=-0.0097
+  26/pi: real=0.0877  chaos=0.0984  synth=0.1092  delta=-0.0107
+  -> chaos_null_stellar_age.jsonl
+  -> scramble_null_stellar_age.jsonl
+  -> synthetic_null_stellar_age.jsonl
+
+[stellar_bfield]  n=2052
+  4/pi: real=0.0989  chaos=0.0867  synth=0.0897  delta=+0.0122 ** above chaos **
+  5/pi: real=0.0984  chaos=0.0902  synth=0.1048  delta=+0.0083 ** above chaos **
+  6/pi: real=0.1145  chaos=0.1028  synth=0.0955  delta=+0.0117 ** above chaos **
+  7/pi: real=0.1053  chaos=0.0994  synth=0.0921  delta=+0.0058 ** above chaos **
+  8/pi: real=0.0999  chaos=0.0877  synth=0.0931  delta=+0.0122 ** above chaos **
+  9/pi: real=0.1062  chaos=0.0965  synth=0.0980  delta=+0.0097 ** above chaos **
+  10/pi: real=0.0936  chaos=0.1028  synth=0.1038  delta=-0.0093
+  11/pi: real=0.1077  chaos=0.1004  synth=0.0999  delta=+0.0073 ** above chaos **
+  12/pi: real=0.1101  chaos=0.1077  synth=0.0916  delta=+0.0024
+  13/pi: real=0.1023  chaos=0.0970  synth=0.0897  delta=+0.0054 ** above chaos **
+  14/pi: real=0.1028  chaos=0.0965  synth=0.0975  delta=+0.0063 ** above chaos **
+  15/pi: real=0.0984  chaos=0.0965  synth=0.0872  delta=+0.0019
+  16/pi: real=0.1028  chaos=0.0867  synth=0.0863  delta=+0.0161 ** above chaos **
+  17/pi: real=0.0994  chaos=0.0936  synth=0.0989  delta=+0.0058 ** above chaos **
+  18/pi: real=0.1004  chaos=0.0984  synth=0.0945  delta=+0.0019
+  19/pi: real=0.0965  chaos=0.1038  synth=0.1077  delta=-0.0073
+  20/pi: real=0.0945  chaos=0.1014  synth=0.0931  delta=-0.0068
+  21/pi: real=0.1170  chaos=0.0960  synth=0.1019  delta=+0.0210 ** above chaos **
+  22/pi: real=0.1058  chaos=0.1033  synth=0.0950  delta=+0.0024
+  23/pi: real=0.0965  chaos=0.0906  synth=0.1023  delta=+0.0058 ** above chaos **
+  24/pi: real=0.0975  chaos=0.0975  synth=0.0921  delta=+0.0000
+  25/pi: real=0.0892  chaos=0.1062  synth=0.0936  delta=-0.0171
+  26/pi: real=0.1058  chaos=0.0975  synth=0.1058  delta=+0.0083 ** above chaos **
+  -> chaos_null_stellar_bfield.jsonl
+  -> scramble_null_stellar_bfield.jsonl
+  -> synthetic_null_stellar_bfield.jsonl
+
+[stellar_colour]  n=1979697
+  4/pi: real=0.0999  chaos=0.1001  synth=0.1003  delta=-0.0002
+  5/pi: real=0.1001  chaos=0.0994  synth=0.0998  delta=+0.0007
+  6/pi: real=0.1002  chaos=0.1001  synth=0.1003  delta=+0.0001
+  7/pi: real=0.0989  chaos=0.0949  synth=0.1000  delta=+0.0040
+  8/pi: real=0.0996  chaos=0.0996  synth=0.1001  delta=+0.0000
+  9/pi: real=0.0976  chaos=0.0938  synth=0.1000  delta=+0.0038
+  10/pi: real=0.1049  chaos=0.0941  synth=0.0999  delta=+0.0108 ** above chaos **
+  11/pi: real=0.0985  chaos=0.0917  synth=0.0998  delta=+0.0068 ** above chaos **
+  12/pi: real=0.1015  chaos=0.0973  synth=0.0999  delta=+0.0042
+  13/pi: real=0.0908  chaos=0.0950  synth=0.0999  delta=-0.0042
+  14/pi: real=0.0952  chaos=0.0875  synth=0.1001  delta=+0.0077 ** above chaos **
+  15/pi: real=0.1096  chaos=0.0941  synth=0.1002  delta=+0.0155 ** above chaos **
+  16/pi: real=0.1071  chaos=0.0956  synth=0.1001  delta=+0.0115 ** above chaos **
+  17/pi: real=0.1040  chaos=0.0888  synth=0.1000  delta=+0.0153 ** above chaos **
+  18/pi: real=0.1077  chaos=0.0936  synth=0.1000  delta=+0.0141 ** above chaos **
+  19/pi: real=0.1110  chaos=0.0989  synth=0.1001  delta=+0.0121 ** above chaos **
+  20/pi: real=0.1086  chaos=0.0835  synth=0.1008  delta=+0.0251 ** above chaos **
+  21/pi: real=0.0914  chaos=0.0877  synth=0.1020  delta=+0.0037
+  22/pi: real=0.0753  chaos=0.0919  synth=0.1025  delta=-0.0165
+  23/pi: real=0.0676  chaos=0.0959  synth=0.1024  delta=-0.0283
+  24/pi: real=0.0646  chaos=0.0912  synth=0.1003  delta=-0.0267
+  25/pi: real=0.0638  chaos=0.0783  synth=0.0974  delta=-0.0146
+  26/pi: real=0.0677  chaos=0.0813  synth=0.0932  delta=-0.0136
+  -> chaos_null_stellar_colour.jsonl
+  -> scramble_null_stellar_colour.jsonl
+  -> synthetic_null_stellar_colour.jsonl
+
+[stellar_cycle]  n=29
+  4/pi: real=0.3793  chaos=0.0690  synth=0.0000  delta=+0.3103 ** above chaos **
+  5/pi: real=0.3793  chaos=0.0345  synth=0.1724  delta=+0.3448 ** above chaos **
+  6/pi: real=0.0000  chaos=0.0690  synth=0.0000  delta=-0.0690
+  7/pi: real=0.0690  chaos=0.1034  synth=0.0690  delta=-0.0345
+  8/pi: real=0.3793  chaos=0.1724  synth=0.0345  delta=+0.2069 ** above chaos **
+  9/pi: real=0.0000  chaos=0.0690  synth=0.0345  delta=-0.0690
+  10/pi: real=0.3103  chaos=0.0000  synth=0.0690  delta=+0.3103 ** above chaos **
+  11/pi: real=0.0345  chaos=0.0000  synth=0.0690  delta=+0.0345 ** above chaos **
+  12/pi: real=0.3448  chaos=0.0690  synth=0.1379  delta=+0.2759 ** above chaos **
+  13/pi: real=0.0000  chaos=0.1034  synth=0.1034  delta=-0.1034
+  14/pi: real=0.0690  chaos=0.1379  synth=0.0690  delta=-0.0690
+  15/pi: real=0.0690  chaos=0.0345  synth=0.1034  delta=+0.0345 ** above chaos **
+  16/pi: real=0.3103  chaos=0.0690  synth=0.2069  delta=+0.2414 ** above chaos **
+  17/pi: real=0.0000  chaos=0.0690  synth=0.0345  delta=-0.0690
+  18/pi: real=0.0345  chaos=0.1724  synth=0.0345  delta=-0.1379
+  19/pi: real=0.3103  chaos=0.1034  synth=0.1034  delta=+0.2069 ** above chaos **
+  20/pi: real=0.3103  chaos=0.1379  synth=0.1034  delta=+0.1724 ** above chaos **
+  21/pi: real=0.0000  chaos=0.1379  synth=0.0345  delta=-0.1379
+  22/pi: real=0.1034  chaos=0.0345  synth=0.1034  delta=+0.0690 ** above chaos **
+  23/pi: real=0.0690  chaos=0.0690  synth=0.0345  delta=+0.0000
+  24/pi: real=0.3103  chaos=0.0690  synth=0.3103  delta=+0.2414 ** above chaos **
+  25/pi: real=0.0690  chaos=0.0345  synth=0.1034  delta=+0.0345 ** above chaos **
+  26/pi: real=0.0000  chaos=0.1379  synth=0.0345  delta=-0.1379
+  -> chaos_null_stellar_cycle.jsonl
+  -> scramble_null_stellar_cycle.jsonl
+  -> synthetic_null_stellar_cycle.jsonl
+
+[stellar_dm]  n=2457
+  4/pi: real=0.1070  chaos=0.0956  synth=0.0912  delta=+0.0114 ** above chaos **
+  5/pi: real=0.1001  chaos=0.1005  synth=0.1046  delta=-0.0004
+  6/pi: real=0.1058  chaos=0.0891  synth=0.1070  delta=+0.0167 ** above chaos **
+  7/pi: real=0.1034  chaos=0.1009  synth=0.0908  delta=+0.0024
+  8/pi: real=0.1058  chaos=0.1030  synth=0.0985  delta=+0.0028
+  9/pi: real=0.0989  chaos=0.0904  synth=0.1062  delta=+0.0085 ** above chaos **
+  10/pi: real=0.1058  chaos=0.1005  synth=0.1030  delta=+0.0053 ** above chaos **
+  11/pi: real=0.1038  chaos=0.1038  synth=0.1001  delta=+0.0000
+  12/pi: real=0.0883  chaos=0.0956  synth=0.0928  delta=-0.0073
+  13/pi: real=0.0997  chaos=0.0989  synth=0.0993  delta=+0.0008
+  14/pi: real=0.1140  chaos=0.0940  synth=0.0973  delta=+0.0199 ** above chaos **
+  15/pi: real=0.1107  chaos=0.0973  synth=0.1038  delta=+0.0134 ** above chaos **
+  16/pi: real=0.1087  chaos=0.1005  synth=0.1009  delta=+0.0081 ** above chaos **
+  17/pi: real=0.0916  chaos=0.0936  synth=0.1123  delta=-0.0020
+  18/pi: real=0.0916  chaos=0.0867  synth=0.1046  delta=+0.0049
+  19/pi: real=0.0977  chaos=0.1131  synth=0.1005  delta=-0.0155
+  20/pi: real=0.1005  chaos=0.1099  synth=0.0973  delta=-0.0094
+  21/pi: real=0.1034  chaos=0.0908  synth=0.0961  delta=+0.0126 ** above chaos **
+  22/pi: real=0.1022  chaos=0.0997  synth=0.1062  delta=+0.0024
+  23/pi: real=0.1131  chaos=0.1022  synth=0.0965  delta=+0.0110 ** above chaos **
+  24/pi: real=0.0948  chaos=0.1001  synth=0.1001  delta=-0.0053
+  25/pi: real=0.1042  chaos=0.1013  synth=0.0879  delta=+0.0028
+  26/pi: real=0.0940  chaos=0.1054  synth=0.1009  delta=-0.0114
+  -> chaos_null_stellar_dm.jsonl
+  -> scramble_null_stellar_dm.jsonl
+  -> synthetic_null_stellar_dm.jsonl
+
+[stellar_kinematic]  n=1808145
+  4/pi: real=0.0915  chaos=0.0948  synth=0.0814  delta=-0.0033
+  5/pi: real=0.0955  chaos=0.0954  synth=0.0837  delta=+0.0001
+  6/pi: real=0.0920  chaos=0.0943  synth=0.0816  delta=-0.0023
+  7/pi: real=0.0776  chaos=0.0943  synth=0.0812  delta=-0.0166
+  8/pi: real=0.0885  chaos=0.0936  synth=0.0809  delta=-0.0051
+  9/pi: real=0.0778  chaos=0.0951  synth=0.0810  delta=-0.0173
+  10/pi: real=0.0744  chaos=0.0943  synth=0.0808  delta=-0.0199
+  11/pi: real=0.0822  chaos=0.0944  synth=0.0807  delta=-0.0122
+  12/pi: real=0.1104  chaos=0.0927  synth=0.0806  delta=+0.0177 ** above chaos **
+  13/pi: real=0.0844  chaos=0.0932  synth=0.0806  delta=-0.0087
+  14/pi: real=0.0788  chaos=0.0919  synth=0.0804  delta=-0.0131
+  15/pi: real=0.1139  chaos=0.0944  synth=0.0802  delta=+0.0195 ** above chaos **
+  16/pi: real=0.1116  chaos=0.0915  synth=0.0799  delta=+0.0201 ** above chaos **
+  17/pi: real=0.0899  chaos=0.0923  synth=0.0797  delta=-0.0024
+  18/pi: real=0.0845  chaos=0.0924  synth=0.0797  delta=-0.0079
+  19/pi: real=0.0812  chaos=0.0921  synth=0.0792  delta=-0.0109
+  20/pi: real=0.0790  chaos=0.0916  synth=0.0793  delta=-0.0127
+  21/pi: real=0.0768  chaos=0.0904  synth=0.0812  delta=-0.0136
+  22/pi: real=0.0754  chaos=0.0944  synth=0.0790  delta=-0.0189
+  23/pi: real=0.0749  chaos=0.0924  synth=0.0787  delta=-0.0176
+  24/pi: real=0.0725  chaos=0.0903  synth=0.0807  delta=-0.0177
+  25/pi: real=0.0726  chaos=0.0928  synth=0.0783  delta=-0.0201
+  26/pi: real=0.0705  chaos=0.0894  synth=0.0788  delta=-0.0188
+  -> chaos_null_stellar_kinematic.jsonl
+  -> scramble_null_stellar_kinematic.jsonl
+  -> synthetic_null_stellar_kinematic.jsonl
+
+[stellar_luminosity]  n=2000000
+  4/pi: real=0.0986  chaos=0.0977  synth=0.0954  delta=+0.0010
+  5/pi: real=0.0980  chaos=0.0979  synth=0.0953  delta=+0.0001
+  6/pi: real=0.0975  chaos=0.0977  synth=0.0952  delta=-0.0002
+  7/pi: real=0.0975  chaos=0.0969  synth=0.0948  delta=+0.0006
+  8/pi: real=0.0965  chaos=0.0975  synth=0.0944  delta=-0.0010
+  9/pi: real=0.0966  chaos=0.0953  synth=0.0947  delta=+0.0013
+  10/pi: real=0.0957  chaos=0.0981  synth=0.0942  delta=-0.0023
+  11/pi: real=0.0954  chaos=0.0983  synth=0.0943  delta=-0.0029
+  12/pi: real=0.0952  chaos=0.0977  synth=0.0938  delta=-0.0025
+  13/pi: real=0.0944  chaos=0.0952  synth=0.0936  delta=-0.0007
+  14/pi: real=0.0940  chaos=0.0909  synth=0.0934  delta=+0.0031
+  15/pi: real=0.0931  chaos=0.0976  synth=0.0934  delta=-0.0044
+  16/pi: real=0.0936  chaos=0.0911  synth=0.0929  delta=+0.0025
+  17/pi: real=0.0928  chaos=0.0973  synth=0.0926  delta=-0.0045
+  18/pi: real=0.0917  chaos=0.0882  synth=0.0924  delta=+0.0035
+  19/pi: real=0.0918  chaos=0.0922  synth=0.0925  delta=-0.0003
+  20/pi: real=0.0921  chaos=0.0973  synth=0.0919  delta=-0.0052
+  21/pi: real=0.0917  chaos=0.0858  synth=0.0916  delta=+0.0059 ** above chaos **
+  22/pi: real=0.0898  chaos=0.0896  synth=0.0918  delta=+0.0002
+  23/pi: real=0.0897  chaos=0.0938  synth=0.0912  delta=-0.0041
+  24/pi: real=0.0894  chaos=0.0971  synth=0.0911  delta=-0.0077
+  25/pi: real=0.0894  chaos=0.0816  synth=0.0903  delta=+0.0077 ** above chaos **
+  26/pi: real=0.0903  chaos=0.0848  synth=0.0901  delta=+0.0055 ** above chaos **
+  -> chaos_null_stellar_luminosity.jsonl
+  -> scramble_null_stellar_luminosity.jsonl
+  -> synthetic_null_stellar_luminosity.jsonl
+
+[stellar_rotation]  n=67311
+  4/pi: real=0.1008  chaos=0.0981  synth=0.0989  delta=+0.0027
+  5/pi: real=0.0998  chaos=0.0979  synth=0.0999  delta=+0.0019
+  6/pi: real=0.1030  chaos=0.0999  synth=0.0993  delta=+0.0031
+  7/pi: real=0.1004  chaos=0.1006  synth=0.1004  delta=-0.0002
+  8/pi: real=0.0992  chaos=0.0993  synth=0.0975  delta=-0.0001
+  9/pi: real=0.0997  chaos=0.1026  synth=0.1004  delta=-0.0029
+  10/pi: real=0.0988  chaos=0.0998  synth=0.0998  delta=-0.0010
+  11/pi: real=0.0975  chaos=0.1004  synth=0.0997  delta=-0.0029
+  12/pi: real=0.1023  chaos=0.1012  synth=0.0996  delta=+0.0010
+  13/pi: real=0.1044  chaos=0.1024  synth=0.1008  delta=+0.0020
+  14/pi: real=0.1024  chaos=0.1024  synth=0.1018  delta=+0.0000
+  15/pi: real=0.0980  chaos=0.0977  synth=0.0988  delta=+0.0003
+  16/pi: real=0.0986  chaos=0.1012  synth=0.0984  delta=-0.0026
+  17/pi: real=0.1027  chaos=0.0999  synth=0.0997  delta=+0.0028
+  18/pi: real=0.0990  chaos=0.1026  synth=0.0984  delta=-0.0036
+  19/pi: real=0.0984  chaos=0.0975  synth=0.1002  delta=+0.0008
+  20/pi: real=0.0961  chaos=0.0994  synth=0.0983  delta=-0.0033
+  21/pi: real=0.0985  chaos=0.0974  synth=0.0996  delta=+0.0011
+  22/pi: real=0.0934  chaos=0.0982  synth=0.0993  delta=-0.0048
+  23/pi: real=0.1045  chaos=0.0965  synth=0.1002  delta=+0.0081 ** above chaos **
+  24/pi: real=0.1005  chaos=0.1009  synth=0.0982  delta=-0.0004
+  25/pi: real=0.0911  chaos=0.0993  synth=0.0997  delta=-0.0082
+  26/pi: real=0.1022  chaos=0.1009  synth=0.1008  delta=+0.0013
+  -> chaos_null_stellar_rotation.jsonl
+  -> scramble_null_stellar_rotation.jsonl
+  -> synthetic_null_stellar_rotation.jsonl
+
+[stellar_spindown]  n=1638
+  4/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  5/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  6/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  7/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  8/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  9/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  10/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  11/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  12/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  13/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  14/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  15/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  16/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  17/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  18/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  19/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  20/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  21/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  22/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  23/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  24/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  25/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  26/pi: real=0.0000  chaos=0.0000  synth=0.0000  delta=+0.0000
+  -> chaos_null_stellar_spindown.jsonl
+  -> scramble_null_stellar_spindown.jsonl
+  -> synthetic_null_stellar_spindown.jsonl
+
+[SKIP] stellar_wrongbox -- all zeros
+[subnuclear_eta]  n=100000
+  4/pi: real=0.0970  chaos=0.0987  synth=0.0956  delta=-0.0017
+  5/pi: real=0.1000  chaos=0.0967  synth=0.0949  delta=+0.0033
+  6/pi: real=0.0997  chaos=0.0961  synth=0.0938  delta=+0.0035
+  7/pi: real=0.0955  chaos=0.0982  synth=0.0941  delta=-0.0026
+  8/pi: real=0.1048  chaos=0.0997  synth=0.0960  delta=+0.0051 ** above chaos **
+  9/pi: real=0.0867  chaos=0.0958  synth=0.0932  delta=-0.0091
+  10/pi: real=0.0991  chaos=0.0875  synth=0.0929  delta=+0.0116 ** above chaos **
+  11/pi: real=0.1036  chaos=0.0971  synth=0.0946  delta=+0.0065 ** above chaos **
+  12/pi: real=0.0893  chaos=0.0854  synth=0.0917  delta=+0.0039
+  13/pi: real=0.1062  chaos=0.0917  synth=0.0940  delta=+0.0144 ** above chaos **
+  14/pi: real=0.0941  chaos=0.0971  synth=0.1492  delta=-0.0030
+  15/pi: real=0.0817  chaos=0.0783  synth=0.0897  delta=+0.0035
+  16/pi: real=0.0964  chaos=0.0853  synth=0.0923  delta=+0.0111 ** above chaos **
+  17/pi: real=0.1061  chaos=0.0900  synth=0.0945  delta=+0.0161 ** above chaos **
+  18/pi: real=0.1029  chaos=0.0957  synth=0.0945  delta=+0.0072 ** above chaos **
+  19/pi: real=0.0963  chaos=0.0787  synth=0.1385  delta=+0.0176 ** above chaos **
+  20/pi: real=0.0955  chaos=0.0704  synth=0.0871  delta=+0.0251 ** above chaos **
+  21/pi: real=0.0988  chaos=0.0740  synth=0.0889  delta=+0.0248 ** above chaos **
+  22/pi: real=0.0888  chaos=0.0771  synth=0.0909  delta=+0.0117 ** above chaos **
+  23/pi: real=0.0799  chaos=0.0822  synth=0.0937  delta=-0.0024
+  24/pi: real=0.0867  chaos=0.0862  synth=0.0943  delta=+0.0005
+  25/pi: real=0.0908  chaos=0.0880  synth=0.0953  delta=+0.0028
+  26/pi: real=0.0879  chaos=0.0922  synth=0.0950  delta=-0.0043
+  -> chaos_null_subnuclear_eta.jsonl
+  -> scramble_null_subnuclear_eta.jsonl
+  -> synthetic_null_subnuclear_eta.jsonl
+
+[subnuclear_mass]  n=100000
+  4/pi: real=0.0917  chaos=0.1010  synth=0.1111  delta=-0.0093
+  5/pi: real=0.1182  chaos=0.1001  synth=0.0980  delta=+0.0181 ** above chaos **
+  6/pi: real=0.1032  chaos=0.1000  synth=0.1102  delta=+0.0032
+  7/pi: real=0.0974  chaos=0.0996  synth=0.0982  delta=-0.0022
+  8/pi: real=0.0961  chaos=0.1011  synth=0.0996  delta=-0.0049
+  9/pi: real=0.0966  chaos=0.1002  synth=0.0971  delta=-0.0036
+  10/pi: real=0.0985  chaos=0.0992  synth=0.0978  delta=-0.0007
+  11/pi: real=0.1235  chaos=0.0993  synth=0.1000  delta=+0.0242 ** above chaos **
+  12/pi: real=0.0969  chaos=0.0996  synth=0.1126  delta=-0.0028
+  13/pi: real=0.1527  chaos=0.1030  synth=0.0988  delta=+0.0496 ** above chaos **
+  14/pi: real=0.1101  chaos=0.1006  synth=0.0988  delta=+0.0095 ** above chaos **
+  15/pi: real=0.1041  chaos=0.1023  synth=0.0989  delta=+0.0017
+  16/pi: real=0.1157  chaos=0.1003  synth=0.1000  delta=+0.0154 ** above chaos **
+  17/pi: real=0.0827  chaos=0.1003  synth=0.0984  delta=-0.0176
+  18/pi: real=0.1042  chaos=0.0990  synth=0.0984  delta=+0.0052 ** above chaos **
+  19/pi: real=0.1132  chaos=0.0983  synth=0.0986  delta=+0.0149 ** above chaos **
+  20/pi: real=0.0839  chaos=0.1031  synth=0.0979  delta=-0.0192
+  21/pi: real=0.1103  chaos=0.0991  synth=0.0990  delta=+0.0112 ** above chaos **
+  22/pi: real=0.1530  chaos=0.1017  synth=0.1015  delta=+0.0513 ** above chaos **
+  23/pi: real=0.0916  chaos=0.1010  synth=0.0965  delta=-0.0094
+  24/pi: real=0.0865  chaos=0.1007  synth=0.0995  delta=-0.0142
+  25/pi: real=0.0811  chaos=0.0986  synth=0.0983  delta=-0.0175
+  26/pi: real=0.1020  chaos=0.1021  synth=0.0998  delta=-0.0001
+  -> chaos_null_subnuclear_mass.jsonl
+  -> scramble_null_subnuclear_mass.jsonl
+  -> synthetic_null_subnuclear_mass.jsonl
+
+[subnuclear_pt_lead]  n=100000
+  4/pi: real=0.1015  chaos=0.0990  synth=0.0990  delta=+0.0025
+  5/pi: real=0.1010  chaos=0.0984  synth=0.0997  delta=+0.0027
+  6/pi: real=0.0993  chaos=0.1002  synth=0.1000  delta=-0.0008
+  7/pi: real=0.1036  chaos=0.1022  synth=0.0997  delta=+0.0014
+  8/pi: real=0.0984  chaos=0.0989  synth=0.0992  delta=-0.0005
+  9/pi: real=0.0948  chaos=0.1003  synth=0.0998  delta=-0.0054
+  10/pi: real=0.0958  chaos=0.0980  synth=0.1003  delta=-0.0023
+  11/pi: real=0.0992  chaos=0.0987  synth=0.1005  delta=+0.0005
+  12/pi: real=0.0946  chaos=0.0997  synth=0.0998  delta=-0.0051
+  13/pi: real=0.1109  chaos=0.1027  synth=0.1002  delta=+0.0082 ** above chaos **
+  14/pi: real=0.0969  chaos=0.1021  synth=0.0998  delta=-0.0052
+  15/pi: real=0.1043  chaos=0.1040  synth=0.0997  delta=+0.0003
+  16/pi: real=0.1052  chaos=0.1042  synth=0.1001  delta=+0.0010
+  17/pi: real=0.0953  chaos=0.1028  synth=0.0993  delta=-0.0076
+  18/pi: real=0.0921  chaos=0.1030  synth=0.1008  delta=-0.0109
+  19/pi: real=0.1082  chaos=0.0986  synth=0.0993  delta=+0.0097 ** above chaos **
+  20/pi: real=0.0996  chaos=0.0972  synth=0.1003  delta=+0.0024
+  21/pi: real=0.1027  chaos=0.1017  synth=0.0995  delta=+0.0010
+  22/pi: real=0.0940  chaos=0.1015  synth=0.1000  delta=-0.0075
+  23/pi: real=0.0980  chaos=0.0954  synth=0.0998  delta=+0.0026
+  24/pi: real=0.0886  chaos=0.1004  synth=0.1012  delta=-0.0118
+  25/pi: real=0.1099  chaos=0.0955  synth=0.0999  delta=+0.0144 ** above chaos **
+  26/pi: real=0.1157  chaos=0.0984  synth=0.1013  delta=+0.0172 ** above chaos **
+  -> chaos_null_subnuclear_pt_lead.jsonl
+  -> scramble_null_subnuclear_pt_lead.jsonl
+  -> synthetic_null_subnuclear_pt_lead.jsonl
+
+[subnuclear_pt_sublead]  n=100000
+  4/pi: real=0.0994  chaos=0.0999  synth=0.1037  delta=-0.0005
+  5/pi: real=0.1017  chaos=0.1031  synth=0.1013  delta=-0.0014
+  6/pi: real=0.0975  chaos=0.1005  synth=0.1048  delta=-0.0030
+  7/pi: real=0.1047  chaos=0.1006  synth=0.0985  delta=+0.0041
+  8/pi: real=0.0952  chaos=0.0994  synth=0.1037  delta=-0.0041
+  9/pi: real=0.0976  chaos=0.0994  synth=0.1009  delta=-0.0018
+  10/pi: real=0.0981  chaos=0.1020  synth=0.1006  delta=-0.0039
+  11/pi: real=0.1031  chaos=0.0978  synth=0.0991  delta=+0.0052 ** above chaos **
+  12/pi: real=0.0932  chaos=0.1002  synth=0.1043  delta=-0.0070
+  13/pi: real=0.1093  chaos=0.1031  synth=0.1003  delta=+0.0062 ** above chaos **
+  14/pi: real=0.0981  chaos=0.1006  synth=0.0997  delta=-0.0025
+  15/pi: real=0.1055  chaos=0.1014  synth=0.1001  delta=+0.0042
+  16/pi: real=0.1037  chaos=0.1012  synth=0.0993  delta=+0.0025
+  17/pi: real=0.0942  chaos=0.1021  synth=0.1002  delta=-0.0079
+  18/pi: real=0.0934  chaos=0.1002  synth=0.1004  delta=-0.0068
+  19/pi: real=0.1131  chaos=0.1009  synth=0.1001  delta=+0.0122 ** above chaos **
+  20/pi: real=0.1024  chaos=0.0971  synth=0.1011  delta=+0.0053 ** above chaos **
+  21/pi: real=0.1000  chaos=0.0953  synth=0.0994  delta=+0.0048
+  22/pi: real=0.0887  chaos=0.0985  synth=0.0984  delta=-0.0098
+  23/pi: real=0.0935  chaos=0.0967  synth=0.1027  delta=-0.0032
+  24/pi: real=0.0870  chaos=0.1023  synth=0.1043  delta=-0.0154
+  25/pi: real=0.1149  chaos=0.1034  synth=0.1034  delta=+0.0115 ** above chaos **
+  26/pi: real=0.1196  chaos=0.1065  synth=0.1005  delta=+0.0130 ** above chaos **
+  -> chaos_null_subnuclear_pt_sublead.jsonl
+  -> scramble_null_subnuclear_pt_sublead.jsonl
+  -> synthetic_null_subnuclear_pt_sublead.jsonl
+
+All null lakes written to: C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\synthetic
+
+Next steps:
+  1. python engine/build_pinch_table.py
+
+[2026-06-04 22:46:41 UTC] STAGE COMPLETE: chaos in 30m 38s
+
+============================================================
+[2026-06-04 22:46:41 UTC] STAGE: PINCH
+Compute z-scores and cross-domain pinch table
+============================================================
+[harmonic_targets.json] Loaded 23 registers (N=4 to N=26), container=24, threshold=0.05
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live parallel crunching dashboard.
+============================================================
+
+Loading unified master: C:\Users\timot\Downloads\Science\src\Unification\vol11\lakes\unified\unified_master.jsonl
+  Loading records into memory. Please wait...
+    -> Parsed 436,705 records...
+    -> Parsed 870,128 records...
+    -> Parsed 1,322,077 records...
+    -> Parsed 1,781,093 records...
+    -> Parsed 2,224,966 records...
+    -> Parsed 2,671,746 records...
+    -> Parsed 3,096,625 records...
+    -> Parsed 3,489,138 records...
+    -> Parsed 3,826,770 records...
+    -> Parsed 4,164,512 records...
+    -> Parsed 4,508,275 records...
+    -> Parsed 4,857,953 records...
+    -> Parsed 5,207,242 records...
+    -> Parsed 5,560,993 records...
+    -> Parsed 5,916,135 records...
+    -> Parsed 6,260,927 records...
+    -> Parsed 6,627,982 records...
+    -> Parsed 6,941,096 records...
+    -> Parsed 7,158,167 records...
+    -> Parsed 7,375,609 records...
+    -> Parsed 7,623,562 records...
+    -> Parsed 7,829,312 records...
+    -> Parsed 8,061,402 records...
+    -> Parsed 8,315,472 records...
+    -> Parsed 8,548,921 records...
+    -> Parsed 8,783,818 records...
+    -> Parsed 9,032,530 records...
+    -> Parsed 9,261,511 records...
+    -> Parsed 9,459,728 records...
+    -> Parsed 9,703,104 records...
+    -> Parsed 9,932,431 records...
+    -> Parsed 10,155,968 records...
+    -> Parsed 10,311,693 records...
+    -> Parsed 10,452,889 records...
+    -> Parsed 10,721,515 records...
+    -> Parsed 10,875,805 records...
+    -> Parsed 11,023,956 records...
+    -> Parsed 11,182,848 records...
+    -> Parsed 11,328,855 records...
+    -> Parsed 11,465,435 records...
+    -> Parsed 11,607,393 records...
+    -> Parsed 11,761,204 records...
+    -> Parsed 11,912,529 records...
+    -> Parsed 12,062,513 records...
+    -> Parsed 12,242,647 records...
+    -> Parsed 12,396,232 records...
+    -> Parsed 12,575,030 records...
+    -> Parsed 12,738,166 records...
+    -> Parsed 12,903,998 records...
+    -> Parsed 13,036,757 records...
+    -> Parsed 13,182,220 records...
+    -> Parsed 13,327,257 records...
+    -> Parsed 13,453,516 records...
+    -> Parsed 13,603,982 records...
+    -> Parsed 13,759,461 records...
+    -> Parsed 13,908,449 records...
+    -> Parsed 14,068,945 records...
+    -> Parsed 14,223,338 records...
+    -> Parsed 14,379,073 records...
+    -> Parsed 14,522,202 records...
+    -> Parsed 14,614,851 records...
+    -> Parsed 14,702,569 records...
+    -> Parsed 14,779,935 records...
+    -> Parsed 14,871,943 records...
+    -> Parsed 14,960,564 records...
+    -> Parsed 15,058,585 records...
+    -> Parsed 15,125,472 records...
+    -> Parsed 15,221,007 records...
+    -> Parsed 15,304,990 records...
+    -> Parsed 15,406,551 records...
+    -> Parsed 15,506,485 records...
+    -> Parsed 15,601,040 records...
+    -> Parsed 15,703,313 records...
+    -> Parsed 15,784,595 records...
+    -> Parsed 15,873,257 records...
+    -> Parsed 15,948,825 records...
+    -> Parsed 16,028,168 records...
+    -> Parsed 16,106,174 records...
+    -> Parsed 16,194,882 records...
+    -> Parsed 16,283,124 records...
+    -> Parsed 16,366,306 records...
+    -> Parsed 16,450,545 records...
+    -> Parsed 16,532,899 records...
+    -> Parsed 16,620,145 records...
+    -> Parsed 16,708,309 records...
+    -> Parsed 16,795,204 records...
+    -> Parsed 16,883,603 records...
+    -> Parsed 16,972,845 records...
+    -> Parsed 17,062,629 records...
+    -> Parsed 17,156,419 records...
+    -> Parsed 17,249,686 records...
+    -> Parsed 17,343,658 records...
+    -> Parsed 17,431,714 records...
+    -> Parsed 17,535,989 records...
+    -> Parsed 17,672,001 records...
+    -> Parsed 17,811,781 records...
+    -> Parsed 17,950,414 records...
+    -> Parsed 18,095,974 records...
+    -> Parsed 18,192,338 records...
+    -> Parsed 18,281,096 records...
+    -> Parsed 18,345,606 records...
+    -> Parsed 18,442,677 records...
+    -> Parsed 18,530,201 records...
+    -> Parsed 18,693,881 records...
+    -> Parsed 18,868,573 records...
+    -> Parsed 19,041,555 records...
+    -> Parsed 19,195,646 records...
+    -> Parsed 19,369,852 records...
+    -> Parsed 19,530,585 records...
+    -> Parsed 19,710,894 records...
+    -> Parsed 19,876,143 records...
+    -> Parsed 20,051,340 records...
+    -> Parsed 20,217,417 records...
+    -> Parsed 20,391,224 records...
+    -> Parsed 20,601,247 records...
+    -> Parsed 20,836,736 records...
+    -> Parsed 21,002,153 records...
+    -> Parsed 21,148,121 records...
+    -> Parsed 21,303,847 records...
+    -> Parsed 21,479,345 records...
+    -> Parsed 21,633,379 records...
+    -> Parsed 21,795,045 records...
+    -> Parsed 21,948,071 records...
+    -> Parsed 22,117,119 records...
+    -> Parsed 22,283,427 records...
+    -> Parsed 22,454,044 records...
+    -> Parsed 22,624,217 records...
+    -> Parsed 22,825,239 records...
+    -> Parsed 23,030,970 records...
+    -> Parsed 23,215,445 records...
+    -> Parsed 23,411,634 records...
+    -> Parsed 23,583,306 records...
+    -> Parsed 23,781,100 records...
+    -> Parsed 23,940,666 records...
+    -> Parsed 24,137,473 records...
+    -> Parsed 24,331,690 records...

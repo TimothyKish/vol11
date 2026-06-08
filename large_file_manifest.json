@@ -1,0 +1,286 @@
+[
+  {
+    "path": "B-Series/B4_PDB/lake/b4_pdb_protein_promoted.jsonl",
+    "size_mb": 1273.55
+  },
+  {
+    "path": "B-Series/B4_PDB/lake/b4_pdb_protein_raw.jsonl",
+    "size_mb": 488.21
+  },
+  {
+    "path": "B-Series/B5_PDB/lake/b5_pdb_protein_raw.jsonl",
+    "size_mb": 136.67
+  },
+  {
+    "path": "B-Series/B5_PDB_Full/lake/b5_pdb_full_protein_raw.jsonl",
+    "size_mb": 741.53
+  },
+  {
+    "path": "G-Series/G1c_Mass/lake/g1c_raw.jsonl",
+    "size_mb": 334.74
+  },
+  {
+    "path": "P-Series/P4_TTV/lake/p4_ttv_promoted.jsonl",
+    "size_mb": 107.64
+  },
+  {
+    "path": "S-Series/S1_GaiaParallax/lake/s1_gaia_parallax_raw.jsonl",
+    "size_mb": 357.39
+  },
+  {
+    "path": "S-Series/S2_StellarKinematics/lake/s2_stellar_kinematics_raw.jsonl",
+    "size_mb": 114.59
+  },
+  {
+    "path": "S-Series/S2_Wrongbox/lake/s2_wrongbox_raw.jsonl",
+    "size_mb": 114.59
+  },
+  {
+    "path": "S-Series/S3_GalacticNASA/lake/s3_gaia_luminosity_promoted.jsonl",
+    "size_mb": 2751.29
+  },
+  {
+    "path": "S-Series/S3_GalacticNASA/lake/s3_gaia_luminosity_raw.jsonl",
+    "size_mb": 566.03
+  },
+  {
+    "path": "S-Series/S3_GalacticNASA/lake/s3_gaia_luminosity_source.csv",
+    "size_mb": 297.09
+  },
+  {
+    "path": "S-Series/S4_AstroMaster/lake/s4_gaia_colour_promoted.jsonl",
+    "size_mb": 2404.37
+  },
+  {
+    "path": "S-Series/S4_AstroMaster/lake/s4_gaia_colour_raw.jsonl",
+    "size_mb": 268.52
+  },
+  {
+    "path": "S-Series/S4_AstroMaster/lake/s4_gaia_colour_source.csv",
+    "size_mb": 297.09
+  },
+  {
+    "path": "lakes/inputs_promoted/b4_pdb_protein_promoted.jsonl",
+    "size_mb": 1273.55
+  },
+  {
+    "path": "lakes/inputs_promoted/b5_pdb_full_protein_promoted.jsonl",
+    "size_mb": 3349.5
+  },
+  {
+    "path": "lakes/inputs_promoted/b5_pdb_protein_promoted.jsonl",
+    "size_mb": 596.97
+  },
+  {
+    "path": "lakes/inputs_promoted/g1_galaxy_kinematics_promoted.jsonl",
+    "size_mb": 1563.17
+  },
+  {
+    "path": "lakes/inputs_promoted/g1c_mass_promoted.jsonl",
+    "size_mb": 989.26
+  },
+  {
+    "path": "lakes/inputs_promoted/p4_ttv_promoted.jsonl",
+    "size_mb": 107.64
+  },
+  {
+    "path": "lakes/inputs_promoted/s1_gaia_parallax_promoted.jsonl",
+    "size_mb": 1637.28
+  },
+  {
+    "path": "lakes/inputs_promoted/s2_stellar_kinematics_promoted.jsonl",
+    "size_mb": 1702.31
+  },
+  {
+    "path": "lakes/inputs_promoted/s2_wrongbox_promoted.jsonl",
+    "size_mb": 845.2
+  },
+  {
+    "path": "lakes/inputs_promoted/s3_gaia_luminosity_promoted.jsonl",
+    "size_mb": 2751.29
+  },
+  {
+    "path": "lakes/inputs_promoted/s4_gaia_colour_promoted.jsonl",
+    "size_mb": 2404.37
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_biology_backbone.jsonl",
+    "size_mb": 6976.47
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_biology_backbone_full.jsonl",
+    "size_mb": 4794.69
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_biology_backbone_top8000.jsonl",
+    "size_mb": 2405.37
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_galactic.jsonl",
+    "size_mb": 1198.64
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_galactic_mass.jsonl",
+    "size_mb": 1236.69
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_kinematic_wrongbox.jsonl",
+    "size_mb": 1379.38
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_orbital_ttv.jsonl",
+    "size_mb": 192.89
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_stellar.jsonl",
+    "size_mb": 1292.74
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_stellar_colour.jsonl",
+    "size_mb": 1339.14
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_stellar_kinematic.jsonl",
+    "size_mb": 1242.52
+  },
+  {
+    "path": "lakes/synthetic/chaos_null_stellar_luminosity.jsonl",
+    "size_mb": 1388.82
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_biology_backbone.jsonl",
+    "size_mb": 6600.84
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_biology_backbone_full.jsonl",
+    "size_mb": 4549.73
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_biology_backbone_top8000.jsonl",
+    "size_mb": 2284.44
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_galactic.jsonl",
+    "size_mb": 1135.5
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_galactic_mass.jsonl",
+    "size_mb": 1171.7
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_kinematic_wrongbox.jsonl",
+    "size_mb": 1309.66
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_orbital_ttv.jsonl",
+    "size_mb": 182.44
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_stellar.jsonl",
+    "size_mb": 1223.49
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_stellar_colour.jsonl",
+    "size_mb": 1267.11
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_stellar_kinematic.jsonl",
+    "size_mb": 1178.65
+  },
+  {
+    "path": "lakes/synthetic/scramble_null_stellar_luminosity.jsonl",
+    "size_mb": 1311.02
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_biology_backbone.jsonl",
+    "size_mb": 7885.6
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_biology_backbone_full.jsonl",
+    "size_mb": 5390.33
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_biology_backbone_top8000.jsonl",
+    "size_mb": 2705.83
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_galactic.jsonl",
+    "size_mb": 1362.27
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_galactic_mass.jsonl",
+    "size_mb": 1398.46
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_kinematic_wrongbox.jsonl",
+    "size_mb": 1553.28
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_orbital_ttv.jsonl",
+    "size_mb": 217.93
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_stellar.jsonl",
+    "size_mb": 1471.5
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_stellar_colour.jsonl",
+    "size_mb": 1514.33
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_stellar_kinematic.jsonl",
+    "size_mb": 1402.7
+  },
+  {
+    "path": "lakes/synthetic/synthetic_null_stellar_luminosity.jsonl",
+    "size_mb": 1559.29
+  },
+  {
+    "path": "lakes/unified/b4_pdb_protein_scalarized.jsonl",
+    "size_mb": 1316.14
+  },
+  {
+    "path": "lakes/unified/b5_pdb_full_protein_scalarized.jsonl",
+    "size_mb": 3583.85
+  },
+  {
+    "path": "lakes/unified/b5_pdb_protein_scalarized.jsonl",
+    "size_mb": 640.19
+  },
+  {
+    "path": "lakes/unified/g1_galaxy_kinematics_scalarized.jsonl",
+    "size_mb": 1518.6
+  },
+  {
+    "path": "lakes/unified/g1c_mass_scalarized.jsonl",
+    "size_mb": 1037.13
+  },
+  {
+    "path": "lakes/unified/p4_ttv_scalarized.jsonl",
+    "size_mb": 107.65
+  },
+  {
+    "path": "lakes/unified/s1_gaia_parallax_scalarized.jsonl",
+    "size_mb": 1557.78
+  },
+  {
+    "path": "lakes/unified/s2_stellar_kinematics_scalarized.jsonl",
+    "size_mb": 1686.79
+  },
+  {
+    "path": "lakes/unified/s2_wrongbox_scalarized.jsonl",
+    "size_mb": 921.67
+  },
+  {
+    "path": "lakes/unified/s3_gaia_luminosity_scalarized.jsonl",
+    "size_mb": 2751.29
+  },
+  {
+    "path": "lakes/unified/s4_gaia_colour_scalarized.jsonl",
+    "size_mb": 2406.26
+  },
+  {
+    "path": "lakes/unified/unified_master.jsonl",
+    "size_mb": 17548.33
+  }
+]

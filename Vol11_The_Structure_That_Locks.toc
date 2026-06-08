@@ -1,0 +1,52 @@
+\contentsline {chapter}{Preface: The Same Object, Different Questions}{4}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Background: Old World Spectroscopy and the New World of Geometric Harmonics}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Old World: The Discovery of Spectroscopy}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}New World: The Kish Lattice Framework}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Why This Should Matter to a Physicist}{7}{section.1.3}%
+\contentsline {section}{\numberline {1.4}The 11-Volume Arc: What Has Been Established}{8}{section.1.4}%
+\contentsline {chapter}{\numberline {2}The Expanded Architecture: 61 Lakes, 52 Active Domains, 24.9 Million Records}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Canonical Vol 11 Run}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}The Vol 11 Full Dataset Summary}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}The B4/B5 Sovereign Split: The Decision and the Science}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}The Complete Domain Portrait}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.5}The New Multi-Attribute Lakes: CERN, SDSS, and Pulsar Sub-domains}{11}{section.2.5}%
+\contentsline {chapter}{\numberline {3}The Spectroscopic Test: Wrongbox Domains and What Geometry Chooses}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}What a Spectroscopic Test Is}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}How the Vol 11 Wrongbox Protocol Works}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The Wrongbox Results: What the Geometry Chose}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Why ``Different Address'' is the Stronger Result}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}The Multi-Attribute Sub-Lakes: What the 1.5 Engine Revealed}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.6}The Seismic Sovereign: An Honest Null}{16}{section.3.6}%
+\contentsline {section}{\numberline {3.7}The Register Map Updated: 52 Domains, 41 Orders of Magnitude}{16}{section.3.7}%
+\contentsline {section}{\numberline {3.8}The Triple-Null Architecture: Three Independent Falsification Layers}{18}{section.3.8}%
+\contentsline {chapter}{\numberline {4}The Biology Backbone Story: Resolution Sensitivity as Discovery}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Old World: The Ramachandran Plot}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}New World: The Ramachandran Lock}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Why the Wrong Prediction is the Right Result}{22}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Pipeline Integrity: B4 as Regression Test}{22}{section.4.4}%
+\contentsline {chapter}{\numberline {5}The Multi-Attribute Gaia Result: Same Stars, Three Predictions, Three Confirmations}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}The Pre-Registration Multi-Attribute Predictions}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}The Results}{24}{section.5.2}%
+\contentsline {section}{\numberline {5.3}What the Kinematic Principle Proof Figure Shows}{24}{section.5.3}%
+\contentsline {section}{\numberline {5.4}The Kinematic Hierarchy in Vol 11}{24}{section.5.4}%
+\contentsline {chapter}{\numberline {6}The Honest Account: What the Pre-Registration Said and What Happened}{26}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The Pre-Registration Scorecard}{26}{section.6.1}%
+\contentsline {section}{\numberline {6.2}The Gaia Multi-Attribute: Full Confirmation}{26}{section.6.2}%
+\contentsline {section}{\numberline {6.3}The B5 Backbone: Partial Confirmation and Deeper Discovery}{27}{section.6.3}%
+\contentsline {section}{\numberline {6.4}The Seismic Japan Sovereign: A Clean Null}{27}{section.6.4}%
+\contentsline {section}{\numberline {6.5}The Wrongbox Spectroscopic Test: Confirmed}{27}{section.6.5}%
+\contentsline {section}{\numberline {6.6}The Carry-Forward Predictions}{27}{section.6.6}%
+\contentsline {chapter}{\numberline {7}The Visual Suite: Reading the 39 Figures}{28}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Vera and the Expanded Reporting System}{28}{section.7.1}%
+\contentsline {section}{\numberline {7.2}The Key Figures and What They Say}{28}{section.7.2}%
+\contentsline {chapter}{\numberline {8}The Road to Volume 12: 2D Geometry and the Shadow in the Structure}{32}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Why Vol 12 Is Different}{32}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Formal Predictions for Vol 12}{33}{section.8.2}%
+\contentsline {section}{\numberline {8.3}The Vol 12 Infrastructure Target}{33}{section.8.3}%
+\contentsline {section}{\numberline {8.4}The Aurora Collaborative: Vol 11 Record}{34}{section.8.4}%
+\contentsline {chapter}{Epilogue: What Eleven Volumes Means}{35}{chapter*.3}%
+\contentsline {chapter}{Standing Appendix: Noise Does Not Lock}{37}{chapter*.4}%
+\contentsline {chapter}{Bibliography}{42}{chapter*.5}%
+\contentsline {chapter}{Appendix A: Evidence and Falsification Registry}{44}{chapter*.6}%
+\contentsline {chapter}{Appendix B: Canonical Pipeline Run}{54}{chapter*.7}%
+\contentsline {chapter}{Appendix C: Pre-Registration Summary}{185}{chapter*.8}%

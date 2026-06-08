@@ -1,0 +1,361 @@
+{
+  "version": "11.1",
+  "k_geo": 5.0929581789,
+  "note": "Config-driven scalar dispatch. Vol 11.1 Master Patch for all-zero arrays and wrongboxes.",
+  "formula_types": {
+    "log_standard": "log(1 + x/x0) / log(k_geo)  — standard positive measurement",
+    "log_inverse":  "log(1 + x0/x) / log(k_geo)  — inverse (e.g. frequency from period)",
+    "log_ratio":    "log(x/x0) / log(k_geo)       — ratio without offset",
+    "log_volumetric": "log(1 + x^3) / log(k_geo)  — 3D volumetric cubic transform"
+  },
+  "domains": {
+    "quantum": {
+      "field": "wavelength_nm",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Atomic emission/absorption wavelength in nm (NIST ASD)"
+    },
+    "molecular_c60": {
+      "field": "frequency_cm_inv",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "C60 vibrational frequency in inverse cm (NIST CCCBDB)"
+    },
+    "atomic_ionisation": {
+      "field": "ionisation_energy_ev",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "First and successive ionisation energy in eV (NIST ASD) - Q8"
+    },
+    "quantum_molecular_geometry": {
+      "field": "bond_length_angstrom",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Diatomic/polyatomic bond lengths (Angstroms) - Q2"
+    },
+    "quantum_molecular_vibration": {
+      "field": "vibrational_frequency_cm1",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Fundamental vibrational frequencies (cm^-1) - Q3"
+    },
+    "chemistry": {
+      "field": "bond_length_angstrom",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Molecular bond length in Angstroms (ZINC/CCCBDB)"
+    },
+    "biology": {
+      "field": "scalar_klc",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Biological timing intervals (T1 biological series)"
+    },
+    "biology_amino": {
+      "field": "scalar_klc",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Amino acid backbone geometry scalars (B3 series)"
+    },
+    "biology_chirality": {
+      "field": "specific_rotation_deg",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Specific rotation of chiral molecules (degrees) - B1"
+    },
+    "biology_other": {
+      "field": "scalar_klc",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Other biological timing scalars (T1 series non-amino)"
+    },
+    "biology_backbone_top8000": {
+      "field": "angle_degrees",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "B4 Top8000 Protein backbone phi/psi dihedral angles"
+    },
+    "biology_backbone_full": {
+      "field": "angle_degrees",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "B5 Full RCSB Protein backbone phi/psi dihedral angles"
+    },
+    "nuclear_binding": {
+      "field": "binding_energy_mev_per_A",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Nuclear binding energy per nucleon in MeV/A (NNDC AME2020)"
+    },
+    "nuclear_decay": {
+      "field": "half_life_seconds",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Nuclear half-life in seconds (IAEA NuDat v0)"
+    },
+    "stellar_kinematic": {
+      "field": "v_perp",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Stellar transverse velocity in km/s (Gaia DR3 S2)"
+    },
+    "stellar": {
+      "field": "dist_pc",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Stellar distances in parsecs (Gaia DR3 S1)"
+    },
+    "stellar_rotation": {
+      "field": "period_days",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Stellar rotation period in days (K1 Kepler)"
+    },
+    "stellar_cycle": {
+      "field": "interval_days",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Solar cycle length in days (K3 SIDC)"
+    },
+    "stellar_spindown": {
+      "field": "spin_down_rate",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Pulsar spin-down rate - K2a"
+    },
+    "stellar_dm": {
+      "field": "dispersion_measure",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Pulsar dispersion measure - K2b"
+    },
+    "stellar_age": {
+      "field": "characteristic_age_yr",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Pulsar characteristic age - K2c"
+    },
+    "stellar_bfield": {
+      "field": "surface_b_field_gauss",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Pulsar surface magnetic field - K2d"
+    },
+    "planetary_atlantic": {
+      "field": "interval_hours",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Atlantic tidal gap intervals"
+    },
+    "planetary_gulf": {
+      "field": "interval_hours",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Gulf of Mexico tidal intervals"
+    },
+    "planetary_pacific": {
+      "field": "interval_hours",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Pacific tidal intervals"
+    },
+    "planetary_indian": {
+      "field": "interval_hours",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Indian Ocean tidal intervals"
+    },
+    "planetary": {
+      "field": "interval_hours",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "General planetary tidal intervals"
+    },
+    "astrophysics": {
+      "field": "dm_exc_ne2001",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "FRB astrophysics scalars"
+    },
+    "gravitational_wave": {
+      "field": "f_ring_hz",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Gravitational wave merger frequencies"
+    },
+    "materials": {
+      "field": "bond_length_angstrom",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Crystal bond length in Angstroms"
+    },
+    "orbital": {
+      "field": "period_days",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Exoplanet orbital period in days"
+    },
+    "orbital_radius": {
+      "field": "pl_orbsmax_AU",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Orbital semi-major axis in AU"
+    },
+    "orbital_mass": {
+      "field": "pl_bmassj_Mj",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Planetary mass in Jupiter masses"
+    },
+    "orbital_ttv": {
+      "field": "ttv_absolute_minutes",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Absolute transit timing variation"
+    },
+    "orbital_eccentricity": {
+      "field": "eccentricity",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Orbital eccentricity"
+    },
+    "orbital_inclination": {
+      "field": "inclination_deg",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Orbital inclination in degrees"
+    },
+    "orbital_transit": {
+      "field": "transit_duration_hr",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Transit duration in hours"
+    },
+    "galactic": {
+      "field": "vdisp",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Galaxy velocity dispersion in km/s"
+    },
+    "galactic_mass": {
+      "field": "stellar_mass_solar",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Galaxy stellar mass (M_sun)"
+    },
+    "galactic_radius": {
+      "field": "effective_radius_kpc",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Galaxy effective radius"
+    },
+    "galactic_sersic": {
+      "field": "sersic_index",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Galaxy Sersic index proxy"
+    },
+    "stellar_colour": {
+      "field": "bp_rp",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Stellar BP-RP colour index"
+    },
+    "stellar_luminosity": {
+      "field": "abs_g_mag_shifted",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Stellar absolute G magnitude"
+    },
+    "cosmology": {
+      "field": "d_proxy",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Cosmological T4 scalars"
+    },
+    "cmb_anisotropy": {
+      "field": "delta_T_uK",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "CMB temperature anisotropy"
+    },
+    "seismic_japan": {
+      "field": "interval_days",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Temporal gap between events in Japan Trench"
+    },
+    "seismic_reference": {
+      "field": "interval_days",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Temporal gap between events in reference faults"
+    },
+    "subnuclear_mass": {
+      "field": "invariant_mass_gev",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Di-muon invariant mass"
+    },
+    "subnuclear_pt_lead": {
+      "field": "muon1_pt_gev",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Leading muon transverse momentum"
+    },
+    "subnuclear_pt_sublead": {
+      "field": "muon2_pt_gev",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Sub-leading muon transverse momentum"
+    },
+    "subnuclear_eta": {
+      "field": "muon1_eta_abs",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "Muon pseudorapidity"
+    },
+    "mechanics": {
+      "field": "scalar_klc",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "N1 mechanical null"
+    },
+    "behavior": {
+      "field": "scalar_klc",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "N2 behavioral null"
+    },
+    "mathematics": {
+      "field": "scalar_klc",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "N3 mathematical null"
+    },
+    "orbital_wrongbox": {
+      "field": "period_days",
+      "formula_type": "log_volumetric",
+      "x0": 1.0,
+      "description": "FALSIFICATION: Volumetric math applied to 1D Period"
+    },
+    "stellar_wrongbox": {
+      "field": "P0_ms",
+      "formula_type": "log_inverse",
+      "x0": 1.0,
+      "description": "FALSIFICATION: Inverse math applied to raw period"
+    },
+    "kinematic_wrongbox": {
+      "field": "v_perp",
+      "formula_type": "log_volumetric",
+      "x0": 1.0,
+      "description": "FALSIFICATION: Volumetric math applied to 1D Velocity"
+    },
+    "materials_wrongbox": {
+      "field": "volume",
+      "formula_type": "log_standard",
+      "x0": 1.0,
+      "description": "FALSIFICATION: Standard math applied to 3D Volume"
+    }
+  }
+}
