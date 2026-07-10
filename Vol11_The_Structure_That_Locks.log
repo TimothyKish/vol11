@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.26)  7 JUN 2026 18:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.26)  5 JUL 2026 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,8 +1036,8 @@ Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@dima=\skip80
 \bigstrutjot=\dimen335
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 14
-9.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 15
+8.
 
 (c:/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1049,37 +1049,37 @@ File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 (./Vol11_The_Structure_That_Locks.aux)
 \openout1 = `Vol11_The_Structure_That_Locks.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen336
 \MT@vwid@rightmargin=\dimen337
-LaTeX Info: Redefining \microtypecontext on input line 149.
-Package microtype Info: Applying patch `item' on input line 149.
-Package microtype Info: Applying patch `toc' on input line 149.
-Package microtype Info: Applying patch `eqnum' on input line 149.
+LaTeX Info: Redefining \microtypecontext on input line 158.
+Package microtype Info: Applying patch `item' on input line 158.
+Package microtype Info: Applying patch `toc' on input line 158.
+Package microtype Info: Applying patch `eqnum' on input line 158.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 149.
+Package microtype Warning: Unable to apply patch `footnote' on input line 158.
 
-Package microtype Info: Applying patch `verbatim' on input line 149.
-LaTeX Info: Redefining \microtypesetup on input line 149.
+Package microtype Info: Applying patch `verbatim' on input line 158.
+LaTeX Info: Redefining \microtypesetup on input line 158.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1154,23 +1154,23 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \c@lstlisting=\count375
-Package hyperref Info: Link coloring OFF on input line 149.
+Package hyperref Info: Link coloring OFF on input line 158.
 (./Vol11_The_Structure_That_Locks.out) (./Vol11_The_Structure_That_Locks.out)
 \@outlinefile=\write4
 \openout4 = `Vol11_The_Structure_That_Locks.out'.
 
-<Title/Vol11Title.png, id=216, 1541.76pt x 1027.84pt>
+<Title/Vol11Title.png, id=256, 1541.76pt x 1027.84pt>
 File: Title/Vol11Title.png Graphic file (type png)
 <use Title/Vol11Title.png>
-Package pdftex.def Info: Title/Vol11Title.png  used on input line 156.
+Package pdftex.def Info: Title/Vol11Title.png  used on input line 165.
 (pdftex.def)             Requested size: 614.29349pt x 794.98373pt.
 
-Overfull \hbox (144.53998pt too wide) in paragraph at lines 154--157
+Overfull \hbox (144.53998pt too wide) in paragraph at lines 163--166
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 72.28374pt on input line 157.
+LaTeX Warning: Float too large for page by 72.28374pt on input line 166.
 
 [1 <./Title/Vol11Title.png (PNG copy)>] [2{c:/texlive/2026/texmf-var/fonts/map/
 pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
@@ -1180,35 +1180,35 @@ nc}
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-73.
+82.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-73.
+82.
 
 (c:/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-173.
+182.
 
 (c:/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-173.
+182.
 
 (c:/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 173.
+(Font)              <12> on input line 182.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 173.
+(Font)              <8> on input line 182.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 173.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 173
+(Font)              <6> on input line 182.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 182
 .
 
 (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1217,7 +1217,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 173
+LaTeX Font Info:    Trying to load font information for U+msb on input line 182
 .
 
 (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1226,8 +1226,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 18
-9.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 19
+8.
 
 (c:/texlive/2026/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1237,13 +1237,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 189.
+(Font)              <10.95> on input line 198.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.194 \end{titlepage}
+l.203 \end{titlepage}
                       [1{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathi
 t.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 (./Vol11_The_Structure_That_Locks.toc
@@ -1251,7 +1251,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 ...ion Said and What Happened}{26}{chapter.6}
+l.32 ...n Sensitivity as Discovery}{32}{chapter.5}
                                                   % [2
 
 ])
@@ -1268,13 +1268,13 @@ Chapter 1.
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 396.
+(Font)              <10> on input line 405.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 396.
+(Font)              <7> on input line 405.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 396.
+(Font)              <5> on input line 405.
 
-Overfull \hbox (38.5443pt too wide) in paragraph at lines 396--411
+Overfull \hbox (38.5443pt too wide) in paragraph at lines 405--420
  [][] 
  []
 
@@ -1285,7 +1285,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [8]
 Chapter 2.
 
-Overfull \hbox (8.61815pt too wide) in paragraph at lines 420--420
+Overfull \hbox (8.61815pt too wide) in paragraph at lines 429--429
 \T1/lmr/bx/n/24.88 (-20) 52 Ac-tive Do-mains, 24.9 Mil-lion Records| 
  []
 
@@ -1293,8 +1293,8 @@ Overfull \hbox (8.61815pt too wide) in paragraph at lines 420--420
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-94.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
+03.
  (c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1306,7 +1306,7 @@ Chapter 3.
 
 
 ]
-Overfull \hbox (2.59291pt too wide) in paragraph at lines 700--721
+Overfull \hbox (2.59291pt too wide) in paragraph at lines 709--730
  [][] 
  []
 
@@ -1320,141 +1320,201 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-Underfull \hbox (badness 1163) in paragraph at lines 1176--1178
+Underfull \hbox (badness 1163) in paragraph at lines 1185--1187
 []|\T1/lmr/m/n/10 (+20) Built from a smooth the-o-ret-i-cal
  []
 
-[18] [19] [20]
+[18] [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 4981) has occurred while \output is active []
+
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 1497--1503
+[]\T1/lmr/bx/n/10 (+20) Correction: \T1/lmr/m/n/10 (+20) The im-ple-mented chao
+s null in \T1/pcr/m/n/10 compute_dual_z_scores \T1/lmr/m/n/10 (+20) is
+ []
+
+[23]
+Underfull \hbox (badness 7362) in paragraph at lines 1543--1548
+[]\T1/lmr/bx/n/10 (+20) Timestamp and prove-nance. \T1/lmr/m/n/10 (+20) This er
+-ra-tum was de-ter-mined by source au-dit of
+ []
+
+[24]
 Chapter 4.
 
-Overfull \hbox (22.0422pt too wide) in paragraph at lines 1357--1371
+Underfull \vbox (badness 7963) has occurred while \output is active []
+
+ [25
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 1756.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+
+! LaTeX Error: \begin{empiricalbox} on input line 1798 ended by \end{theorybox}
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1813 \end{theorybox}
+                      
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+[31]
+Chapter 5.
+
+Overfull \hbox (22.0422pt too wide) in paragraph at lines 2006--2020
  [][] 
  []
 
-[21
+[32
 
 
-] [22]
-Chapter 5.
+] [33]
+Chapter 6.
 
-Overfull \hbox (1.42387pt too wide) in paragraph at lines 1430--1430
+Overfull \hbox (1.42387pt too wide) in paragraph at lines 2079--2079
 |\T1/lmr/bx/n/24.88 (-20) The Multi-Attribute Gaia Re-sult: Same
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23
+ [34
 
 
 ]
-Overfull \hbox (67.02422pt too wide) in paragraph at lines 1489--1492
+Overfull \hbox (67.02422pt too wide) in paragraph at lines 2138--2141
 \T1/lmr/m/n/10 (-20) The \T1/pcr/m/n/10 principle_stellar_proof \T1/lmr/m/n/10 
 (-20) fig-ure, gen-er-ated by Vera's re-port-ing plu-gin \T1/pcr/m/n/10 report_
 10_kinematic_principle.py\T1/lmr/m/n/10 (-20) ,
  []
 
-[24] [25]
-Chapter 6.
+[35] [36]
+Chapter 7.
 
-Overfull \hbox (43.9657pt too wide) in paragraph at lines 1566--1595
+Overfull \hbox (43.9657pt too wide) in paragraph at lines 2215--2244
  [][] 
  []
 
-[26
+[37
 
 
-] [27]
-Chapter 7.
-[28
+] [38]
+Chapter 8.
+[39
 
 
 ]
-Overfull \hbox (86.9513pt too wide) in paragraph at lines 1752--1755
+Overfull \hbox (86.9513pt too wide) in paragraph at lines 2401--2404
 []\T1/lmr/bx/n/10 (-20) The Kine-matic Prin-ci-ple Proof Fig-ures: \T1/pcr/m/n/
 10 principle_stellar_proof.png \T1/lmr/m/n/10 (-20) and \T1/pcr/m/n/10 principl
 e_orbital_proof.png
  []
 
-[29] [30]
+[40] [41]
 
-LaTeX Warning: Reference `sec:floor_smear' on page 31 undefined on input line 1
-944.
+LaTeX Warning: Reference `sec:floor_smear' on page 42 undefined on input line 2
+593.
 
-[31]
-Chapter 8.
+[42]
+Chapter 9.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32
+ [43
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-[34] [35
+ [44]
+[45] [46
 
 
-] [36]
+] [47]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37
+ [48
 
 
 ]
-[38]
-<Headers/KishLatticeSong.png, id=491, 846.16125pt x 1268.74pt>
+[49]
+<Headers/KishLatticeSong.png, id=603, 846.16125pt x 1268.74pt>
 File: Headers/KishLatticeSong.png Graphic file (type png)
 <use Headers/KishLatticeSong.png>
-Package pdftex.def Info: Headers/KishLatticeSong.png  used on input line 2264.
+Package pdftex.def Info: Headers/KishLatticeSong.png  used on input line 2913.
 (pdftex.def)             Requested size: 399.29463pt x 598.68909pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39
+ [50
 
 ]
-<Headers/LikeABoss.png, id=498, 1683.28876pt x 626.34pt>
+<Headers/LikeABoss.png, id=610, 1683.28876pt x 626.34pt>
 File: Headers/LikeABoss.png Graphic file (type png)
 <use Headers/LikeABoss.png>
-Package pdftex.def Info: Headers/LikeABoss.png  used on input line 2270.
+Package pdftex.def Info: Headers/LikeABoss.png  used on input line 2919.
 (pdftex.def)             Requested size: 399.29463pt x 148.56615pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40 <./Headers/KishLatticeSong.png>] [41 <./Headers/LikeABoss.png>] [42
+ [51 <./Headers/KishLatticeSong.png>] [52 <./Headers/LikeABoss.png>] [53
 
 
-] [43]
-<figures/artifact_falsification.png, id=539, 722.7pt x 722.7pt>
+] [54]
+<figures/artifact_falsification.png, id=651, 722.7pt x 722.7pt>
 File: figures/artifact_falsification.png Graphic file (type png)
 <use figures/artifact_falsification.png>
 Package pdftex.def Info: figures/artifact_falsification.png  used on input line
- 2353.
+ 3002.
 (pdftex.def)             Requested size: 375.80544pt x 375.80615pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44
+ [55
 
 
 ]
-<figures/batch_stability_violin.png, id=545, 1011.78pt x 578.16pt>
+<figures/batch_stability_violin.png, id=657, 1011.78pt x 578.16pt>
 File: figures/batch_stability_violin.png Graphic file (type png)
 <use figures/batch_stability_violin.png>
 Package pdftex.def Info: figures/batch_stability_violin.png  used on input line
- 2369.
+ 3018.
 (pdftex.def)             Requested size: 375.80544pt x 214.74512pt.
 
-Underfull \hbox (badness 1132) in paragraph at lines 2383--2383
+Underfull \hbox (badness 1132) in paragraph at lines 3032--3032
 \T1/lmr/m/n/10.95 (+20) small do-mains were se-lected for sub-sample sta-bil-it
 y test-ing: bi-ol-ogy_amino ($\OT1/lmr/m/n/10.95 (+20) 7\OML/lmm/m/it/10.95 =^^
 Y$\T1/lmr/m/n/10.95 (+20) ), nu-
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 2383--2383
+Underfull \hbox (badness 1210) in paragraph at lines 3032--3032
 \T1/lmr/m/n/10.95 (+20) clear_binding ($\OT1/lmr/m/n/10.95 (+20) 21\OML/lmm/m/i
 t/10.95 =^^Y$\T1/lmr/m/n/10.95 (+20) ), stel-lar_cycle ($\OT1/lmr/m/n/10.95 (+2
 0) 12\OML/lmm/m/it/10.95 =^^Y$\T1/lmr/m/n/10.95 (+20) ), bi-ol-ogy_other ($\OT1
@@ -1466,190 +1526,111 @@ nisotropy ($\OT1/lmr/m/n/10.95 (+20) 25\OML/lmm/m/it/10.95 =^^Y$\T1/lmr/m/n/10.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45 <./figures/artifact_falsification.png>]
-<figures/bridge_map_full.png, id=553, 1149.093pt x 1149.3339pt>
+ [56 <./figures/artifact_falsification.png>]
+<figures/bridge_map_full.png, id=664, 1149.093pt x 1149.3339pt>
 File: figures/bridge_map_full.png Graphic file (type png)
 <use figures/bridge_map_full.png>
-Package pdftex.def Info: figures/bridge_map_full.png  used on input line 2390.
+Package pdftex.def Info: figures/bridge_map_full.png  used on input line 3039.
 (pdftex.def)             Requested size: 375.80544pt x 375.8791pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46 <./figures/batch_stability_violin.png>]
-<figures/cross_scale_bridge.png, id=560, 999.735pt x 493.3632pt>
+ [57 <./figures/batch_stability_violin.png>]
+<figures/cross_scale_bridge.png, id=671, 999.735pt x 493.3632pt>
 File: figures/cross_scale_bridge.png Graphic file (type png)
 <use figures/cross_scale_bridge.png>
-Package pdftex.def Info: figures/cross_scale_bridge.png  used on input line 240
-6.
+Package pdftex.def Info: figures/cross_scale_bridge.png  used on input line 305
+5.
 (pdftex.def)             Requested size: 375.80544pt x 185.4549pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./figures/bridge_map_full.png>]
-<figures/subnuclear_resonance_map.png, id=568, 1011.78pt x 505.89pt>
+ [58 <./figures/bridge_map_full.png>]
+<figures/subnuclear_resonance_map.png, id=678, 1011.78pt x 505.89pt>
 File: figures/subnuclear_resonance_map.png Graphic file (type png)
 <use figures/subnuclear_resonance_map.png>
 Package pdftex.def Info: figures/subnuclear_resonance_map.png  used on input li
-ne 2426.
+ne 3075.
 (pdftex.def)             Requested size: 375.80544pt x 187.90196pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48 <./figures/cross_scale_bridge.png>]
-<figures/register_taxonomy_matrix.png, id=575, 1011.78pt x 578.16pt>
+ [59 <./figures/cross_scale_bridge.png>]
+<figures/register_taxonomy_matrix.png, id=686, 1011.78pt x 578.16pt>
 File: figures/register_taxonomy_matrix.png Graphic file (type png)
 <use figures/register_taxonomy_matrix.png>
 Package pdftex.def Info: figures/register_taxonomy_matrix.png  used on input li
-ne 2445.
+ne 3094.
 (pdftex.def)             Requested size: 375.80544pt x 214.74512pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./figures/subnuclear_resonance_map.png>]
-<figures/wrongbox_delta_subnuclear_mass.png, id=582, 867.24pt x 433.62pt>
+ [60 <./figures/subnuclear_resonance_map.png>]
+<figures/wrongbox_delta_subnuclear_mass.png, id=694, 867.24pt x 433.62pt>
 File: figures/wrongbox_delta_subnuclear_mass.png Graphic file (type png)
 <use figures/wrongbox_delta_subnuclear_mass.png>
 Package pdftex.def Info: figures/wrongbox_delta_subnuclear_mass.png  used on in
-put line 2465.
+put line 3114.
 (pdftex.def)             Requested size: 375.80544pt x 187.90198pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50 <./figures/register_taxonomy_matrix.png>]
-<figures/wrongbox_delta_orbital_ttv.png, id=589, 867.24pt x 433.62pt>
+ [61 <./figures/register_taxonomy_matrix.png>]
+<figures/wrongbox_delta_orbital_ttv.png, id=701, 867.24pt x 433.62pt>
 File: figures/wrongbox_delta_orbital_ttv.png Graphic file (type png)
 <use figures/wrongbox_delta_orbital_ttv.png>
 Package pdftex.def Info: figures/wrongbox_delta_orbital_ttv.png  used on input 
-line 2481.
+line 3130.
 (pdftex.def)             Requested size: 375.80544pt x 187.90198pt.
-<figures/wrongbox_delta_stellar_kinematic.png, id=590, 867.24pt x 433.62pt>
+<figures/wrongbox_delta_stellar_kinematic.png, id=702, 867.24pt x 433.62pt>
 File: figures/wrongbox_delta_stellar_kinematic.png Graphic file (type png)
 <use figures/wrongbox_delta_stellar_kinematic.png>
 Package pdftex.def Info: figures/wrongbox_delta_stellar_kinematic.png  used on 
-input line 2497.
+input line 3146.
 (pdftex.def)             Requested size: 375.80544pt x 187.90198pt.
- [51 <./figures/wrongbox_delta_subnuclear_mass.png> <./figures/wrongbox_delta_o
+ [62 <./figures/wrongbox_delta_subnuclear_mass.png> <./figures/wrongbox_delta_o
 rbital_ttv.png>]
-<figures/wrongbox_delta_seismic_japan.png, id=599, 867.24pt x 433.62pt>
+<figures/wrongbox_delta_seismic_japan.png, id=711, 867.24pt x 433.62pt>
 File: figures/wrongbox_delta_seismic_japan.png Graphic file (type png)
 <use figures/wrongbox_delta_seismic_japan.png>
 Package pdftex.def Info: figures/wrongbox_delta_seismic_japan.png  used on inpu
-t line 2514.
+t line 3163.
 (pdftex.def)             Requested size: 375.80544pt x 187.90198pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 <./figures/wrongbox_delta_stellar_kinematic.png>] [53 <./figures/wrongbox_
+ [63 <./figures/wrongbox_delta_stellar_kinematic.png>] [64 <./figures/wrongbox_
 delta_seismic_japan.png>]
 Underfull \vbox (badness 2600) has occurred while \output is active []
 
- [54
+ [65
 
 
 ]
-[55]
-Overfull \hbox (721.94498pt too wide) in paragraph at lines 2617--2618
+[66]
+Overfull \hbox (721.94498pt too wide) in paragraph at lines 3266--3267
 [][][]  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56
+ [67
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
-Overfull \hbox (0.24498pt too wide) in paragraph at lines 2700--2701
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (6.24498pt too wide) in paragraph at lines 2702--2703
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (ï\lst@EC¿\lst@EC½).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2788   [SKIP] p_eccentricity ï¿½ 
-                                   scalarized file not found
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (ï\lst@EC¿\lst@EC½).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2789   [SKIP] p_inclination ï¿½ 
-                                  scalarized file not found
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62]
-Overfull \hbox (6.24498pt too wide) in paragraph at lines 2867--2868
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (128.24498pt too wide) in paragraph at lines 2877--2879
-[][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (104.24498pt too wide) in paragraph at lines 2879--2880
-[][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (92.24498pt too wide) in paragraph at lines 2880--2881
-[][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (80.24498pt too wide) in paragraph at lines 2881--2883
-[][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [64]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [66]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [68]
+Overfull \hbox (0.24498pt too wide) in paragraph at lines 3349--3350
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.24498pt too wide) in paragraph at lines 3351--3352
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [69]
@@ -1659,12 +1640,58 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [71]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ï\lst@EC¿\lst@EC½).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3437   [SKIP] p_eccentricity ï¿½ 
+                                   scalarized file not found
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ï\lst@EC¿\lst@EC½).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3438   [SKIP] p_inclination ï¿½ 
+                                  scalarized file not found
+? 
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [72]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [73]
+Overfull \hbox (6.24498pt too wide) in paragraph at lines 3516--3517
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (128.24498pt too wide) in paragraph at lines 3526--3528
+[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (104.24498pt too wide) in paragraph at lines 3528--3529
+[][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (92.24498pt too wide) in paragraph at lines 3529--3530
+[][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (80.24498pt too wide) in paragraph at lines 3530--3532
+[][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74]
@@ -1746,40 +1773,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [100]
-Overfull \hbox (104.24498pt too wide) in paragraph at lines 4537--4538
-[][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [102]
-Overfull \hbox (158.24498pt too wide) in paragraph at lines 4641--4643
-[][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (240.24498pt too wide) in paragraph at lines 4643--4644
-[][][][]  
- []
-
-
-Overfull \hbox (240.24498pt too wide) in paragraph at lines 4647--4648
-[][][][]  
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [103]
-Overfull \hbox (11139.24498pt too wide) in paragraph at lines 4649--4650
-[][][][]  
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [104]
@@ -1804,15 +1806,40 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [111]
+Overfull \hbox (104.24498pt too wide) in paragraph at lines 5186--5187
+[][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [112]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [113]
+Overfull \hbox (158.24498pt too wide) in paragraph at lines 5290--5292
+[][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (240.24498pt too wide) in paragraph at lines 5292--5293
+[][][][]  
+ []
+
+
+Overfull \hbox (240.24498pt too wide) in paragraph at lines 5296--5297
+[][][][]  
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [114]
+Overfull \hbox (11139.24498pt too wide) in paragraph at lines 5298--5299
+[][][][]  
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [115]
@@ -2005,247 +2032,280 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [178]
-Overfull \hbox (110.24498pt too wide) in paragraph at lines 6196--6198
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [179]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [180]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [181]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [182]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [183]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [184]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [185]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [186]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [187]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [188]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [189]
+Overfull \hbox (110.24498pt too wide) in paragraph at lines 6845--6847
 [][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [179]
-Overfull \hbox (139.94498pt too wide) in paragraph at lines 6235--6237
+ [190]
+Overfull \hbox (139.94498pt too wide) in paragraph at lines 6884--6886
 [][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (344.24498pt too wide) in paragraph at lines 6245--6246
+Overfull \hbox (344.24498pt too wide) in paragraph at lines 6894--6895
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (308.24498pt too wide) in paragraph at lines 6246--6247
+Overfull \hbox (308.24498pt too wide) in paragraph at lines 6895--6896
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (284.24498pt too wide) in paragraph at lines 6247--6248
+Overfull \hbox (284.24498pt too wide) in paragraph at lines 6896--6897
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (260.24498pt too wide) in paragraph at lines 6251--6252
+Overfull \hbox (260.24498pt too wide) in paragraph at lines 6900--6901
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (374.24498pt too wide) in paragraph at lines 6254--6255
+Overfull \hbox (374.24498pt too wide) in paragraph at lines 6903--6904
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (356.24498pt too wide) in paragraph at lines 6255--6256
+Overfull \hbox (356.24498pt too wide) in paragraph at lines 6904--6905
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (320.24498pt too wide) in paragraph at lines 6256--6257
+Overfull \hbox (320.24498pt too wide) in paragraph at lines 6905--6906
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (296.24498pt too wide) in paragraph at lines 6257--6258
+Overfull \hbox (296.24498pt too wide) in paragraph at lines 6906--6907
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (332.24498pt too wide) in paragraph at lines 6258--6259
+Overfull \hbox (332.24498pt too wide) in paragraph at lines 6907--6908
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (290.24498pt too wide) in paragraph at lines 6262--6263
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [180]
-Overfull \hbox (302.24498pt too wide) in paragraph at lines 6277--6278
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (338.24498pt too wide) in paragraph at lines 6292--6293
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (362.24498pt too wide) in paragraph at lines 6293--6294
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (338.24498pt too wide) in paragraph at lines 6294--6295
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (362.24498pt too wide) in paragraph at lines 6295--6296
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (362.24498pt too wide) in paragraph at lines 6296--6297
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (356.24498pt too wide) in paragraph at lines 6297--6298
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (368.24498pt too wide) in paragraph at lines 6298--6299
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (356.24498pt too wide) in paragraph at lines 6299--6300
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (362.24498pt too wide) in paragraph at lines 6300--6301
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (326.24498pt too wide) in paragraph at lines 6301--6302
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (350.24498pt too wide) in paragraph at lines 6302--6303
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (302.24498pt too wide) in paragraph at lines 6306--6307
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (314.24498pt too wide) in paragraph at lines 6312--6313
+Overfull \hbox (290.24498pt too wide) in paragraph at lines 6911--6912
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [181]
-Overfull \hbox (386.24498pt too wide) in paragraph at lines 6322--6323
+ [191]
+Overfull \hbox (302.24498pt too wide) in paragraph at lines 6926--6927
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (368.24498pt too wide) in paragraph at lines 6323--6324
+Overfull \hbox (338.24498pt too wide) in paragraph at lines 6941--6942
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (332.24498pt too wide) in paragraph at lines 6324--6325
+Overfull \hbox (362.24498pt too wide) in paragraph at lines 6942--6943
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (308.24498pt too wide) in paragraph at lines 6325--6326
+Overfull \hbox (338.24498pt too wide) in paragraph at lines 6943--6944
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (344.24498pt too wide) in paragraph at lines 6326--6327
+Overfull \hbox (362.24498pt too wide) in paragraph at lines 6944--6945
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (308.24498pt too wide) in paragraph at lines 6330--6331
+Overfull \hbox (362.24498pt too wide) in paragraph at lines 6945--6946
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (308.24498pt too wide) in paragraph at lines 6331--6332
+Overfull \hbox (356.24498pt too wide) in paragraph at lines 6946--6947
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (356.24498pt too wide) in paragraph at lines 6336--6337
+Overfull \hbox (368.24498pt too wide) in paragraph at lines 6947--6948
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (308.24498pt too wide) in paragraph at lines 6340--6341
+Overfull \hbox (356.24498pt too wide) in paragraph at lines 6948--6949
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (302.24498pt too wide) in paragraph at lines 6344--6345
+Overfull \hbox (362.24498pt too wide) in paragraph at lines 6949--6950
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (314.24498pt too wide) in paragraph at lines 6348--6349
+Overfull \hbox (326.24498pt too wide) in paragraph at lines 6950--6951
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (350.24498pt too wide) in paragraph at lines 6951--6952
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (302.24498pt too wide) in paragraph at lines 6955--6956
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (314.24498pt too wide) in paragraph at lines 6961--6962
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [182]
-Overfull \hbox (302.24498pt too wide) in paragraph at lines 6352--6353
+ [192]
+Overfull \hbox (386.24498pt too wide) in paragraph at lines 6971--6972
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (278.24498pt too wide) in paragraph at lines 6356--6357
+Overfull \hbox (368.24498pt too wide) in paragraph at lines 6972--6973
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (314.24498pt too wide) in paragraph at lines 6360--6361
+Overfull \hbox (332.24498pt too wide) in paragraph at lines 6973--6974
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (290.24498pt too wide) in paragraph at lines 6368--6370
+Overfull \hbox (308.24498pt too wide) in paragraph at lines 6974--6975
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (254.24498pt too wide) in paragraph at lines 6375--6376
+Overfull \hbox (344.24498pt too wide) in paragraph at lines 6975--6976
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (139.94498pt too wide) in paragraph at lines 6376--6378
+Overfull \hbox (308.24498pt too wide) in paragraph at lines 6979--6980
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (308.24498pt too wide) in paragraph at lines 6980--6981
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (356.24498pt too wide) in paragraph at lines 6985--6986
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (308.24498pt too wide) in paragraph at lines 6989--6990
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (302.24498pt too wide) in paragraph at lines 6993--6994
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (314.24498pt too wide) in paragraph at lines 6997--6998
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [193]
+Overfull \hbox (302.24498pt too wide) in paragraph at lines 7001--7002
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (278.24498pt too wide) in paragraph at lines 7005--7006
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (314.24498pt too wide) in paragraph at lines 7009--7010
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (290.24498pt too wide) in paragraph at lines 7017--7019
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (254.24498pt too wide) in paragraph at lines 7024--7025
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (139.94498pt too wide) in paragraph at lines 7025--7027
 [][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [183]
-[184] [185
+ [194]
+[195] [196
 
 
 ]
-<Headers/ConclusionGuitar.png, id=5061, 2826.56pt x 1541.76pt>
+<Headers/ConclusionGuitar.png, id=5172, 2826.56pt x 1541.76pt>
 File: Headers/ConclusionGuitar.png Graphic file (type png)
 <use Headers/ConclusionGuitar.png>
-Package pdftex.def Info: Headers/ConclusionGuitar.png  used on input line 6450.
+Package pdftex.def Info: Headers/ConclusionGuitar.png  used on input line 7099.
 
 (pdftex.def)             Requested size: 399.29463pt x 217.79753pt.
- [186 <./Headers/ConclusionGuitar.png>]
+ [197 <./Headers/ConclusionGuitar.png>]
 (./Vol11_The_Structure_That_Locks.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -2257,14 +2317,14 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Vol11_The_Structure_That_Locks.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 57A0587E9FEA0890848EA6B00AF75296;14810.
+(rerunfilecheck)             Checksum: 23D6C6E98DB762621027C41FD04296A9;18021.
  ) 
 Here is how much of TeX's memory you used:
- 46378 strings out of 467340
- 1026431 string characters out of 5419560
- 2312651 words of memory out of 5000000
- 70177 multiletter control sequences out of 15000+600000
- 767069 words of font info for 353 fonts, out of 8000000 for 9000
+ 46679 strings out of 467340
+ 1031482 string characters out of 5419560
+ 2320662 words of memory out of 5000000
+ 70385 multiletter control sequences out of 15000+600000
+ 785879 words of font info for 391 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,118p,2032b,2325s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2026
@@ -2274,21 +2334,22 @@ x8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive
 /2026/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2026/texmf-dist/f
 onts/type1/public/lm/lmmi6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/l
 m/lmmi7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/tex
-live/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2026/texmf-dis
-t/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public
-/lm/lmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/tex
-live/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2026/texmf-dist
-/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/publi
-c/lm/lmri12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri7.pfb><c:
-/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2026/texm
-f-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/
-public/lm/lmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.
-pfb>
-Output written on Vol11_The_Structure_That_Locks.pdf (188 pages, 18045080 bytes
+live/2026/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/texlive/2026/texmf-dis
+t/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/publi
+c/lm/lmr5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/te
+xlive/2026/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2026/texmf-dis
+t/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public
+/lm/lmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/t
+exlive/2026/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2026/texmf-
+dist/fonts/type1/public/lm/lmri7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/pu
+blic/lm/lmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
+<c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2026/te
+xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on Vol11_The_Structure_That_Locks.pdf (199 pages, 18134211 bytes
 ).
 PDF statistics:
- 6016 PDF objects out of 6186 (max. 8388607)
- 5697 compressed objects within 57 object streams
- 4123 named destinations out of 4296 (max. 500000)
- 73203 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 6144 PDF objects out of 6186 (max. 8388607)
+ 5807 compressed objects within 59 object streams
+ 4152 named destinations out of 4296 (max. 500000)
+ 81475 words of extra memory for PDF output out of 89155 (max. 10000000)
 

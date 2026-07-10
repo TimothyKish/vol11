@@ -36,6 +36,8 @@
 \usepackage{longtable}
 \usepackage{colortbl}
 \usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
 \definecolor{kishblue}{RGB}{0, 50, 120}
 \definecolor{goldseal}{RGB}{184, 134, 11}
 \definecolor{signalred}{RGB}{180, 0, 0}
@@ -1318,8 +1320,395 @@ None of these conditions have been met. They are the tests that
 would cause the framework to revise or retract its claims.
 
 \clearpage
+
 % ==============================================================================
-% CHAPTER 13 — THE COMPLETE EMPIRICAL RECORD
+% CHAPTER 13 — The Shape-Artifact Objection
+% ==============================================================================
+
+\chapter{The Shape-Artifact Objection: We Tried to Prove Ourselves Wrong and Found a Theorem}
+\label{ch:shape_artifact}
+ 
+This chapter documents the sharpest falsification attempt the framework has faced,
+and it is placed here, in the critics' volume, deliberately. The objection it
+addresses is the one a hostile reviewer should raise first. We raised it against
+ourselves, built the machine to confirm it, and report what the machine returned ---
+including the two errors we made along the way, corrected in the public record before
+any result was known.
+ 
+% ------------------------------------------------------------------------------
+\section{The Objection, Stated at Full Strength}
+ 
+\begin{objectionbox}
+``Your entire survey rests on a transform. You take a measurement, compress it through
+$s=\log(1+|x|)/\log(k_{\text{geo}})$, and check whether the result lands near a grid of
+harmonic registers. But compressing a wide range of numbers onto a narrow interval is
+exactly the kind of operation that manufactures periodic structure out of nothing. Feed
+your transform a smooth, structureless distribution and it will fold that distribution
+onto the grid regardless of any real physics. Your `locks' are not a property of the
+universe. They are a property of your arithmetic. The register is in the mirror, not the
+data.''
+\end{objectionbox}
+ 
+This is the correct objection. It is more dangerous than the ``it's just numerology''
+dismissal, because it is specific, mechanistic, and testable. If it is right, the
+thirty-three STRONG signals collapse into a single fact about a logarithm. We name it
+formally:
+ 
+\begin{warningbox}
+\textbf{Form A --- the transform-shape artifact.} The hypothesis that the log-modulo
+scalarization produces register clustering from the \emph{shape} of the input
+distribution alone, independent of any real alignment between the physics and the grid.
+If Form A is true, a surrogate that preserves a distribution's shape while destroying
+its grid alignment will lock just as strongly as the real data.
+\end{warningbox}
+ 
+% ------------------------------------------------------------------------------
+\section{What the Lock Test Actually Measures}
+ 
+The objection can only be evaluated once the lock test is stated precisely. It is a
+proximity test. For a scalar $s$ and a register target $N/\pi$, form $r_p = (s/\text{target})
+\times 24$ and ask whether $r_p$ lies within $0.05$ of a whole number. If it does, that
+scalar is locked --- it sits within tolerance of a grid node. A domain ``locks'' when far
+more of its scalars sit near nodes than a matched random scatter would place there.
+ 
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=1.0]
+  \draw[thick,->] (-0.3,0) -- (11,0) node[right] {\small scalar axis};
+  \foreach \x in {0,1.5,3,4.5,6,7.5,9,10.5} {
+    \fill[backbonegreen!20] (\x-0.18,-1.1) rectangle (\x+0.18,1.1);
+    \draw[kishblue,thick] (\x,-0.15) -- (\x,0.15);
+    \draw[kishblue!30,dashed] (\x,-1.1) -- (\x,1.1);
+  }
+  \node[kishblue] at (0,0.42) {\footnotesize node};
+  \foreach \x in {0.05,1.42,3.08,4.55,5.95,7.55,8.95,10.45}
+    \fill[backbonegreen] (\x,0) circle (2.5pt);
+  \foreach \x in {0.7,2.3,3.8,5.2,6.7,8.2,9.6}
+    \fill[signalred] (\x,0) circle (2.5pt);
+  \node[backbonegreen] at (5,-1.55) {\footnotesize green = locked (within $0.05$ of a node)};
+  \node[signalred] at (5,-1.95) {\footnotesize red = unlocked (between nodes)};
+\end{tikzpicture}
+\caption{The lock test is proximity-to-grid. Blue ticks are nodes; green bands are the
+$\pm0.05$ tolerance. A locking domain piles density into the green bands far beyond
+chance. The objection asks \emph{why} the density piles there --- real alignment, or an
+artifact of the transform. Everything in this chapter turns on separating those two.}
+\label{fig:nl_lock}
+\end{figure}
+ 
+% ------------------------------------------------------------------------------
+\section{The Honest Record of Getting It Wrong}
+ 
+To test Form A we needed a surrogate that preserves distribution shape but destroys grid
+alignment. Building one correctly took five failed attempts and surfaced two errors in
+our own published methodology. We record all of it, because a critics' paper that hid its
+authors' mistakes would forfeit the standing it is trying to earn.
+ 
+\begin{warningbox}
+\textbf{Two errata, filed with timestamps preceding any result.}
+ 
+\emph{Erratum 1 --- the scramble null is inert for this lock test.} We had described a
+record-order-shuffle null as destroying ``harmonic address.'' It does not. The lock test
+is per-value: each scalar's lock status depends only on its own value, not its position in
+the list. Shuffling order therefore leaves every lock status unchanged, and the scramble
+null returns a lock fraction identically equal to the real data's. It does genuine work
+only for tests that depend on record ordering or cross-domain pairing --- not for the
+headline lock statistic.
+ 
+\emph{Erratum 2 --- the chaos null is uniform-range, not shape-preserving.} We had
+described the chaos null as preserving the distribution's density profile. The
+implemented null draws uniformly across the empirical range, preserving the range but
+flattening the shape. It is a valid and strong test --- every published STRONG z is
+computed against it --- but it is not a shape control.
+\end{warningbox}
+ 
+\begin{warningbox}
+\textbf{The five surrogates that failed, and the lesson of the fifth.} A resampling
+bootstrap preserved shape \emph{and} alignment and could not discriminate. A node-envelope
+scramble operated on structure the data did not have. A normalization-inversion corrupted
+sector-normalized lakes. The order-shuffle was inert (Erratum 1). And a single-random-offset
+rate gate \emph{could not fail}: uniform offsets hit the tolerance at a fixed chance rate
+for any input, so the surrogate always collapsed and the gate always passed. A test that
+cannot return ``fail'' is not a test. We caught it by requiring the gate to demonstrate it
+could fail on a known artifact before it was permitted to pass anything real --- two-sided
+validation. That requirement is what turned the investigation from a rubber stamp into a
+proof.
+\end{warningbox}
+ 
+% ------------------------------------------------------------------------------
+\section{The Offset Sweep: The Construction That Discriminates}
+ 
+The correct surrogate follows from a physical picture. A genuine lock sits at a
+\emph{privileged grid phase}: the real density peaks exactly where the nodes are. Slide the
+whole distribution sideways by an offset relative to the grid and a genuine lock should
+break --- its peaks move off the nodes. A shape-artifact, if it existed, would keep locking
+at every offset, because its locking would come from the density profile, which sliding
+preserves. So instead of one random offset, sweep the offset across a full grid period and
+read the \emph{shape} of the resulting z-versus-offset curve.
+ 
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+  width=12cm, height=6cm,
+  xlabel={\small grid offset (fraction of one cell)},
+  ylabel={\small chaos $z$},
+  xmin=0, xmax=1, ymin=-90, ymax=200,
+  axis lines=left, legend pos=north east, legend style={font=\footnotesize},
+  title={\small Two possible curves --- and only one can exist}
+]
+\addplot[kishblue, thick, samples=200, domain=0:1] {-60 + 220*exp(-((x-0.5)^2)/(2*0.028^2))};
+\addlegendentry{genuine phase-lock (PEAKED)}
+\addplot[signalred, thick, dashed, samples=50, domain=0:1] {40};
+\addlegendentry{shape-artifact (FLAT-HIGH) --- proven impossible}
+\addplot[backbonegreen, dotted, samples=2, domain=0:1] {5};
+\addlegendentry{STRONG threshold ($z=5$)}
+\end{axis}
+\end{tikzpicture}
+\caption{The discriminant is curve shape, not lock rate. A genuine phase-lock (solid)
+spikes at the one privileged offset and falls \emph{below zero} elsewhere --- at a wrong
+offset its density lands between nodes, locking less than chance. A shape-artifact (dashed)
+would stay high at all offsets. The result of this chapter is that the dashed curve cannot
+exist for a proximity-to-grid lock test.}
+\label{fig:nl_sweep}
+\end{figure}
+ 
+% ------------------------------------------------------------------------------
+\section{The Grid-Phase Locking Theorem}
+ 
+Attempting to construct a genuine offset-invariant artifact for two-sided validation proved
+impossible --- and the impossibility \emph{was} the discovery.
+ 
+\begin{refutebox}
+\textbf{The Grid-Phase Locking Theorem.} For a grid-proximity lock test, a strong lock
+requires grid-phase concentration. A distribution can lock strongly, or it can be invariant
+under grid offset, but not both.
+ 
+\textit{Argument.} To lock at every offset, a distribution would need density near every
+position modulo the grid simultaneously. But a distribution uniform modulo the grid locks
+only at the baseline chance rate --- its density is spread evenly across locked and unlocked
+positions alike. So ``locks at every offset'' forces ``uniform modulo grid,'' which forces
+``locks only at chance,'' which is not a strong lock. The only way to lock strongly is to
+concentrate density at a privileged grid phase --- which is, by definition, not
+offset-invariant.
+ 
+\textit{Consequence.} A shape-artifact --- a strong lock produced by distribution shape
+alone, independent of grid phase --- \textbf{cannot exist} for this test. Form A is not
+merely unsupported. It is vacuous: there is no such object.
+\end{refutebox}
+ 
+\subsection{The Theorem, Stated Formally}
+\label{sec:theorem_formal}
+ 
+The prose above states the result; a critic is entitled to the mathematics. We give it here
+with every quantity defined, so the claim can be checked line by line and attacked at any step.
+ 
+\paragraph{Definitions.} Fix a register target $g = N/\pi$ and the container constant $C = 24$,
+so the grid spacing in scalar units is $\Delta = g/C$. For a scalar $s$, define the
+\emph{grid residual}
+\[
+  \varphi_g(s) \;=\; \Big\lVert \frac{s\,C}{g} \Big\rVert
+  \;=\; \Big\lVert \frac{s}{\Delta} \Big\rVert,
+\]
+where $\lVert x \rVert = \min_{k\in\mathbb{Z}} |x-k|$ is the distance to the nearest integer,
+$\varphi_g(s) \in [0, \tfrac12]$. A scalar is \emph{locked} at tolerance $\tau = 0.05$ iff
+$\varphi_g(s) < \tau$. For a distribution $D$, the \emph{lock fraction} is
+\[
+  L_g(D) \;=\; \Pr_{s\sim D}\!\big[\, \varphi_g(s) < \tau \,\big].
+\]
+Let $D_\theta$ denote $D$ shifted by a grid offset $\theta$ (equivalently, $s \mapsto s+\theta$).
+ 
+\paragraph{The baseline.} If $s/\Delta \bmod 1$ is uniform on $[0,1)$ --- the case we call
+\emph{uniform modulo grid} --- then $\varphi_g(s)$ is uniform on $[0,\tfrac12]$ and
+\[
+  L_g(D_{\text{unif}}) \;=\; \Pr[\varphi < \tau] \;=\; 2\tau \;=\; 0.1 .
+\]
+This is a derivation, not a fit: a tolerance band of half-width $\tau$ sits on each side of every
+node. Verified empirically: uniform-mod-grid data returns $L = 0.1001$ against the predicted
+$0.1$, and its chaos $z = 1.58$ --- baseline, no lock.
+ 
+\begin{refutebox}
+\textbf{Lemma (Offset-Average Identity).} For \emph{any} distribution $D$, the lock fraction
+averaged over one full grid period of offset is exactly the baseline:
+\[
+  \boxed{\;\frac{1}{\Delta}\int_{0}^{\Delta} L_g(D_\theta)\, d\theta \;=\; 2\tau\;}
+\]
+ 
+\textit{Proof.} By definition $L_g(D_\theta) = \mathbb{E}_{s\sim D}\big[\mathbf{1}\{\varphi_g(s+\theta)<\tau\}\big]$.
+Averaging over $\theta$ uniform on $[0,\Delta)$ and exchanging the two expectations (Fubini;
+the integrand is bounded),
+\[
+  \frac{1}{\Delta}\int_0^\Delta L_g(D_\theta)\,d\theta
+  = \mathbb{E}_{s\sim D}\!\left[\frac{1}{\Delta}\int_0^\Delta \mathbf{1}\{\varphi_g(s+\theta)<\tau\}\,d\theta\right].
+\]
+For each fixed $s$, as $\theta$ ranges over one period the point $s+\theta$ sweeps uniformly
+through one grid cell, so the inner integral is the measure of the locked band within a cell,
+namely $2\tau$, independent of $s$. Hence the outer expectation is $2\tau$ as well. \hfill$\square$
+\end{refutebox}
+ 
+\paragraph{The theorem.} The lemma pins the offset-average of the lock fraction at $2\tau$ for
+every distribution. The theorem is its immediate consequence.
+ 
+\begin{refutebox}
+\textbf{Grid-Phase Locking Theorem (formal).} Let $L_{\text{strong}} > 2\tau$ be any
+lock fraction exceeding baseline (a ``strong'' lock). Then no distribution $D$ can satisfy
+\[
+  L_g(D_\theta) \;\geq\; L_{\text{strong}} \quad\text{for all } \theta \in [0,\Delta).
+\]
+ 
+\textit{Proof.} Suppose it did. Then its offset-average would satisfy
+\[
+  \frac{1}{\Delta}\int_0^\Delta L_g(D_\theta)\,d\theta \;\geq\; L_{\text{strong}} \;>\; 2\tau,
+\]
+contradicting the Offset-Average Identity, which forces that average to equal exactly $2\tau$.
+\hfill$\square$
+ 
+\textit{Consequence.} A distribution that locks strongly at \emph{every} offset cannot exist.
+Equivalently: a strong lock at any offset $\theta_0$ must be \emph{compensated} by lock
+fractions below baseline at other offsets, so that the average returns to $2\tau$. A shape-artifact
+--- a strong lock that persists under arbitrary grid offset, i.e.\ independent of grid phase ---
+is therefore impossible. Form A is vacuous.
+\end{refutebox}
+ 
+\begin{signalbox}
+\textbf{Why the real anchors' medians are deeply negative --- predicted, not fitted.} The
+identity does more than forbid the artifact; it predicts the \emph{shape} of every genuine
+lock's offset curve. Because the offset-average of $L$ is pinned at baseline, a sharp lock at
+the privileged offset (where $L \gg 2\tau$) forces $L < 2\tau$ across the remaining offsets ---
+sub-baseline locking, which maps to \emph{negative} chaos $z$. This is exactly what the three
+real anchors show: Gaia median $z = -63.8$, galactic $-21.3$, nuclear $-1.0$. The deeply
+negative medians are not noise or an incidental feature. They are the conservation law of the
+lemma made visible in real data: every unit of excess lock at the peak is paid for by a deficit
+elsewhere. A flat-high artifact would violate this; no anchor does.
+\end{signalbox}
+ 
+\paragraph{The disproof condition, restated against the formal claim.} The theorem is refuted by
+exhibiting a distribution $D$ and a strong threshold $L_{\text{strong}} > 2\tau$ such that
+$L_g(D_\theta) \geq L_{\text{strong}}$ for all $\theta$. By the lemma this is impossible unless
+the Offset-Average Identity itself fails --- which would require the lock indicator's offset-average
+over one cell to differ from $2\tau$, a checkable arithmetic fact. The single point of attack is
+therefore the identity, and the identity is one line of calculus. We invite its inspection.
+ 
+ 
+\begin{refutebox}
+\textbf{The one checkable fact, and the live disproof condition.} The theorem rests on a
+single verifiable claim: a distribution uniform modulo the grid returns a chaos $z$ at
+baseline, not a lock. We verified it directly --- uniform-mod-grid data returns lock
+fraction $0.101$ and $\text{chaos } z = 1.58$. If that number were large, the theorem would
+fall; it is not. And the theorem carries a clean refutation anyone may attempt:
+\emph{exhibit a distribution that locks at chaos $z \geq 5$ and stays locked across a full
+offset sweep.} We tried; our referee tried three independent ways; each attempt collapsed
+into ``phase-aligned after all'' or ``uniform, hence no lock.'' The claim is open to any
+critic who can build the counterexample. Until one is built, it stands.
+\end{refutebox}
+ 
+% ------------------------------------------------------------------------------
+\section{The Theorem Meets Real Data}
+ 
+A proof is a claim about all possible data. The real anchors test whether \emph{our} data
+obeys it --- with the disproof condition live: any anchor showing a flat, offset-invariant
+curve would refute the theorem and reopen the objection. Three anchors were swept, chosen
+for maximum physical independence, spanning roughly $38$ orders of magnitude.
+ 
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\rowcolor{kishblue!10}
+\textbf{Anchor} & \textbf{Register} & \textbf{Peak $z$} & \textbf{Median $z$} & \textbf{Curve} \\
+\hline\hline
+Gaia transverse velocity & $16/\pi$ & $163.3$ & $-63.8$ & PEAKED \\ \hline
+\rowcolor{kishblue!3}
+Galactic velocity dispersion & $21/\pi$ & $59.7$ & $-21.3$ & PEAKED (broad) \\ \hline
+Nuclear binding energy & $21/\pi$ & $7.3$ & $-1.0$ & PEAKED \\ \hline
+\end{tabular}
+\caption{Three real anchors, swept. Every curve peaked; every median deeply negative; not
+one flat-high. The theorem's prediction held on real data across $38$ orders of magnitude.
+The negative medians are the predicted signature: at a wrong offset a real lock's density
+falls between nodes and scores below chance.}
+\label{tab:nl_curves}
+\end{table}
+ 
+\begin{signalbox}
+\textbf{Two facts named before any reviewer can raise them.} Galactic locks at $42\%$ of
+offsets, against Gaia's $22\%$ and nuclear's $3\%$ --- a broader peak. On its face $42\%$
+looks like a coin flip, but the discriminant is curve shape, not rate: galactic's median
+$z$ is $-21.3$, deeply sub-null, categorically not the flat-high signature of an artifact.
+It is a genuine phase-lock with a broader privileged band, reported as such. And nuclear ---
+the cleanest curve at $3\%$ offset-lock --- sits on the thinnest data ($n=43$), so its peak
+$z$ of $7.3$ carries wider uncertainty than the million-record anchors. The sharp curve is
+real; the small-$n$ caution is real; both are stated.
+\end{signalbox}
+ 
+% ------------------------------------------------------------------------------
+\section{What Is Closed, and the Objection That Now Leads}
+ 
+\begin{warningbox}
+\textbf{Scope. This is the load-bearing sentence of the chapter.} The theorem closes Form A
+--- the transform-shape artifact --- and only Form A. It proves the locks are genuine
+phase-concentration, not manufactured by the transform. It does \emph{not} prove the locks
+are caused by the geometric lattice.
+ 
+\textbf{Form B} --- that a real phase-concentration arises from a mundane coincidence of
+physical scale, or a selection effect, rather than the substrate --- remains fully open, and
+is now the primary live objection to the framework. Any citation of this theorem that omits
+Form B is a misreading. ``The shape-artifact objection is closed'' does not mean ``the locks
+are proven real signal of the lattice.'' One door of two is shut. The harder door stands
+open, and we point at it deliberately.
+\end{warningbox}
+ 
+\begin{newworld}{The framework is not weakened by this investigation --- it is sharpened.
+Before it, a skeptic could dismiss the whole survey with ``your transform finds patterns in
+anything.'' That dismissal is now closed by proof and confirmed on real data across $38$
+orders of magnitude. What remains is the question that was always the real one: is the
+geometry the cause, or a coincidence of scale? We earned the right to ask it cleanly by
+removing the objection that would have made asking it pointless.}
+ 
+% ------------------------------------------------------------------------------
+\section{Falsification Conditions Carried Forward}
+ 
+\begin{predictionbox}
+\textbf{Survey-wide offset-sweep audit.} Every confirmed STRONG domain, swept across a full
+grid period, must show a peaked, non-offset-invariant curve. \emph{Disproof:} any domain
+showing a flat-high (offset-invariant, median $\geq 5$) curve refutes the theorem for that
+domain and reopens Form A. A flat-high flag on any domain --- including one the framework has
+relied upon --- is filed at the same tier and visibility as any positive result. A flag on a
+flagship is as publishable as a clean bill on a convenience; the audit has integrity only on
+that condition.
+\end{predictionbox}
+ 
+\begin{predictionbox}
+\textbf{The dual-peak / two-dimensional-shadow hypothesis.} Domains that co-dominate across
+two registers (the subnuclear $22/\pi$ \& $13/\pi$ dual-lock; protein backbone $16/\pi$ \&
+$25/\pi$; the Gaia $12/15/16$ band) are candidate projections of a two-dimensional structure
+onto the one-dimensional register line. This is a hypothesis, not a result. It requires a
+two-dimensional engine and a discriminant validated two-sided --- proven to separate a known
+2D projection from a mere broad 1D band on synthetic data --- before any domain may be called
+two-dimensional.
+\end{predictionbox}
+ 
+\begin{predictionbox}
+\textbf{Permanent instrumentation.} The offset-sweep theorem test is stitched into the
+pipeline as a standing stage. Every future run reports, for every domain, the sweep curve,
+peak, median, and peaked/flat-high classification, over a tunable minimum of five reseeded
+ensemble passes so band-versus-spike character is never hidden by a single draw. The
+framework does not merely produce locks going forward; it continuously re-audits every lock
+against the theorem and surfaces any flat-high curve the moment it appears. The instrument
+built to potentially end the framework becomes the instrument that guards it.
+\end{predictionbox}
+ 
+\begin{objectionbox}
+\textbf{To the critic holding this volume:} the falsifiable claim is explicit and the
+counterexample is specified. If you can exhibit a distribution that locks at chaos $z \geq 5$
+and remains locked across a full offset sweep, the theorem falls and Form A reopens. We have
+made that as easy to attempt as we know how, because a proof no one can try to break is not a
+proof --- it is a boast. This one has been attacked by its own authors, its referee, and its
+own data, and has not yet broken. Your attempt is welcome.
+\end{objectionbox}
+ 
+ \clearpage
+% ==============================================================================
+% CHAPTER 14 — THE COMPLETE EMPIRICAL RECORD
 % ==============================================================================
 \chapter{The Complete Empirical Record: No Hand-Waving, No Finger on the Scale}
 
